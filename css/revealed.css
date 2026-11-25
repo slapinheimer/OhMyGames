@@ -1,0 +1,212 @@
+/* Revealed — a blacked-out article and a topic to name. */
+
+:root[data-game="revealed"] {
+  --rv-ink: #121212;
+  --rv-bar: #2b2b2b;
+  --rv-topic: #6b4fbb;
+  --rv-open: #fff1b8;
+  --rv-fresh: #ffd84d;
+  --rv-slot: #ffffff;
+  --rv-hint: #f3e7b4;
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-game="revealed"]:not([data-theme="light"]) {
+    --rv-ink: #f8f8f8;
+    --rv-bar: #4a4a4c;
+    --rv-topic: #8f74e0;
+    --rv-open: #4a4126;
+    --rv-fresh: #7a6420;
+    --rv-slot: #1f1f20;
+    --rv-hint: #4a4126;
+  }
+}
+:root[data-game="revealed"][data-theme="dark"] {
+  --rv-ink: #f8f8f8;
+  --rv-bar: #4a4a4c;
+  --rv-topic: #8f74e0;
+  --rv-open: #4a4126;
+  --rv-fresh: #7a6420;
+  --rv-slot: #1f1f20;
+  --rv-hint: #4a4126;
+}
+
+.rv-error { margin: auto; padding: 24px; text-align: center; }
+
+.rv-game {
+  width: 100%;
+  max-width: 640px;
+  flex: 1 1 auto;
+  min-height: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+  gap: 10px;
+}
+
+/* ---------------------------------------------------------------- counters */
+
+.rv-hud {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.rv-counts { display: flex; gap: 16px; }
+.rv-count { display: flex; flex-direction: column; align-items: center; min-width: 44px; }
+.rv-num { font-size: 26px; font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; }
+.rv-label { font-size: 11px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-muted); }
+.rv-hud-actions { display: flex; gap: 6px; }
+.rv-hud-actions .btn.small { padding: 0 12px; }
+.rv-hint:not(:disabled) { background: var(--rv-fresh); border-color: var(--rv-fresh); color: #121212; }
+
+/* ---------------------------------------------------------------- topic */
+
+.rv-topic { text-align: center; }
+.rv-topic-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.rv-answer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
+.rv-slot {
+  width: clamp(22px, 7vw, 32px);
+  height: clamp(28px, 9vw, 38px);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--border-strong);
+  border-radius: 4px;
+  background: var(--rv-slot);
+  font-weight: 800;
+  font-size: clamp(14px, 4.5vw, 20px);
+}
+.rv-slot.is-hint { background: var(--rv-hint); }
+.rv-slot.is-solved { background: var(--color-correct); border-color: var(--color-correct); color: #fff; }
+.rv-slot.is-failed { background: var(--color-absent); border-color: var(--color-absent); color: #fff; }
+.rv-gap { width: 10px; display: inline-flex; align-items: flex-end; justify-content: center; font-weight: 800; }
+.rv-answer-meta { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+.rv-answer.shake { animation: rv-shake 0.4s; }
+@keyframes rv-shake {
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+/* ---------------------------------------------------------------- article */
+
+.rv-scroll {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 4px 2px;
+}
+.rv-article {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.9;
+  color: var(--rv-ink);
+}
+.rv-article p { margin: 10px 0; }
+.rv-redact {
+  position: relative;
+  display: inline-block;
+  min-width: calc(var(--len, 4) * 0.55em);
+  height: 1.15em;
+  vertical-align: -0.2em;
+  border-radius: 3px;
+  background: var(--rv-bar);
+  color: transparent;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  line-height: 1.15;
+}
+.rv-redact .rv-text { visibility: hidden; }
+.rv-redact::after {
+  content: attr(data-len);
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.75);
+}
+.hide-lengths .rv-redact::after { content: none; }
+.rv-redact.is-topic { background: var(--rv-topic); cursor: default; }
+.rv-redact:focus-visible { outline: 3px solid var(--rv-fresh); outline-offset: 2px; }
+.rv-redact.is-open {
+  min-width: 0;
+  height: auto;
+  vertical-align: baseline;
+  background: var(--rv-open);
+  color: var(--rv-ink);
+  cursor: default;
+  padding: 0 2px;
+  line-height: inherit;
+}
+.rv-redact.is-open .rv-text { visibility: visible; }
+.rv-redact.is-open::after { content: none; }
+.rv-redact.is-fresh { background: var(--rv-fresh); }
+.rv-redact.is-topic-open { background: var(--rv-topic); color: #fff; font-weight: 700; }
+.rv-redact.example { font-family: Georgia, serif; font-size: 18px; cursor: default; flex: 0 0 auto; }
+
+.rv-done { text-align: center; padding: 4px 0 12px; }
+.rv-done-title { font-weight: 800; font-size: 18px; margin: 6px 0; }
+
+/* ---------------------------------------------------------------- guess */
+
+.rv-bottom { display: flex; flex-direction: column; gap: 6px; }
+.rv-wrong { display: flex; flex-wrap: wrap; gap: 6px; }
+.rv-wrong[hidden], .rv-guess[hidden] { display: none; }
+.rv-chip {
+  font-size: 13px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--bg-soft);
+  color: var(--text-muted);
+  text-decoration: line-through;
+}
+.rv-guess { display: flex; gap: 8px; }
+.rv-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 40px;
+  padding: 0 12px;
+  border: 2px solid var(--border-strong);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+  font-size: 16px;
+}
+.rv-input:focus { outline: none; border-color: var(--text); }
+.rv-guess .btn.small { height: 40px; }
+
+.rv-help-row { display: flex; align-items: center; gap: 12px; }
+.rv-help-row p { margin: 0; }
+.rv-summary { text-align: center; margin-bottom: 8px; }
+.rv-summary-topic { font-family: var(--font-display); font-size: 26px; font-weight: 700; }
+.rv-summary-line { color: var(--text-muted); font-size: 14px; }
+.rv-again { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin: 8px 0 4px; }
+.rv-again a.btn { text-decoration: none; display: inline-flex; align-items: center; }
+
+@media (max-width: 360px) {
+  .rv-game { padding-left: 10px; padding-right: 10px; }
+  .rv-counts { gap: 10px; }
+  .rv-article { font-size: 16px; }
+}

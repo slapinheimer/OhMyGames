@@ -1,0 +1,67 @@
+/* Trail — Oh My PATTERNS! */
+:root {
+  --tr-cell: #fbf3f5; --tr-grid: rgba(0, 0, 0, 0.12); --tr-on: #fbd9e3; --tr-line: #d6336c;
+  --tr-stop: #121212; --tr-stop-text: #fff; --tr-wall: #121212; --tr-done: #2f7d32;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --tr-cell: #26262a; --tr-grid: rgba(255, 255, 255, 0.1); --tr-on: #4a2433; --tr-line: #ff6b9a; --tr-stop: #f2f2f2; --tr-stop-text: #121212; --tr-wall: #f2f2f2; }
+}
+:root[data-theme="dark"] { --tr-cell: #26262a; --tr-grid: rgba(255, 255, 255, 0.1); --tr-on: #4a2433; --tr-line: #ff6b9a; --tr-stop: #f2f2f2; --tr-stop-text: #121212; --tr-wall: #f2f2f2; }
+
+.tr-wrap { width: min(100%, 560px); padding: 16px 16px 24px; margin: auto 0; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.tr-top-row { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.tr-sizes {
+  display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; flex: 1; max-width: 300px;
+  padding: 4px; border-radius: 10px; background: var(--bg-soft);
+}
+.tr-levels { width: 100%; max-width: none; flex: none; }
+.tr-size, .tr-level {
+  position: relative; height: 34px; border: 0; border-radius: 7px; background: none; cursor: pointer;
+  font-size: 15px; font-weight: 700; color: var(--text-muted); font-variant-numeric: tabular-nums;
+}
+.tr-level { font-size: 14px; }
+.tr-size.is-on, .tr-level.is-on { background: var(--surface); color: var(--text); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18); }
+.tr-mark { position: absolute; top: 1px; right: 4px; font-size: 11px; color: var(--tr-done); }
+.tr-stage { flex: 1; font-size: 15px; font-weight: 700; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.tr-actions { display: flex; justify-content: center; margin-top: 12px; }
+.tr-summary { font-weight: 700; }
+.tr-clock { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+.tr-board {
+  position: relative; aspect-ratio: 1;
+  width: min(100%, calc(100dvh - 270px), 520px); min-width: 280px;
+  border: 3px solid var(--tr-wall); border-radius: 10px; overflow: hidden; container-type: inline-size;
+  touch-action: none; user-select: none; -webkit-user-select: none; cursor: pointer;
+}
+.tr-layer { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(var(--n, 6), 1fr); grid-template-rows: repeat(var(--n, 6), 1fr); }
+.tr-cell { background: var(--tr-cell); box-shadow: inset -1px -1px 0 var(--tr-grid); transition: background 0.12s; }
+.tr-cell.is-on { background: var(--tr-on); }
+.tr-lines { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.tr-lines polyline { fill: none; stroke: var(--tr-line); stroke-width: 0.4; stroke-linecap: round; stroke-linejoin: round; }
+.tr-head { fill: var(--tr-line); }
+.tr-top { pointer-events: none; }
+.tr-spot { position: relative; display: flex; align-items: center; justify-content: center; }
+.tr-stop {
+  width: 62%; height: 62%; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  background: var(--tr-stop); color: var(--tr-stop-text); font: 800 calc(30cqi / var(--n)) var(--font-sans); line-height: 1;
+  transition: box-shadow 0.15s;
+}
+.tr-spot.is-passed .tr-stop { box-shadow: 0 0 0 3px var(--tr-line); }
+/* Walls sit on the shared edge between two squares. */
+.tr-spot.w-r::after, .tr-spot.w-b::before { content: ""; position: absolute; background: var(--tr-wall); border-radius: 3px; z-index: 2; }
+.tr-spot.w-r::after { top: -2px; bottom: -2px; right: -3px; width: 6px; }
+.tr-spot.w-b::before { left: -2px; right: -2px; bottom: -3px; height: 6px; }
+.tr-board.is-solved { border-color: var(--tr-done); }
+.tr-board.is-loading { opacity: 0.4; }
+
+.tr-controls { display: flex; gap: 8px; }
+.tr-tip { margin: 0; font-size: 15px; color: var(--text-muted); text-align: center; min-height: 1.4em; }
+
+.tr-help ul { padding-left: 20px; margin: 8px 0; }
+.tr-help li { margin: 4px 0; }
+.tr-ex { width: 160px; margin: 8px 0; }
+.tr-ex svg { display: block; width: 100%; border: 2px solid var(--tr-wall); border-radius: 8px; }
+.tr-ex-bg { fill: var(--tr-on); }
+.tr-ex polyline { fill: none; stroke: var(--tr-line); stroke-width: 0.4; stroke-linecap: round; stroke-linejoin: round; }
+.tr-ex circle { fill: var(--tr-stop); }
+.tr-ex text { fill: var(--tr-stop-text); font: 800 0.34px var(--font-sans); text-anchor: middle; }

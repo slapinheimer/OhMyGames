@@ -1,0 +1,235 @@
+/* Spelling Bee — seven-letter hive, rank bar, found-words list. */
+
+:root[data-game="spellingbee"] {
+  --sb-yellow: #f7da21;
+  --sb-cell: #e6e6e6;
+  --sb-ink: #121212;
+  --sb-track: #e6e6e6;
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-game="spellingbee"]:not([data-theme="light"]) {
+    --sb-yellow: #e4c41a;
+    --sb-cell: #3a3a3c;
+    --sb-ink: #f8f8f8;
+    --sb-track: #3a3a3c;
+  }
+}
+:root[data-game="spellingbee"][data-theme="dark"] {
+  --sb-yellow: #e4c41a;
+  --sb-cell: #3a3a3c;
+  --sb-ink: #f8f8f8;
+  --sb-track: #3a3a3c;
+}
+
+.sb-game {
+  width: 100%;
+  max-width: 560px;
+  flex: 1 1 auto;
+  min-height: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 16px calc(14px + env(safe-area-inset-bottom));
+  gap: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.sb-status { display: flex; flex-direction: column; gap: 8px; position: relative; z-index: 2; }
+
+/* ---------------------------------------------------------------- rank bar */
+
+.sb-rankbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 6px 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+  color: var(--text);
+}
+.sb-rank-name { font-weight: 800; font-size: 16px; min-width: 92px; text-align: left; }
+.sb-track { position: relative; flex: 1 1 auto; height: 2px; background: var(--sb-track); margin: 0 7px; }
+.sb-fill { position: absolute; left: 0; top: 0; height: 100%; background: var(--sb-yellow); transition: width 0.3s; }
+.sb-dot {
+  position: absolute;
+  top: 50%;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--sb-track);
+  transform: translate(-50%, -50%);
+  transition: all 0.2s;
+}
+.sb-dot.on { background: var(--sb-yellow); }
+.sb-dot.current {
+  width: 28px;
+  height: 28px;
+  background: var(--sb-yellow);
+  border: 0;
+}
+.sb-score {
+  font-size: 12px;
+  font-weight: 700;
+  min-width: 28px;
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------- found words */
+
+.sb-found {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+}
+.sb-found-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 42px;
+  padding: 8px 12px;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+.sb-found-head { font-size: 14px; white-space: nowrap; display: none; }
+.sb-found-peek {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.sb-found-peek:empty::before { content: "Your words appear here"; }
+.sb-caret { flex: 0 0 auto; transition: transform 0.2s; }
+.sb-found-list {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 4px 12px 12px;
+  columns: 2;
+  column-gap: 16px;
+  font-size: 15px;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+.sb-found-list li { padding: 5px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+.sb-found-list li.is-pangram { font-weight: 800; }
+.sb-found.open .sb-found-list { display: block; }
+.sb-found.open .sb-found-head { display: inline; }
+.sb-found.open .sb-found-peek { display: none; }
+.sb-found.open .sb-caret { transform: rotate(180deg); margin-left: auto; }
+
+/* ---------------------------------------------------------------- hive */
+
+.sb-play {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+.sb-entry {
+  min-height: 40px;
+  font-size: clamp(24px, 7vw, 32px);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--sb-ink);
+  word-break: break-all;
+}
+.sb-entry .is-center { color: var(--sb-yellow); }
+.sb-entry .is-bad { color: var(--border-strong); }
+.sb-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  margin-left: 2px;
+  vertical-align: -0.12em;
+  background: var(--sb-yellow);
+  animation: sb-blink 1s steps(1) infinite;
+}
+@keyframes sb-blink { 50% { opacity: 0; } }
+.sb-entry.shake { animation: sb-shake 0.35s; }
+@keyframes sb-shake {
+  20%, 60% { transform: translateX(-7px); }
+  40%, 80% { transform: translateX(7px); }
+}
+
+.sb-hive {
+  --hex: clamp(68px, 22vw, 92px);
+  position: relative;
+  width: calc(var(--hex) * 2.9);
+  height: calc(var(--hex) * 2.75);
+  flex: 0 0 auto;
+}
+.sb-cell {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--hex);
+  height: calc(var(--hex) * 0.866);
+  margin: calc(var(--hex) * -0.433) 0 0 calc(var(--hex) * -0.5);
+  padding: 0;
+  border: 0;
+  background: var(--sb-cell);
+  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+  font: inherit;
+  font-size: calc(var(--hex) * 0.36);
+  font-weight: 800;
+  color: var(--sb-ink);
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.sb-cell.is-center { background: var(--sb-yellow); color: #121212; }
+.sb-cell.tap { animation: sb-tap 0.15s; }
+@keyframes sb-tap { 50% { scale: 0.9; } }
+.sb-cell:focus-visible { outline: none; filter: brightness(0.9); }
+/* Six flat-topped hexagons around the center, spaced 8% apart. */
+.sb-cell[data-pos="1"] { transform: translate(0, -108%); }
+.sb-cell[data-pos="2"] { transform: translate(81%, -54%); }
+.sb-cell[data-pos="3"] { transform: translate(81%, 54%); }
+.sb-cell[data-pos="4"] { transform: translate(0, 108%); }
+.sb-cell[data-pos="5"] { transform: translate(-81%, 54%); }
+.sb-cell[data-pos="6"] { transform: translate(-81%, -54%); }
+
+.sb-actions { display: flex; gap: 12px; align-items: center; }
+.sb-btn { min-width: 96px; border-radius: 999px; height: 48px; }
+.sb-btn.sb-round { min-width: 0; width: 48px; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
+
+/* ---------------------------------------------------------------- modals */
+
+.sb-ranks { list-style: none; margin: 0; padding: 0; }
+.sb-ranks li { display: flex; justify-content: space-between; padding: 8px 4px; border-bottom: 1px solid var(--border); }
+.sb-ranks li.current { font-weight: 800; background: color-mix(in srgb, var(--sb-yellow) 30%, transparent); }
+.sb-hint-note { margin: 10px 0 6px; font-size: 14px; color: var(--text-muted); }
+.sb-grid { border-collapse: collapse; font-variant-numeric: tabular-nums; margin: 0 auto; }
+.sb-grid th, .sb-grid td { padding: 4px 9px; text-align: center; }
+.sb-grid thead th { border-bottom: 1px solid var(--border); }
+.sb-grid tbody th { border-right: 1px solid var(--border); }
+.sb-grid td.sum { font-weight: 700; }
+.sb-twos { display: flex; flex-wrap: wrap; gap: 6px 12px; font-variant-numeric: tabular-nums; }
+.sb-yesterday { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 16px; }
+.sb-yesterday li { padding: 3px 0; break-inside: avoid; }
+.sb-yesterday li.is-pangram { font-weight: 800; }
+.sb-yesterday li.is-mine::after { content: " ✓"; color: var(--color-correct); }
+.sb-summary { text-align: center; margin-bottom: 8px; }
+.sb-summary-line { font-size: 14px; }
+.sb-summary-next { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+.sb-again { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin: 10px 0 4px; }
+
+@media (max-width: 360px) {
+  .sb-game { padding-left: 10px; padding-right: 10px; }
+  .sb-rank-name { min-width: 76px; font-size: 14px; }
+  .sb-btn { min-width: 80px; }
+}

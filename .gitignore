@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.pyc
+# build outputs (regenerate with tools/bundle*.sh)
+dist/
+# downloaded source corpora (GloVe, WordNet) — fetched by tools/fetch_glove.py etc.
+tools/.sources/

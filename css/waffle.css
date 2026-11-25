@@ -1,0 +1,150 @@
+/* Waffle — 21 tiles, six words, swaps instead of guesses. */
+
+.wf-game {
+  width: 100%;
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 12px 20px;
+  gap: 10px;
+}
+
+.wf-hud {
+  width: min(100%, 420px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 72px;
+}
+.wf-stars { font-size: 30px; letter-spacing: 3px; line-height: 1; }
+.wf-star.on { color: #e3b341; }
+.wf-star.off { color: var(--border-strong); }
+.wf-count { text-align: right; }
+.wf-count .num {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 0.85;
+  font-variant-numeric: tabular-nums;
+}
+.wf-count .label {
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+}
+
+.wf-stage {
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wf-plate {
+  background: #f3e2b0;
+  border-radius: 28px;
+  padding: 14px;
+  box-shadow: inset 0 0 0 2px rgba(18, 18, 18, 0.12);
+}
+.wf-grid {
+  display: grid;
+  grid-template-columns: repeat(5, var(--tile, 52px));
+  grid-template-rows: repeat(5, var(--tile, 52px));
+  gap: 8px;
+}
+.wf-hole { width: var(--tile, 52px); height: var(--tile, 52px); }
+
+.wf-tile {
+  width: var(--tile, 52px);
+  height: var(--tile, 52px);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  border-radius: 8px;
+  background-color: var(--color-absent);
+  color: #fff;
+  font: inherit;
+  font-size: calc(var(--tile, 52px) * 0.5);
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  user-select: none;
+  touch-action: none;
+  cursor: pointer;
+  transition: transform 0.12s ease;
+}
+.wf-tile.is-locked { cursor: default; pointer-events: none; }
+.wf-tile[data-state="correct"] { background-color: var(--color-correct); }
+.wf-tile[data-state="present"] { background-color: var(--color-present); }
+.wf-tile[data-state="absent"] { background-color: var(--color-absent); }
+.wf-tile.is-selected {
+  outline: 3px solid #121212;
+  outline-offset: 2px;
+  transform: scale(1.06);
+  z-index: 1;
+}
+.wf-tile.is-over {
+  outline: 3px dashed #121212;
+  outline-offset: 2px;
+}
+.wf-tile:focus-visible {
+  outline: 3px solid #121212;
+  outline-offset: 2px;
+}
+
+.wf-example { display: flex; gap: 6px; margin: 8px 0 4px; }
+.wf-tile.example { cursor: default; pointer-events: none; }
+
+.wf-answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 16px;
+  margin: 4px 0 8px;
+  text-align: center;
+}
+.wf-col-title {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.wf-word {
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.45;
+}
+.wf-share {
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 0 0;
+  letter-spacing: 0.04em;
+}
+.wf-again { display: flex; justify-content: center; margin: 8px 0 4px; }
+
+@media (max-width: 360px) {
+  .wf-count .num { font-size: 46px; }
+  .wf-stars { font-size: 24px; letter-spacing: 2px; }
+  .wf-plate { padding: 10px; border-radius: 22px; }
+}
+
+/* Hint: the two tiles of a suggested swap pulse until the board changes. */
+.wf-tile.is-hint {
+  outline: 3px dashed #121212;
+  outline-offset: 2px;
+  animation: wfHint 1.2s ease-in-out infinite;
+}
+@keyframes wfHint { 50% { transform: scale(1.06); } }
+@media (prefers-reduced-motion: reduce) { .wf-tile.is-hint { animation: none; } }
+.wf-share-hints { margin: 4px 0 0; text-align: center; font-size: 13px; color: var(--text-muted); }

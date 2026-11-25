@@ -1,0 +1,160 @@
+/* One Word Search — a 5×5 grid, one hidden word at a time. */
+
+.ow-game {
+  width: 100%;
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 12px 20px;
+  gap: 12px;
+}
+
+.ow-hud {
+  width: min(100%, 420px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 72px;
+}
+.ow-stars { font-size: 30px; letter-spacing: 3px; line-height: 1; }
+.ow-star.on { color: #e3b341; }
+.ow-star.off { color: var(--border-strong); }
+.ow-count { text-align: right; }
+.ow-count .num {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 0.85;
+  font-variant-numeric: tabular-nums;
+}
+.ow-count .label,
+.ow-clock {
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+}
+.ow-clock {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  margin-top: 2px;
+}
+.ow-clock[hidden] { display: none; }
+
+.ow-stage {
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ow-grid {
+  display: grid;
+  grid-template-columns: repeat(5, var(--tile, 58px));
+  grid-template-rows: repeat(5, var(--tile, 58px));
+  gap: 6px;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.ow-cell {
+  width: var(--tile, 58px);
+  height: var(--tile, 58px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: var(--surface);
+  color: var(--text);
+  box-shadow: inset 0 0 0 2px var(--border);
+  font-size: calc(var(--tile, 58px) * 0.48);
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.ow-cell.is-selected {
+  background-color: var(--color-present);
+  color: #fff;
+  box-shadow: none;
+}
+.ow-cell.is-found {
+  background-color: var(--color-correct);
+  color: #fff;
+  box-shadow: none;
+}
+.ow-cell.is-miss { animation: ow-shake 0.18s linear; }
+@keyframes ow-shake {
+  25% { transform: translateX(-3px); }
+  75% { transform: translateX(3px); }
+}
+
+.ow-dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.ow-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--border-strong);
+}
+.ow-dot.on { background: var(--color-correct); }
+
+.ow-card {
+  list-style: none;
+  margin: 0 0 8px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 18px;
+}
+.ow-card li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.ow-split {
+  letter-spacing: 0;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.ow-share,
+.ow-share-time {
+  text-align: center;
+  margin: 4px 0 0;
+}
+.ow-share {
+  font-size: 20px;
+  letter-spacing: 0.04em;
+}
+.ow-share-time {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.ow-again { display: flex; justify-content: center; margin: 8px 0 4px; }
+
+@media (max-width: 360px) {
+  .ow-count .num { font-size: 46px; }
+  .ow-stars { font-size: 24px; letter-spacing: 2px; }
+}
+
+/* Hint: the hidden word's name under the grid, and (second hint) its first letter outlined. */
+.ow-hint {
+  margin: 8px 0 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+.ow-cell.is-hint { box-shadow: inset 0 0 0 3px var(--color-present); }

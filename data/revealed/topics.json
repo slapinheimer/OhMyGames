@@ -1,0 +1,1670 @@
+{
+ "version": 1,
+ "topics": [
+  {
+   "topic": "Mount Everest",
+   "alt": [
+    "Everest",
+    "Sagarmatha",
+    "Chomolungma"
+   ],
+   "category": "Geography",
+   "text": [
+    "Mount Everest is the highest mountain on Earth above sea level, rising to about 8,849 meters in the Himalayas on the border between Nepal and the Tibet region of China.",
+    "Edmund Hillary of New Zealand and Tenzing Norgay, a Sherpa mountaineer, made the first confirmed ascent of Everest in 1953. Climbers today face thin air, extreme cold, and the dangerous Khumbu Icefall on the way to the summit."
+   ]
+  },
+  {
+   "topic": "Great Wall of China",
+   "alt": [
+    "Great Wall",
+    "The Great Wall"
+   ],
+   "category": "Landmarks",
+   "text": [
+    "The Great Wall of China is a series of fortifications stretching across northern China. Walls were built, rebuilt, and joined over many centuries to defend Chinese states and empires against raids by nomadic groups from the steppe.",
+    "Most of the stone and brick sections visitors see today date from the Ming dynasty. Watchtowers placed along the Great Wall let soldiers send signals using smoke by day and fire by night."
+   ]
+  },
+  {
+   "topic": "Amazon River",
+   "alt": [
+    "Amazon",
+    "The Amazon"
+   ],
+   "category": "Geography",
+   "text": [
+    "The Amazon River flows across South America from the Andes Mountains of Peru to the Atlantic Ocean in Brazil. It carries more water than any other river in the world, more than the next several largest rivers combined.",
+    "The Amazon basin holds the largest tropical rainforest on the planet. Its waters are home to piranhas, pink river dolphins, giant otters, and the arapaima, one of the biggest freshwater fish."
+   ]
+  },
+  {
+   "topic": "Sahara",
+   "alt": [
+    "Sahara Desert",
+    "The Sahara"
+   ],
+   "category": "Geography",
+   "text": [
+    "The Sahara is the largest hot desert in the world, covering much of North Africa from the Atlantic Ocean to the Red Sea. Its landscape includes sand seas, rocky plateaus, gravel plains, and mountain ranges.",
+    "Thousands of years ago the Sahara was much greener, with lakes, grasslands, and animals such as hippos. Rock paintings and engravings across the region record that wetter time and the people who lived there."
+   ]
+  },
+  {
+   "topic": "Eiffel Tower",
+   "alt": [
+    "Eiffel",
+    "La Tour Eiffel",
+    "Tour Eiffel"
+   ],
+   "category": "Landmarks",
+   "text": [
+    "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris. Engineer Gustave Eiffel's company designed and built it as the entrance arch for the 1889 World's Fair, held to mark the centennial of the French Revolution.",
+    "Many artists first criticized the Eiffel Tower as ugly, and it was meant to stand for only twenty years. Its value as a radio transmission tower helped save it, and it became the most recognizable symbol of France."
+   ]
+  },
+  {
+   "topic": "Taj Mahal",
+   "alt": [
+    "Taj"
+   ],
+   "category": "Landmarks",
+   "text": [
+    "The Taj Mahal is a white marble mausoleum on the bank of the Yamuna River in Agra, India. The Mughal emperor Shah Jahan commissioned it in memory of his wife Mumtaz Mahal, who died in 1631.",
+    "Builders worked for about two decades on the Taj Mahal and its gardens, gateways, and mosque. Inlaid semiprecious stones form flowers and verses on its walls, and its color seems to shift with the light through the day."
+   ]
+  },
+  {
+   "topic": "Colosseum",
+   "alt": [
+    "Coliseum",
+    "Flavian Amphitheatre",
+    "Roman Colosseum"
+   ],
+   "category": "Landmarks",
+   "text": [
+    "The Colosseum is a huge oval amphitheater in the center of Rome. Construction began under the emperor Vespasian around 70 CE and was completed under his son Titus, and it could hold tens of thousands of spectators.",
+    "Crowds at the Colosseum watched gladiator fights, animal hunts, and public spectacles. Beneath the arena floor, a network of tunnels and lifts let workers raise animals and scenery up through trapdoors."
+   ]
+  },
+  {
+   "topic": "Great Barrier Reef",
+   "alt": [
+    "Barrier Reef"
+   ],
+   "category": "Nature",
+   "text": [
+    "The Great Barrier Reef is the largest coral reef system in the world, stretching for more than 2,000 kilometers off the coast of Queensland, Australia. It is made of thousands of individual reefs and hundreds of islands.",
+    "Tiny animals called polyps build the reef's coral skeletons over thousands of years. Warming seas cause coral bleaching, which has damaged large areas of the Great Barrier Reef in recent decades."
+   ]
+  },
+  {
+   "topic": "Grand Canyon",
+   "alt": [
+    "The Grand Canyon"
+   ],
+   "category": "Geography",
+   "text": [
+    "The Grand Canyon is a steep-sided gorge carved by the Colorado River in northern Arizona. It is about 446 kilometers long and in places more than 1.8 kilometers deep.",
+    "The rock layers in the walls of the Grand Canyon record nearly two billion years of geologic history. The canyon became a national park in 1919 and draws millions of visitors to its rims each year."
+   ]
+  },
+  {
+   "topic": "Niagara Falls",
+   "alt": [
+    "Niagara"
+   ],
+   "category": "Geography",
+   "text": [
+    "Niagara Falls is a group of three waterfalls on the Niagara River, on the border between Ontario, Canada, and New York State. The largest, Horseshoe Falls, lies mostly on the Canadian side.",
+    "Water from the upper Great Lakes pours over Niagara Falls on its way to Lake Ontario. Much of the flow is diverted to produce hydroelectric power, and daredevils have gone over the falls in barrels."
+   ]
+  },
+  {
+   "topic": "Stonehenge",
+   "alt": [],
+   "category": "Landmarks",
+   "text": [
+    "Stonehenge is a prehistoric monument on Salisbury Plain in Wiltshire, England. It consists of a ring of standing stones, some topped by horizontal lintels, built in several stages between about 3000 and 1500 BCE.",
+    "The smaller bluestones at Stonehenge were brought from the Preseli Hills in Wales, more than 200 kilometers away. The monument is aligned with the sunrise at the summer solstice and the sunset at the winter solstice."
+   ]
+  },
+  {
+   "topic": "Machu Picchu",
+   "alt": [],
+   "category": "Landmarks",
+   "text": [
+    "Machu Picchu is a fifteenth-century Inca citadel high on a mountain ridge above the Urubamba River valley in Peru. It was likely built as an estate for the emperor Pachacuti.",
+    "Its builders fitted stones together so precisely that no mortar was needed. Machu Picchu was largely unknown to the outside world until Hiram Bingham publicized it in 1911, and it is now one of South America's most visited sites."
+   ]
+  },
+  {
+   "topic": "Statue of Liberty",
+   "alt": [
+    "Liberty Enlightening the World",
+    "Lady Liberty"
+   ],
+   "category": "Landmarks",
+   "text": [
+    "The Statue of Liberty is a colossal copper statue on Liberty Island in New York Harbor. It was a gift from the people of France to the United States and was dedicated in 1886.",
+    "Sculptor Frédéric Auguste Bartholdi designed the figure, and Gustave Eiffel engineered its internal iron framework. The copper skin has weathered to a green patina, and the statue holds a torch and a tablet."
+   ]
+  },
+  {
+   "topic": "Venice",
+   "alt": [
+    "Venezia"
+   ],
+   "category": "Places",
+   "text": [
+    "Venice is a city in northeastern Italy built on more than one hundred small islands in a lagoon of the Adriatic Sea. Canals serve as its streets, and the Grand Canal winds through the middle of the city.",
+    "For centuries Venice was the capital of a powerful maritime republic that grew rich from trade between Europe and the East. Gondolas, St. Mark's Basilica, and the Carnival with its masks remain famous symbols of the city."
+   ]
+  },
+  {
+   "topic": "Antarctica",
+   "alt": [],
+   "category": "Geography",
+   "text": [
+    "Antarctica is the southernmost continent and the coldest, driest, and windiest place on Earth. Almost all of it is covered by an ice sheet that averages more than a mile thick.",
+    "Antarctica has no permanent human population, but scientists from many countries live at research stations there. Penguins, seals, and whales thrive in the surrounding Southern Ocean, and a treaty reserves the continent for peaceful use."
+   ]
+  },
+  {
+   "topic": "Iceland",
+   "alt": [],
+   "category": "Places",
+   "text": [
+    "Iceland is an island nation in the North Atlantic Ocean, just south of the Arctic Circle. Its capital, Reykjavík, is the northernmost capital of a sovereign state.",
+    "Iceland sits on the Mid-Atlantic Ridge, so volcanoes, geysers, and hot springs are common. Geothermal energy heats most of its homes, and its parliament, the Althing, was founded in 930."
+   ]
+  },
+  {
+   "topic": "Dead Sea",
+   "alt": [],
+   "category": "Geography",
+   "text": [
+    "The Dead Sea is a salt lake bordered by Jordan to the east and Israel and the West Bank to the west. Its shore is the lowest land surface on Earth, more than 400 meters below sea level.",
+    "The water of the Dead Sea is so salty that fish cannot live in it, and swimmers float easily on the surface. The lake has been shrinking quickly because water from the Jordan River is diverted for other uses."
+   ]
+  },
+  {
+   "topic": "Galápagos Islands",
+   "alt": [
+    "Galapagos Islands",
+    "Galapagos",
+    "Galápagos"
+   ],
+   "category": "Nature",
+   "text": [
+    "The Galápagos Islands are a volcanic archipelago in the Pacific Ocean, about 1,000 kilometers west of mainland Ecuador. They are known for animals found nowhere else, such as giant tortoises and marine iguanas.",
+    "Charles Darwin visited the Galápagos in 1835 aboard HMS Beagle. Differences he noticed among the islands' finches and tortoises later helped shape his theory of evolution by natural selection."
+   ]
+  },
+  {
+   "topic": "Mount Fuji",
+   "alt": [
+    "Fuji",
+    "Fujisan",
+    "Fuji-san",
+    "Fujiyama"
+   ],
+   "category": "Geography",
+   "text": [
+    "Mount Fuji is the highest mountain in Japan, rising to 3,776 meters on the island of Honshu. It is an active stratovolcano with a nearly symmetrical cone, and it last erupted in 1707.",
+    "Fuji has long been a sacred site and a favorite subject of Japanese art, including Hokusai's woodblock prints. Hundreds of thousands of people climb to its summit each summer."
+   ]
+  },
+  {
+   "topic": "Pyramids of Giza",
+   "alt": [
+    "Great Pyramid",
+    "Giza pyramids",
+    "Great Pyramid of Giza",
+    "Pyramids"
+   ],
+   "category": "Landmarks",
+   "text": [
+    "The Pyramids of Giza stand on a plateau on the outskirts of Cairo, Egypt. The three main pyramids were built as tombs for the pharaohs Khufu, Khafre, and Menkaure during the Fourth Dynasty, about 4,500 years ago.",
+    "The largest, built for Khufu, was the tallest human-made structure in the world for more than 3,800 years. The Great Sphinx, with a lion's body and a human head, guards the site."
+   ]
+  },
+  {
+   "topic": "Giant panda",
+   "alt": [
+    "Panda",
+    "Panda bear"
+   ],
+   "category": "Animals",
+   "text": [
+    "The giant panda is a black-and-white bear native to mountain forests in central China. Bamboo makes up almost all of its diet, and an adult may spend more than half the day eating.",
+    "A special wrist bone works like a thumb, helping the giant panda grip bamboo stalks. Conservation work has helped its wild population grow, and it has become a worldwide symbol of wildlife protection."
+   ]
+  },
+  {
+   "topic": "Octopus",
+   "alt": [],
+   "category": "Animals",
+   "text": [
+    "An octopus is a soft-bodied sea animal with eight arms lined with suckers. It belongs to the cephalopods, the same group of mollusks as squid and cuttlefish.",
+    "An octopus can change the color and texture of its skin in a fraction of a second to hide or signal. It has three hearts and blue blood, and it is known for solving puzzles and escaping from tanks."
+   ]
+  },
+  {
+   "topic": "Honeybee",
+   "alt": [
+    "Honey bee",
+    "Bee",
+    "Bees",
+    "Honeybees"
+   ],
+   "category": "Animals",
+   "text": [
+    "The honeybee is a social insect that lives in colonies of thousands of workers ruled by a single queen. Workers gather nectar and pollen from flowers and store honey in wax combs.",
+    "A forager tells her sisters where food is found by performing a waggle dance inside the hive. By pollinating crops as they feed, honeybees play a vital role in growing fruits, nuts, and vegetables."
+   ]
+  },
+  {
+   "topic": "Blue whale",
+   "alt": [],
+   "category": "Animals",
+   "text": [
+    "The blue whale is the largest animal known to have ever lived, reaching about 30 meters long and weighing well over 100 tonnes. It is a baleen whale found in oceans around the world.",
+    "Despite its size, the blue whale eats mostly tiny shrimplike krill, filtering them from seawater through plates of baleen. Its low-frequency calls are among the loudest sounds made by any animal."
+   ]
+  },
+  {
+   "topic": "Cheetah",
+   "alt": [],
+   "category": "Animals",
+   "text": [
+    "The cheetah is a large spotted cat of Africa and a small region of Iran. It is the fastest land animal, able to sprint at around 100 kilometers per hour in short bursts.",
+    "A flexible spine, long legs, and blunt claws that grip like cleats help the cheetah run. Black tear marks below its eyes may cut glare from the sun while it hunts gazelles by day."
+   ]
+  },
+  {
+   "topic": "Emperor penguin",
+   "alt": [
+    "Emperor penguins"
+   ],
+   "category": "Animals",
+   "text": [
+    "The emperor penguin is the tallest and heaviest of all penguins and lives only in Antarctica. It breeds on sea ice during the dark, bitter winter.",
+    "After the female lays a single egg, the male balances it on his feet under a fold of skin for about two months without eating. Huddles of thousands of emperor penguins share warmth against the wind."
+   ]
+  },
+  {
+   "topic": "Monarch butterfly",
+   "alt": [
+    "Monarch",
+    "Monarchs"
+   ],
+   "category": "Animals",
+   "text": [
+    "The monarch butterfly is an orange-and-black butterfly of the Americas. Its caterpillars feed only on milkweed, which makes both caterpillars and adults taste bad to birds.",
+    "Each autumn millions of monarchs from eastern North America migrate thousands of kilometers to forests in central Mexico. No single butterfly makes the whole round trip; it takes several generations."
+   ]
+  },
+  {
+   "topic": "Tyrannosaurus",
+   "alt": [
+    "Tyrannosaurus rex",
+    "T rex",
+    "T. rex",
+    "TRex"
+   ],
+   "category": "Science",
+   "text": [
+    "Tyrannosaurus was a huge meat-eating dinosaur that lived in western North America near the end of the Cretaceous Period, about 68 to 66 million years ago. Adults were about 12 meters long.",
+    "Its bite was among the strongest of any land animal, with teeth the size of bananas. Its short arms had two fingers each, and the best-known fossil skeleton, nicknamed Sue, is in Chicago."
+   ]
+  },
+  {
+   "topic": "Redwood",
+   "alt": [
+    "Coast redwood",
+    "Redwoods",
+    "Sequoia"
+   ],
+   "category": "Nature",
+   "text": [
+    "The coast redwood is the tallest tree species on Earth, with some trees topping 115 meters. Redwood forests grow in a narrow strip along the Pacific coast of northern California and southern Oregon.",
+    "Summer fog supplies much of the moisture these trees need. Thick, tannin-rich bark helps a redwood resist fire and insects, and some living trees are more than 2,000 years old."
+   ]
+  },
+  {
+   "topic": "Venus flytrap",
+   "alt": [
+    "Flytrap"
+   ],
+   "category": "Nature",
+   "text": [
+    "The Venus flytrap is a carnivorous plant native to wetlands in North and South Carolina. Each leaf ends in a hinged trap edged with stiff bristles.",
+    "Trigger hairs inside the trap must be touched twice in quick succession before it snaps shut on an insect. The plant then digests its prey over several days to get nutrients its poor soil lacks."
+   ]
+  },
+  {
+   "topic": "Photosynthesis",
+   "alt": [],
+   "category": "Science",
+   "text": [
+    "Photosynthesis is the process by which green plants, algae, and some bacteria use light energy to make food. It takes in carbon dioxide and water and produces sugar and oxygen.",
+    "The pigment chlorophyll, found in chloroplasts, absorbs mostly red and blue light, which is why leaves look green. Photosynthesis supplies nearly all the oxygen in the air and the energy at the base of most food chains."
+   ]
+  },
+  {
+   "topic": "DNA",
+   "alt": [
+    "Deoxyribonucleic acid"
+   ],
+   "category": "Science",
+   "text": [
+    "DNA is the molecule that carries genetic instructions in nearly all living things. Its two strands twist around each other in a shape called a double helix.",
+    "The order of four chemical bases, adenine, thymine, cytosine, and guanine, spells out genes. James Watson and Francis Crick described the structure in 1953, building on X-ray images made by Rosalind Franklin."
+   ]
+  },
+  {
+   "topic": "Gravity",
+   "alt": [
+    "Gravitation"
+   ],
+   "category": "Science",
+   "text": [
+    "Gravity is the force by which objects with mass are drawn toward one another. It keeps our feet on the ground, holds the Moon in orbit around Earth, and binds stars into galaxies.",
+    "Isaac Newton described gravity as a universal force in 1687. Albert Einstein later explained it in his general theory of relativity as the curving of space and time by mass and energy."
+   ]
+  },
+  {
+   "topic": "Volcano",
+   "alt": [
+    "Volcanoes"
+   ],
+   "category": "Science",
+   "text": [
+    "A volcano is an opening in Earth's crust through which molten rock, ash, and gases escape. Molten rock is called magma underground and lava once it reaches the surface.",
+    "Many volcanoes form where tectonic plates pull apart or where one plate dives beneath another, as around the Pacific Ring of Fire. Some erupt explosively, while others release slow rivers of lava."
+   ]
+  },
+  {
+   "topic": "Rainbow",
+   "alt": [
+    "Rainbows"
+   ],
+   "category": "Science",
+   "text": [
+    "A rainbow is an arc of colors that appears in the sky when sunlight shines through raindrops. Light bends as it enters each drop, reflects off the back, and bends again as it leaves.",
+    "Because each color bends by a different amount, white light spreads into red, orange, yellow, green, blue, indigo, and violet. A fainter second rainbow sometimes appears outside the first, with its colors reversed."
+   ]
+  },
+  {
+   "topic": "Periodic table",
+   "alt": [
+    "Periodic table of elements",
+    "Periodic table of the elements"
+   ],
+   "category": "Science",
+   "text": [
+    "The periodic table arranges the chemical elements in rows and columns by atomic number. Elements in the same column tend to share similar chemical behavior.",
+    "Russian chemist Dmitri Mendeleev published an early version in 1869 and left gaps for elements not yet discovered. When gallium and germanium were found, they fit his predictions closely."
+   ]
+  },
+  {
+   "topic": "Black hole",
+   "alt": [
+    "Black holes"
+   ],
+   "category": "Space",
+   "text": [
+    "A black hole is a region of space where gravity is so strong that nothing, not even light, can escape. Its boundary is called the event horizon.",
+    "Many black holes form when very massive stars collapse at the end of their lives. In 2019 astronomers released the first image of the shadow of a black hole, at the center of the galaxy M87."
+   ]
+  },
+  {
+   "topic": "Saturn",
+   "alt": [],
+   "category": "Space",
+   "text": [
+    "Saturn is the sixth planet from the Sun and the second largest in the solar system. It is a gas giant made mostly of hydrogen and helium, and it is less dense than water.",
+    "Saturn is famous for its bright rings, made of countless pieces of ice and rock. Its many moons include Titan, which has a thick atmosphere and lakes of liquid methane."
+   ]
+  },
+  {
+   "topic": "Moon",
+   "alt": [
+    "The Moon",
+    "Luna"
+   ],
+   "category": "Space",
+   "text": [
+    "The Moon is Earth's only natural satellite, orbiting at an average distance of about 384,000 kilometers. Its gravity drives the ocean tides.",
+    "The same side of the Moon always faces Earth because it spins once on its axis for every orbit. Twelve astronauts walked on its surface during NASA's Apollo missions between 1969 and 1972."
+   ]
+  },
+  {
+   "topic": "Mars",
+   "alt": [
+    "Red Planet"
+   ],
+   "category": "Space",
+   "text": [
+    "Mars is the fourth planet from the Sun, often called the Red Planet because iron oxide dust gives its surface a rusty color. It has two small moons, Phobos and Deimos.",
+    "Mars has the tallest volcano in the solar system, Olympus Mons, and a vast canyon system, Valles Marineris. Rovers such as Curiosity and Perseverance have found signs that liquid water once flowed there."
+   ]
+  },
+  {
+   "topic": "Milky Way",
+   "alt": [
+    "Milky Way Galaxy",
+    "The Milky Way"
+   ],
+   "category": "Space",
+   "text": [
+    "The Milky Way is the galaxy that contains our solar system. It is a barred spiral galaxy holding hundreds of billions of stars, and the Sun lies in one of its spiral arms.",
+    "From a dark place on Earth, the Milky Way looks like a hazy band of light across the night sky. A supermassive black hole called Sagittarius A* sits at its center."
+   ]
+  },
+  {
+   "topic": "Halley's Comet",
+   "alt": [
+    "Halleys Comet",
+    "Comet Halley",
+    "Halley"
+   ],
+   "category": "Space",
+   "text": [
+    "Halley's Comet is a bright comet that returns to the inner solar system about every 75 to 76 years. It is the only short-period comet regularly visible to the naked eye from Earth.",
+    "Edmond Halley calculated in 1705 that sightings in 1531, 1607, and 1682 were the same comet and predicted its return. It last passed near the Sun in 1986 and will be back in 2061."
+   ]
+  },
+  {
+   "topic": "Hubble Space Telescope",
+   "alt": [
+    "Hubble",
+    "Hubble Telescope"
+   ],
+   "category": "Space",
+   "text": [
+    "The Hubble Space Telescope is a large telescope that orbits Earth above the blurring effects of the atmosphere. NASA and the European Space Agency launched it aboard the space shuttle Discovery in 1990.",
+    "A flaw in its main mirror was corrected by astronauts in 1993. Hubble has since captured detailed images of distant galaxies and nebulae and helped measure how fast the universe is expanding."
+   ]
+  },
+  {
+   "topic": "Printing press",
+   "alt": [
+    "Gutenberg press",
+    "Printing"
+   ],
+   "category": "Inventions",
+   "text": [
+    "The printing press is a machine that presses inked type onto paper. Johannes Gutenberg developed a press with movable metal type in Mainz, Germany, around 1440.",
+    "Gutenberg's best-known work is a Bible printed in the 1450s. The printing press made books far cheaper, helped spread ideas during the Renaissance and Reformation, and greatly increased literacy."
+   ]
+  },
+  {
+   "topic": "Telephone",
+   "alt": [
+    "Phone"
+   ],
+   "category": "Inventions",
+   "text": [
+    "The telephone is a device that turns sound into electrical signals so people can talk across a distance. Alexander Graham Bell received a United States patent for it in 1876.",
+    "Bell's first words over the telephone were reportedly a call to his assistant, Thomas Watson, in the next room. Switchboards, then automatic exchanges, connected millions of lines in the decades that followed."
+   ]
+  },
+  {
+   "topic": "Light bulb",
+   "alt": [
+    "Lightbulb",
+    "Incandescent light bulb",
+    "Incandescent lamp"
+   ],
+   "category": "Inventions",
+   "text": [
+    "The incandescent light bulb makes light by heating a thin filament until it glows inside a glass bulb. Many inventors worked on the idea in the 1800s, including Joseph Swan in England.",
+    "Thomas Edison's team developed a long-lasting carbon filament in 1879 along with a system to power homes. LED lamps have since replaced the old light bulb in many uses because they need far less energy."
+   ]
+  },
+  {
+   "topic": "Wright brothers",
+   "alt": [
+    "Orville and Wilbur Wright",
+    "Wilbur and Orville Wright"
+   ],
+   "category": "History",
+   "text": [
+    "The Wright brothers, Orville and Wilbur, were American inventors who made the first controlled, sustained flight of a powered airplane. They ran a bicycle shop in Dayton, Ohio.",
+    "On December 17, 1903, at Kitty Hawk, North Carolina, their Flyer stayed aloft for 12 seconds on its first flight. The key idea of the Wright brothers was wing warping, which let the pilot roll and steer the craft."
+   ]
+  },
+  {
+   "topic": "Internet",
+   "alt": [
+    "The Internet"
+   ],
+   "category": "Technology",
+   "text": [
+    "The Internet is a global network of computer networks that exchange data using shared rules called protocols. It grew from ARPANET, a project funded by the United States Department of Defense in the late 1960s.",
+    "The TCP/IP protocols adopted in 1983 let different networks join together. The World Wide Web, invented by Tim Berners-Lee in 1989, made the Internet easy to browse with links and pages."
+   ]
+  },
+  {
+   "topic": "Compass",
+   "alt": [
+    "Magnetic compass"
+   ],
+   "category": "Inventions",
+   "text": [
+    "A compass is an instrument for finding direction, usually with a magnetized needle that swings to point toward magnetic north. Early versions were used in China more than a thousand years ago.",
+    "By the 1200s sailors in Europe and the Middle East also relied on the compass. It made long ocean voyages safer, because ships could hold a course even when clouds hid the Sun and stars."
+   ]
+  },
+  {
+   "topic": "Mona Lisa",
+   "alt": [
+    "La Gioconda",
+    "La Joconde"
+   ],
+   "category": "Art",
+   "text": [
+    "The Mona Lisa is a portrait painted by Leonardo da Vinci in the early 1500s. It is thought to show Lisa Gherardini, the wife of a Florentine silk merchant, and it hangs in the Louvre in Paris.",
+    "The sitter's faint smile and the soft blending of light and shadow, a technique called sfumato, have fascinated viewers for centuries. The painting became even more famous after it was stolen in 1911 and recovered two years later."
+   ]
+  },
+  {
+   "topic": "The Starry Night",
+   "alt": [
+    "Starry Night"
+   ],
+   "category": "Art",
+   "text": [
+    "The Starry Night is an oil painting by the Dutch artist Vincent van Gogh, made in June 1889. It shows a swirling night sky over a quiet village, with a dark cypress tree rising in the foreground.",
+    "Van Gogh painted it from memory while staying at an asylum in Saint-Rémy-de-Provence in southern France. The canvas is now in the collection of the Museum of Modern Art in New York City."
+   ]
+  },
+  {
+   "topic": "Ballet",
+   "alt": [],
+   "category": "Arts",
+   "text": [
+    "Ballet is a formal style of theatrical dance that began in the courts of Renaissance Italy and developed in France. Many of its terms, such as plié and pirouette, are French.",
+    "Dancers train for years to master turnout, pointe work, and graceful jumps. Famous works such as Swan Lake and The Nutcracker, both with music by Tchaikovsky, remain favorites of ballet companies around the world."
+   ]
+  },
+  {
+   "topic": "Jazz",
+   "alt": [],
+   "category": "Music",
+   "text": [
+    "Jazz is a style of music that grew out of African American communities in New Orleans in the late 1800s and early 1900s. It blends blues, ragtime, and brass band traditions.",
+    "Improvisation and swing rhythms are at the heart of jazz. Louis Armstrong, Duke Ellington, Billie Holiday, and Miles Davis are among the artists who shaped its many styles, from big band to bebop."
+   ]
+  },
+  {
+   "topic": "Piano",
+   "alt": [
+    "Pianoforte"
+   ],
+   "category": "Music",
+   "text": [
+    "The piano is a keyboard instrument in which felt-covered hammers strike strings when keys are pressed. Bartolomeo Cristofori built the first one in Italy around 1700.",
+    "Its full name, pianoforte, means soft-loud, because the player can control volume by how hard each key is struck. A modern piano usually has 88 black and white keys."
+   ]
+  },
+  {
+   "topic": "The Beatles",
+   "alt": [
+    "Beatles"
+   ],
+   "category": "Music",
+   "text": [
+    "The Beatles were a rock band from Liverpool, England, made up of John Lennon, Paul McCartney, George Harrison, and Ringo Starr. They rose to fame in the early 1960s.",
+    "Their arrival in the United States in 1964 set off a wave of fan excitement known as Beatlemania. Albums such as Sgt. Pepper's Lonely Hearts Club Band and Abbey Road changed what popular music could be."
+   ]
+  },
+  {
+   "topic": "Shakespeare",
+   "alt": [
+    "William Shakespeare"
+   ],
+   "category": "Literature",
+   "text": [
+    "William Shakespeare was an English playwright and poet, born in Stratford-upon-Avon in 1564. He is widely regarded as the greatest writer in the English language.",
+    "His plays include tragedies such as Hamlet and Macbeth, comedies such as A Midsummer Night's Dream, and histories. Many were performed at the Globe Theatre in London, and Shakespeare also wrote 154 sonnets."
+   ]
+  },
+  {
+   "topic": "Sherlock Holmes",
+   "alt": [
+    "Holmes",
+    "Sherlock"
+   ],
+   "category": "Literature",
+   "text": [
+    "Sherlock Holmes is a fictional detective created by the Scottish author Arthur Conan Doyle. He first appeared in the novel A Study in Scarlet in 1887.",
+    "Holmes solves cases through sharp observation and logical deduction, aided by his friend and narrator Dr. John Watson. He lives at 221B Baker Street in London, and his nemesis is Professor Moriarty."
+   ]
+  },
+  {
+   "topic": "Olympic Games",
+   "alt": [
+    "Olympics",
+    "The Olympics"
+   ],
+   "category": "Sports",
+   "text": [
+    "The Olympic Games are an international sports competition held every four years, with Summer and Winter editions alternating every two years. The ancient games were held at Olympia in Greece.",
+    "Pierre de Coubertin led the revival of the modern Olympic Games, first held in Athens in 1896. The five interlocking rings on the Olympic flag represent the participating continents."
+   ]
+  },
+  {
+   "topic": "Chess",
+   "alt": [],
+   "category": "Games",
+   "text": [
+    "Chess is a strategy board game for two players, played on a square board of 64 squares. Each player begins with sixteen pieces: a king, a queen, two rooks, two bishops, two knights, and eight pawns.",
+    "The goal is to checkmate the opponent's king so that it cannot escape capture. The game developed from an Indian game called chaturanga, and in 1997 the computer Deep Blue defeated world champion Garry Kasparov."
+   ]
+  },
+  {
+   "topic": "Basketball",
+   "alt": [],
+   "category": "Sports",
+   "text": [
+    "Basketball is a team sport in which two teams of five players try to score by shooting a ball through a hoop. James Naismith invented it in 1891 at a school in Springfield, Massachusetts.",
+    "The first hoops were peach baskets nailed to a balcony. Today basketball is played around the world, and stars such as Michael Jordan and LeBron James are household names."
+   ]
+  },
+  {
+   "topic": "Soccer",
+   "alt": [
+    "Football",
+    "Association football"
+   ],
+   "category": "Sports",
+   "text": [
+    "Soccer, called football in most of the world, is a team sport in which players try to kick or head a ball into the opposing goal. Only the goalkeeper may handle the ball, and only inside the penalty area.",
+    "Modern rules were set down in England in 1863. The FIFA World Cup, held every four years, is the most widely watched sporting event on Earth, and Brazil has won it more times than any other country."
+   ]
+  },
+  {
+   "topic": "Tour de France",
+   "alt": [],
+   "category": "Sports",
+   "text": [
+    "The Tour de France is a multistage bicycle race held mostly in France each July. It was first run in 1903 to promote a sports newspaper.",
+    "Riders cover more than 3,000 kilometers over about three weeks, including grueling climbs in the Alps and Pyrenees. The overall leader wears the yellow jersey, and the race traditionally finishes on the Champs-Élysées in Paris."
+   ]
+  },
+  {
+   "topic": "Sushi",
+   "alt": [],
+   "category": "Food",
+   "text": [
+    "Sushi is a Japanese dish of vinegared rice combined with ingredients such as raw fish, seafood, and vegetables. It is often served with soy sauce, wasabi, and pickled ginger.",
+    "Popular forms include nigiri, a slice of fish over a mound of rice, and maki, rolls wrapped in seaweed called nori. Sushi began as a way of preserving fish in fermented rice."
+   ]
+  },
+  {
+   "topic": "Chocolate",
+   "alt": [],
+   "category": "Food",
+   "text": [
+    "Chocolate is a food made from the roasted and ground seeds of the cacao tree, native to Central and South America. The Maya and Aztecs drank it as a bitter, spiced beverage.",
+    "Spanish explorers brought cacao to Europe, where sugar was added to sweeten it. In the 1800s new processes produced solid bars and milk chocolate, and today much of the world's cacao is grown in West Africa."
+   ]
+  },
+  {
+   "topic": "Pizza",
+   "alt": [],
+   "category": "Food",
+   "text": [
+    "Pizza is a dish of flattened bread dough topped with ingredients such as tomato sauce and cheese, then baked in a hot oven. Modern pizza developed in Naples, Italy, in the 1700s and 1800s.",
+    "The Margherita, with tomato, mozzarella, and basil, is said to be named after Queen Margherita of Italy. Italian immigrants carried pizza to the United States, where it became one of the most popular foods."
+   ]
+  },
+  {
+   "topic": "Coffee",
+   "alt": [],
+   "category": "Food",
+   "text": [
+    "Coffee is a drink brewed from the roasted seeds, called beans, of the coffee plant. According to legend, a goat herder in Ethiopia noticed his goats grew lively after eating the berries.",
+    "Coffeehouses spread from Yemen and the Ottoman Empire to Europe in the 1600s. Brazil is now the largest producer, and espresso, cappuccino, and latte are popular ways to serve coffee."
+   ]
+  },
+  {
+   "topic": "Tea",
+   "alt": [],
+   "category": "Food",
+   "text": [
+    "Tea is a drink made by steeping the cured leaves of the Camellia sinensis plant in hot water. It has been drunk in China for thousands of years.",
+    "Green, black, white, and oolong tea all come from the same plant but are processed in different ways. Tea is a central part of daily life and ceremony in many places, from Japan to Britain to India."
+   ]
+  },
+  {
+   "topic": "Cleopatra",
+   "alt": [
+    "Cleopatra VII"
+   ],
+   "category": "History",
+   "text": [
+    "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt. She was a member of a Macedonian Greek dynasty and is said to have been the first in her family to learn the Egyptian language.",
+    "Cleopatra formed alliances with Julius Caesar and later with Mark Antony. After their defeat by Octavian at the Battle of Actium, she died in 30 BCE and Egypt became a province of Rome."
+   ]
+  },
+  {
+   "topic": "Leonardo da Vinci",
+   "alt": [
+    "Leonardo",
+    "Da Vinci"
+   ],
+   "category": "People",
+   "text": [
+    "Leonardo da Vinci was an Italian painter, engineer, and scientist of the Renaissance, born in 1452. His paintings include The Last Supper and the Mona Lisa.",
+    "Leonardo filled thousands of notebook pages with mirror-written notes and drawings of anatomy, machines, birds, and water. He sketched designs for flying machines centuries before powered flight."
+   ]
+  },
+  {
+   "topic": "Marie Curie",
+   "alt": [
+    "Curie",
+    "Madame Curie"
+   ],
+   "category": "People",
+   "text": [
+    "Marie Curie was a Polish-born physicist and chemist who did pioneering research on radioactivity in France. With her husband Pierre, she discovered the elements polonium and radium.",
+    "She was the first woman to win a Nobel Prize and the first person to win Nobel Prizes in two different sciences, physics in 1903 and chemistry in 1911. Curie also helped bring mobile X-ray units to the front during World War I."
+   ]
+  },
+  {
+   "topic": "Albert Einstein",
+   "alt": [
+    "Einstein"
+   ],
+   "category": "People",
+   "text": [
+    "Albert Einstein was a German-born theoretical physicist best known for developing the theory of relativity. His equation E = mc² shows that mass and energy are equivalent.",
+    "Einstein received the 1921 Nobel Prize in Physics for explaining the photoelectric effect. He moved to the United States in 1933 and worked at the Institute for Advanced Study in Princeton."
+   ]
+  },
+  {
+   "topic": "Isaac Newton",
+   "alt": [
+    "Newton",
+    "Sir Isaac Newton"
+   ],
+   "category": "People",
+   "text": [
+    "Isaac Newton was an English mathematician and physicist, born in 1643. His book Principia set out the laws of motion and the law of universal gravitation.",
+    "Newton also built the first practical reflecting telescope and showed that white light is a mixture of colors. Along with Gottfried Leibniz, he developed calculus, and a famous story links his ideas on gravity to a falling apple."
+   ]
+  },
+  {
+   "topic": "Charles Darwin",
+   "alt": [
+    "Darwin"
+   ],
+   "category": "People",
+   "text": [
+    "Charles Darwin was an English naturalist best known for the theory of evolution by natural selection. As a young man he sailed around the world for five years aboard HMS Beagle.",
+    "Darwin published On the Origin of Species in 1859, arguing that living things change over generations as those best suited to their surroundings survive and reproduce. He is buried in Westminster Abbey."
+   ]
+  },
+  {
+   "topic": "Amelia Earhart",
+   "alt": [
+    "Earhart"
+   ],
+   "category": "People",
+   "text": [
+    "Amelia Earhart was an American aviation pioneer, born in Kansas in 1897. In 1932 she became the first woman to fly solo across the Atlantic Ocean.",
+    "She set many flying records and encouraged women to take up aviation. In 1937 Earhart and her navigator Fred Noonan disappeared over the central Pacific during an attempt to fly around the world."
+   ]
+  },
+  {
+   "topic": "Titanic",
+   "alt": [
+    "RMS Titanic",
+    "The Titanic"
+   ],
+   "category": "History",
+   "text": [
+    "The Titanic was a British passenger liner that sank in the North Atlantic on April 15, 1912, after striking an iceberg on her maiden voyage from Southampton to New York.",
+    "More than 1,500 people died, partly because there were not enough lifeboats for everyone aboard. The wreck of the Titanic was found in 1985 by an expedition led by Robert Ballard."
+   ]
+  },
+  {
+   "topic": "Apollo 11",
+   "alt": [
+    "Apollo Eleven"
+   ],
+   "category": "Space",
+   "text": [
+    "Apollo 11 was the NASA spaceflight that first landed humans on the Moon. Astronauts Neil Armstrong and Buzz Aldrin touched down in the lunar module Eagle on July 20, 1969.",
+    "Michael Collins stayed in orbit aboard the command module Columbia. Armstrong's words as he stepped onto the surface, about one small step and one giant leap, were heard by hundreds of millions of people."
+   ]
+  },
+  {
+   "topic": "Roman Empire",
+   "alt": [
+    "Rome",
+    "Ancient Rome"
+   ],
+   "category": "History",
+   "text": [
+    "The Roman Empire was the period of ancient Roman civilization ruled by emperors, beginning when Augustus took power in 27 BCE. At its height it surrounded the Mediterranean Sea.",
+    "Romans built roads, aqueducts, and cities across Europe, North Africa, and the Middle East. The western half of the empire fell in 476 CE, while the eastern half, later called the Byzantine Empire, lasted until 1453."
+   ]
+  },
+  {
+   "topic": "Vikings",
+   "alt": [
+    "Viking",
+    "Norsemen"
+   ],
+   "category": "History",
+   "text": [
+    "The Vikings were seafaring Norse people from Scandinavia who raided, traded, and settled across Europe from the late 700s to the 1000s. They sailed in fast, shallow longships.",
+    "Vikings settled in Iceland and Greenland, and Leif Erikson reached North America around the year 1000. Their sagas, runes, and myths about gods such as Odin and Thor still capture the imagination."
+   ]
+  },
+  {
+   "topic": "Silk Road",
+   "alt": [
+    "Silk Route",
+    "Silk Roads"
+   ],
+   "category": "History",
+   "text": [
+    "The Silk Road was a network of trade routes linking China with Central Asia, the Middle East, and Europe. It flourished from about the second century BCE.",
+    "Caravans carried silk, spices, paper, and precious metals, but ideas, religions, and diseases also traveled along the Silk Road. Marco Polo's account of his journey to China made the routes famous in Europe."
+   ]
+  },
+  {
+   "topic": "Heart",
+   "alt": [
+    "Human heart"
+   ],
+   "category": "Human Body",
+   "text": [
+    "The heart is a muscular organ that pumps blood through the body. In humans it has four chambers: two upper atria and two lower ventricles.",
+    "The right side of the heart sends blood to the lungs to pick up oxygen, and the left side pumps it out to the rest of the body. An adult heart beats about 100,000 times a day."
+   ]
+  },
+  {
+   "topic": "Brain",
+   "alt": [
+    "Human brain"
+   ],
+   "category": "Human Body",
+   "text": [
+    "The brain is the organ that controls thought, memory, movement, and the senses. It contains about 86 billion nerve cells called neurons.",
+    "The largest part, the cerebrum, is divided into left and right hemispheres. The brain uses about a fifth of the body's energy, even though it makes up only about two percent of its weight."
+   ]
+  },
+  {
+   "topic": "Skeleton",
+   "alt": [
+    "Human skeleton",
+    "Skeletal system"
+   ],
+   "category": "Human Body",
+   "text": [
+    "The skeleton is the framework of bones that supports the body, protects organs, and works with muscles to allow movement. An adult human skeleton has 206 bones.",
+    "Babies are born with more bones, some of which fuse together as they grow. The smallest bone, the stapes, is in the ear, and the longest, the femur, is in the thigh."
+   ]
+  },
+  {
+   "topic": "Vaccine",
+   "alt": [
+    "Vaccines",
+    "Vaccination"
+   ],
+   "category": "Science",
+   "text": [
+    "A vaccine is a preparation that trains the immune system to recognize and fight a disease. It often contains a weakened or inactivated germ, or part of one.",
+    "In 1796 Edward Jenner used material from cowpox to protect people against smallpox. Vaccines later helped wipe out smallpox entirely and nearly eliminate polio."
+   ]
+  },
+  {
+   "topic": "Penicillin",
+   "alt": [],
+   "category": "Science",
+   "text": [
+    "Penicillin was one of the first antibiotics, medicines that kill or stop the growth of bacteria. Alexander Fleming discovered it in 1928 when he noticed mold killing bacteria in a dish in his London laboratory.",
+    "Howard Florey and Ernst Chain later found ways to purify penicillin, and it was mass-produced during World War II. It saved countless lives from infections that had often been deadly."
+   ]
+  },
+  {
+   "topic": "Rubik's Cube",
+   "alt": [
+    "Rubiks Cube",
+    "Rubik Cube",
+    "Magic Cube"
+   ],
+   "category": "Games",
+   "text": [
+    "The Rubik's Cube is a three-dimensional puzzle invented in 1974 by Ernő Rubik, a Hungarian professor of architecture. Each face of the cube is covered by nine stickers of one solid color.",
+    "Twisting the layers scrambles the colors, and the goal is to return every face to a single color. Speedcubers can now solve a Rubik's Cube in just a few seconds."
+   ]
+  },
+  {
+   "topic": "Lego",
+   "alt": [
+    "LEGO",
+    "Legos",
+    "Lego bricks"
+   ],
+   "category": "Games",
+   "text": [
+    "Lego is a line of plastic construction toys made by a Danish company founded by Ole Kirk Christiansen. The name comes from the Danish words leg godt, meaning play well.",
+    "The interlocking brick with studs on top was patented in 1958, and bricks made then still fit those made today. Builders use Lego to create everything from small cars to huge models of famous buildings."
+   ]
+  },
+  {
+   "topic": "Origami",
+   "alt": [],
+   "category": "Arts",
+   "text": [
+    "Origami is the art of folding paper into decorative shapes and figures, closely associated with Japan. Its name comes from the Japanese words for folding and paper.",
+    "Traditional origami usually starts with a single square sheet and uses no cuts or glue. The paper crane is one of its best-known designs, and folding a thousand cranes is said to bring good fortune."
+   ]
+  },
+  {
+   "topic": "Hot air balloon",
+   "alt": [
+    "Hot-air balloon",
+    "Balloon"
+   ],
+   "category": "Inventions",
+   "text": [
+    "A hot air balloon is an aircraft lifted by heated air inside a large fabric envelope. Because hot air is less dense than the cooler air around it, the balloon rises.",
+    "The Montgolfier brothers launched the first crewed hot air balloon flight in Paris in 1783. Pilots today use propane burners to control altitude and ride the wind to steer."
+   ]
+  },
+  {
+   "topic": "Bicycle",
+   "alt": [
+    "Bike"
+   ],
+   "category": "Inventions",
+   "text": [
+    "A bicycle is a human-powered vehicle with two wheels, one behind the other, driven by pedals. An early version without pedals, pushed along by the rider's feet, appeared in Germany in 1817.",
+    "The safety bicycle of the 1880s, with equal-sized wheels and a chain drive, made cycling popular. Pneumatic tires soon followed, and the bicycle became one of the most efficient ways to travel."
+   ]
+  },
+  {
+   "topic": "Steam engine",
+   "alt": [
+    "Steam engines"
+   ],
+   "category": "Inventions",
+   "text": [
+    "A steam engine is a machine that uses the pressure of steam to do mechanical work. Thomas Newcomen built an early engine in 1712 to pump water out of mines.",
+    "James Watt's improvements in the 1760s and 1770s made the steam engine far more efficient. It powered factories, trains, and ships, and it drove the Industrial Revolution."
+   ]
+  },
+  {
+   "topic": "Television",
+   "alt": [
+    "TV"
+   ],
+   "category": "Technology",
+   "text": [
+    "Television is a system for sending moving pictures and sound to distant screens. Scottish inventor John Logie Baird demonstrated an early mechanical version in 1926.",
+    "Electronic television, developed by inventors such as Philo Farnsworth, took over in the 1930s. Television sets spread rapidly after World War II, and color broadcasts became common in the 1960s."
+   ]
+  },
+  {
+   "topic": "Smartphone",
+   "alt": [
+    "Smart phone",
+    "Mobile phone",
+    "Cell phone"
+   ],
+   "category": "Technology",
+   "text": [
+    "A smartphone is a handheld mobile phone that works like a small computer, with a touchscreen, internet access, and downloadable apps. Early models appeared in the 1990s.",
+    "The release of Apple's iPhone in 2007 and Google's Android system soon after made the smartphone a mass-market device. Billions of people now use one for messages, maps, photos, and payments."
+   ]
+  },
+  {
+   "topic": "Robot",
+   "alt": [
+    "Robots",
+    "Robotics"
+   ],
+   "category": "Technology",
+   "text": [
+    "A robot is a machine that can carry out tasks automatically, often guided by a computer. The word comes from a 1920 Czech play by Karel Čapek and is related to a word for forced labor.",
+    "Industrial robots weld and paint cars on assembly lines, and robotic rovers explore other planets. Engineers are building robots that walk, grasp objects, and help in homes and hospitals."
+   ]
+  },
+  {
+   "topic": "Hurricane",
+   "alt": [
+    "Hurricanes",
+    "Tropical cyclone",
+    "Typhoon"
+   ],
+   "category": "Science",
+   "text": [
+    "A hurricane is a powerful rotating storm that forms over warm tropical ocean water. In the western Pacific the same kind of storm is called a typhoon, and in the Indian Ocean a cyclone.",
+    "At its center is a calm eye surrounded by a wall of fierce wind and rain. A hurricane is rated by its wind speed, and storm surge pushed ashore by the wind can cause severe flooding."
+   ]
+  },
+  {
+   "topic": "Tornado",
+   "alt": [
+    "Tornadoes",
+    "Twister"
+   ],
+   "category": "Science",
+   "text": [
+    "A tornado is a violently rotating column of air that reaches from a thunderstorm down to the ground. Its winds can be the strongest of any storm on Earth.",
+    "More tornadoes occur in the United States than anywhere else, especially in a region of the Great Plains nicknamed Tornado Alley. Scientists rate their strength by the damage they cause."
+   ]
+  },
+  {
+   "topic": "Earthquake",
+   "alt": [
+    "Earthquakes",
+    "Quake"
+   ],
+   "category": "Science",
+   "text": [
+    "An earthquake is a sudden shaking of the ground caused by rocks slipping along a fault in Earth's crust. The point underground where it starts is called the focus, and the spot above it is the epicenter.",
+    "Seismographs record the waves an earthquake sends through the planet. Large undersea earthquakes can push up the ocean floor and set off tsunamis."
+   ]
+  },
+  {
+   "topic": "Aurora",
+   "alt": [
+    "Northern lights",
+    "Aurora borealis",
+    "Southern lights",
+    "Aurora australis"
+   ],
+   "category": "Science",
+   "text": [
+    "An aurora is a natural display of colored light in the night sky, seen most often near the Arctic and Antarctic. In the north it is called the aurora borealis, or northern lights.",
+    "It happens when charged particles from the Sun are guided by Earth's magnetic field into the upper atmosphere, where they make gases glow. Oxygen gives off green and red light, and nitrogen gives blue and purple."
+   ]
+  },
+  {
+   "topic": "Glacier",
+   "alt": [
+    "Glaciers"
+   ],
+   "category": "Nature",
+   "text": [
+    "A glacier is a large, slow-moving mass of ice formed from snow that has piled up and compacted over many years. It flows downhill under its own weight.",
+    "As a glacier moves it carves valleys, polishes rock, and carries boulders far from their source. Glaciers hold most of the world's fresh water, and many are shrinking as the climate warms."
+   ]
+  },
+  {
+   "topic": "Coral reef",
+   "alt": [
+    "Coral reefs",
+    "Reef"
+   ],
+   "category": "Nature",
+   "text": [
+    "A coral reef is an underwater structure built from the skeletons of tiny animals called coral polyps. Reefs grow mostly in warm, shallow, clear tropical seas.",
+    "Although coral reefs cover a tiny fraction of the ocean floor, they shelter about a quarter of all marine species. Algae living inside the corals give them color and food through photosynthesis."
+   ]
+  },
+  {
+   "topic": "Kangaroo",
+   "alt": [
+    "Kangaroos"
+   ],
+   "category": "Animals",
+   "text": [
+    "The kangaroo is a large marsupial native to Australia, known for hopping on its powerful hind legs and balancing with its thick tail. It can cover several meters in a single bound.",
+    "A newborn kangaroo, called a joey, is about the size of a jellybean and crawls into its mother's pouch to keep growing. Kangaroos live in groups called mobs and graze mainly on grasses."
+   ]
+  },
+  {
+   "topic": "Elephant",
+   "alt": [
+    "Elephants"
+   ],
+   "category": "Animals",
+   "text": [
+    "The elephant is the largest living land animal. There are African species, which have large ears shaped a little like the continent, and the smaller Asian elephant.",
+    "An elephant's trunk is a long, flexible nose and upper lip used for breathing, smelling, drinking, and grasping. Elephants live in close family herds led by an older female called the matriarch."
+   ]
+  },
+  {
+   "topic": "Giraffe",
+   "alt": [
+    "Giraffes"
+   ],
+   "category": "Animals",
+   "text": [
+    "The giraffe is the tallest living animal, with males reaching more than five meters. It lives on the savannas and open woodlands of Africa.",
+    "A giraffe's long neck has only seven vertebrae, the same number as a human's. It uses a dark, tough tongue up to half a meter long to strip leaves from thorny acacia trees."
+   ]
+  },
+  {
+   "topic": "Polar bear",
+   "alt": [
+    "Polar bears",
+    "Ice bear"
+   ],
+   "category": "Animals",
+   "text": [
+    "The polar bear is a large bear that lives in the Arctic, mostly on sea ice. It is the largest land carnivore, and it hunts seals that come up to breathe at holes in the ice.",
+    "Under its thick, pale fur, a polar bear has black skin that absorbs the Sun's warmth. Shrinking sea ice is the greatest threat to its survival."
+   ]
+  },
+  {
+   "topic": "Bald eagle",
+   "alt": [
+    "American eagle"
+   ],
+   "category": "Animals",
+   "text": [
+    "The bald eagle is a large bird of prey found across North America, recognized by its white head and tail and dark brown body. Despite its name, it is not bald.",
+    "Bald eagles eat mostly fish snatched from the water with their talons, and they build some of the largest nests of any bird. It became the national bird of the United States in 1782."
+   ]
+  },
+  {
+   "topic": "Dolphin",
+   "alt": [
+    "Dolphins",
+    "Bottlenose dolphin"
+   ],
+   "category": "Animals",
+   "text": [
+    "A dolphin is a small toothed whale known for its intelligence and playful behavior. The bottlenose is the most familiar species, found in warm and temperate seas.",
+    "Dolphins hunt using echolocation, sending out clicks and listening for echoes. They breathe through a blowhole on top of the head and live in groups called pods."
+   ]
+  },
+  {
+   "topic": "Shark",
+   "alt": [
+    "Sharks"
+   ],
+   "category": "Animals",
+   "text": [
+    "A shark is a fish with a skeleton made of cartilage rather than bone. Sharks have lived in the oceans for more than 400 million years, long before the dinosaurs.",
+    "Most sharks lose and replace thousands of teeth over a lifetime. The whale shark, the largest fish in the world, eats plankton, while the great white is a fearsome hunter of seals."
+   ]
+  },
+  {
+   "topic": "Chameleon",
+   "alt": [
+    "Chameleons"
+   ],
+   "category": "Animals",
+   "text": [
+    "A chameleon is a lizard famous for changing the color of its skin. Many species live in Africa, and nearly half are found only on the island of Madagascar.",
+    "A chameleon's eyes can move independently, letting it look in two directions at once. It catches insects by shooting out a sticky tongue that can be longer than its body."
+   ]
+  },
+  {
+   "topic": "Owl",
+   "alt": [
+    "Owls"
+   ],
+   "category": "Animals",
+   "text": [
+    "An owl is a bird of prey that hunts mostly at night. Its large, forward-facing eyes give it excellent vision in dim light.",
+    "Owls cannot move their eyes, but they can turn their heads about 270 degrees. Soft, fringed feathers let them fly almost silently, and they cough up pellets of fur and bone they cannot digest."
+   ]
+  },
+  {
+   "topic": "Flamingo",
+   "alt": [
+    "Flamingos",
+    "Flamingoes"
+   ],
+   "category": "Animals",
+   "text": [
+    "A flamingo is a tall wading bird with long legs, a curved neck, and a bent bill. It often stands on one leg.",
+    "A flamingo gets its pink color from pigments in the algae and tiny shrimp it eats. It feeds with its head upside down, filtering food from shallow, salty water."
+   ]
+  },
+  {
+   "topic": "Sloth",
+   "alt": [
+    "Sloths"
+   ],
+   "category": "Animals",
+   "text": [
+    "A sloth is a slow-moving mammal that lives in the rainforests of Central and South America. It spends most of its life hanging upside down from tree branches.",
+    "Sloths move so little that algae grow in their fur, giving them a greenish tint that helps them hide. A sloth climbs down to the ground only about once a week to relieve itself."
+   ]
+  },
+  {
+   "topic": "Wolf",
+   "alt": [
+    "Wolves",
+    "Gray wolf",
+    "Grey wolf"
+   ],
+   "category": "Animals",
+   "text": [
+    "The gray wolf is the largest wild member of the dog family. It lives in forests, tundra, and mountains across North America, Europe, and Asia.",
+    "Wolves live and hunt in family groups called packs, and they howl to keep in touch over long distances. Domestic dogs are descended from ancient wolves."
+   ]
+  },
+  {
+   "topic": "Sunflower",
+   "alt": [
+    "Sunflowers"
+   ],
+   "category": "Nature",
+   "text": [
+    "The sunflower is a tall plant with a large flower head of yellow petals around a brown center. It is native to North America, where Indigenous peoples grew it for food.",
+    "Each flower head is made of many tiny florets arranged in spiral patterns. Young sunflowers turn to follow the Sun across the sky, and their seeds are pressed for oil or eaten as snacks."
+   ]
+  },
+  {
+   "topic": "Cactus",
+   "alt": [
+    "Cacti",
+    "Cactuses"
+   ],
+   "category": "Nature",
+   "text": [
+    "A cactus is a plant adapted to dry places, with a thick stem that stores water. Nearly all cacti are native to the Americas.",
+    "Its spines are modified leaves that protect it from animals and reduce water loss. The giant saguaro of the Sonoran Desert can grow more than 12 meters tall and live for 150 years."
+   ]
+  },
+  {
+   "topic": "Bamboo",
+   "alt": [],
+   "category": "Nature",
+   "text": [
+    "Bamboo is a giant grass with hollow, jointed stems. Some species are among the fastest-growing plants in the world, shooting up nearly a meter in a single day.",
+    "Bamboo is strong and light, and people use it for buildings, scaffolding, furniture, and paper. It is the main food of the giant panda."
+   ]
+  },
+  {
+   "topic": "Mushroom",
+   "alt": [
+    "Mushrooms",
+    "Fungus",
+    "Fungi"
+   ],
+   "category": "Nature",
+   "text": [
+    "A mushroom is the fruiting body of a fungus, the part that grows above ground to release spores. Much of the fungus lives hidden underground as a web of threads.",
+    "Some mushrooms are prized foods, while others are deadly poisonous, such as the death cap. Fungi break down dead plants and return nutrients to the soil."
+   ]
+  },
+  {
+   "topic": "Lightning",
+   "alt": [],
+   "category": "Science",
+   "text": [
+    "Lightning is a giant electrical spark that flashes during a thunderstorm. It can jump within a cloud, between clouds, or between a cloud and the ground.",
+    "A bolt heats the air around it to temperatures hotter than the surface of the Sun, and the sudden expansion of the air makes thunder. Benjamin Franklin's kite experiment helped show that lightning is electricity."
+   ]
+  },
+  {
+   "topic": "Tsunami",
+   "alt": [
+    "Tsunamis",
+    "Tidal wave"
+   ],
+   "category": "Science",
+   "text": [
+    "A tsunami is a series of powerful ocean waves caused by a sudden shift of water, usually from an undersea earthquake. Landslides and volcanic eruptions can also cause one.",
+    "In deep water a tsunami may be barely noticeable, but it grows tall as it reaches shallow water near shore. The name comes from Japanese words meaning harbor wave."
+   ]
+  },
+  {
+   "topic": "Magnet",
+   "alt": [
+    "Magnets",
+    "Magnetism"
+   ],
+   "category": "Science",
+   "text": [
+    "A magnet is an object that produces a magnetic field, pulling on iron and certain other metals. Every magnet has a north pole and a south pole.",
+    "Opposite poles attract and like poles repel. Earth itself acts like a giant magnet, which is why a compass needle points north, and magnets are used in motors, speakers, and computer drives."
+   ]
+  },
+  {
+   "topic": "Atom",
+   "alt": [
+    "Atoms"
+   ],
+   "category": "Science",
+   "text": [
+    "An atom is the smallest unit of a chemical element. It has a tiny, dense nucleus of protons and neutrons, surrounded by electrons.",
+    "The number of protons in the nucleus decides which element an atom is. The word comes from a Greek term meaning uncuttable, though scientists later found that atoms can be split."
+   ]
+  },
+  {
+   "topic": "Electricity",
+   "alt": [],
+   "category": "Science",
+   "text": [
+    "Electricity is a form of energy produced by the movement or buildup of charged particles, such as electrons. A flow of charge through a wire is called an electric current.",
+    "Michael Faraday showed in 1831 that moving a magnet near a coil of wire produces a current, the basis of electric generators. Power plants send electricity over long lines to homes and businesses."
+   ]
+  },
+  {
+   "topic": "Sun",
+   "alt": [
+    "The Sun",
+    "Sol"
+   ],
+   "category": "Space",
+   "text": [
+    "The Sun is the star at the center of our solar system. It is a huge ball of hot gas, mostly hydrogen and helium, about 150 million kilometers from Earth.",
+    "Deep in its core, nuclear fusion turns hydrogen into helium and releases enormous energy. Sunlight takes about eight minutes to reach Earth, and the Sun holds more than 99 percent of the solar system's mass."
+   ]
+  },
+  {
+   "topic": "Jupiter",
+   "alt": [],
+   "category": "Space",
+   "text": [
+    "Jupiter is the fifth planet from the Sun and the largest in the solar system, more than twice as massive as all the other planets combined. It is a gas giant with colorful bands of clouds.",
+    "Its Great Red Spot is a storm larger than Earth that has raged for centuries. Galileo discovered Jupiter's four largest moons in 1610, among them Europa, which may hide an ocean beneath its ice."
+   ]
+  },
+  {
+   "topic": "International Space Station",
+   "alt": [
+    "ISS",
+    "Space Station"
+   ],
+   "category": "Space",
+   "text": [
+    "The International Space Station is a large laboratory that orbits Earth about 400 kilometers up. Space agencies from the United States, Russia, Europe, Japan, and Canada built it in pieces starting in 1998.",
+    "Astronauts have lived aboard continuously since 2000. The station circles the planet about every 90 minutes, so its crew sees around sixteen sunrises a day."
+   ]
+  },
+  {
+   "topic": "Eclipse",
+   "alt": [
+    "Solar eclipse",
+    "Lunar eclipse",
+    "Eclipses"
+   ],
+   "category": "Space",
+   "text": [
+    "An eclipse happens when one object in space moves into the shadow of another. In a solar eclipse the Moon passes between Earth and the Sun and blocks its light.",
+    "During a total solar eclipse the sky darkens and the Sun's glowing outer atmosphere, the corona, becomes visible. In a lunar eclipse, Earth's shadow falls on the Moon, often turning it a coppery red."
+   ]
+  },
+  {
+   "topic": "Big Ben",
+   "alt": [
+    "Elizabeth Tower",
+    "Great Bell"
+   ],
+   "category": "Landmarks",
+   "text": [
+    "Big Ben is the nickname of the Great Bell in the clock tower at the north end of the Palace of Westminster in London. The name is often used for the tower and clock as well.",
+    "The tower was completed in 1859 and renamed Elizabeth Tower in 2012 to honor Queen Elizabeth II. Its bell weighs more than 13 tonnes, and its chimes are broadcast on radio."
+   ]
+  },
+  {
+   "topic": "Sydney Opera House",
+   "alt": [
+    "Opera House"
+   ],
+   "category": "Landmarks",
+   "text": [
+    "The Sydney Opera House is a performing arts center on Bennelong Point in Sydney Harbour, Australia. Its roof is made of white shell-like vaults that resemble billowing sails.",
+    "Danish architect Jørn Utzon won a design competition for it in 1957, and the building opened in 1973. It hosts opera, ballet, theater, and concerts, and it is one of the most famous buildings of the twentieth century."
+   ]
+  },
+  {
+   "topic": "Golden Gate Bridge",
+   "alt": [
+    "Golden Gate"
+   ],
+   "category": "Landmarks",
+   "text": [
+    "The Golden Gate Bridge is a suspension bridge spanning the strait between San Francisco Bay and the Pacific Ocean. When it opened in 1937, it had the longest main span of any suspension bridge.",
+    "The bridge is painted a reddish color called international orange, chosen to stand out in fog and complement the hills. Its towers rise about 227 meters above the water."
+   ]
+  },
+  {
+   "topic": "Petra",
+   "alt": [],
+   "category": "Landmarks",
+   "text": [
+    "Petra is an ancient city in southern Jordan, famous for buildings carved directly into rose-colored sandstone cliffs. It was the capital of the Nabataean kingdom more than two thousand years ago.",
+    "Visitors reach Petra through the Siq, a narrow canyon that opens onto the carved facade known as the Treasury. Clever systems of channels and cisterns brought water to the desert city."
+   ]
+  },
+  {
+   "topic": "Angkor Wat",
+   "alt": [
+    "Angkor"
+   ],
+   "category": "Landmarks",
+   "text": [
+    "Angkor Wat is a vast temple complex in Cambodia and the largest religious monument in the world. It was built in the early 1100s for King Suryavarman II of the Khmer Empire.",
+    "Originally dedicated to the Hindu god Vishnu, Angkor Wat later became a Buddhist temple. Its five towers represent the peaks of the mythical Mount Meru and appear on Cambodia's flag."
+   ]
+  },
+  {
+   "topic": "Easter Island",
+   "alt": [
+    "Rapa Nui"
+   ],
+   "category": "Places",
+   "text": [
+    "Easter Island is a remote island in the southeastern Pacific Ocean, belonging to Chile. Its Polynesian name is Rapa Nui, and Dutch explorers named it after arriving on Easter Sunday in 1722.",
+    "The island is famous for nearly a thousand huge stone statues called moai, carved by its people centuries ago. Most were cut from the rock of a single volcanic crater."
+   ]
+  },
+  {
+   "topic": "Hawaii",
+   "alt": [
+    "Hawaiian Islands"
+   ],
+   "category": "Places",
+   "text": [
+    "Hawaii is a chain of volcanic islands in the central Pacific Ocean and the fiftieth state of the United States, admitted in 1959. Its capital, Honolulu, is on the island of Oahu.",
+    "The islands formed as the Pacific Plate moved over a hot spot in Earth's mantle. Kilauea on the Big Island is one of the most active volcanoes in the world, and surfing has deep roots in Hawaiian culture."
+   ]
+  },
+  {
+   "topic": "Mississippi River",
+   "alt": [
+    "Mississippi"
+   ],
+   "category": "Geography",
+   "text": [
+    "The Mississippi River is the second-longest river in North America, flowing south from Lake Itasca in Minnesota to the Gulf of Mexico below New Orleans.",
+    "Together with its tributaries, such as the Missouri and Ohio rivers, it drains much of the United States. Mark Twain worked as a steamboat pilot on the Mississippi and wrote about life along its banks."
+   ]
+  },
+  {
+   "topic": "Nile",
+   "alt": [
+    "Nile River",
+    "River Nile",
+    "The Nile"
+   ],
+   "category": "Geography",
+   "text": [
+    "The Nile is a major river of northeastern Africa, long considered the longest river in the world. Its two main branches, the White Nile and the Blue Nile, meet at Khartoum in Sudan.",
+    "Ancient Egyptian civilization depended on the river's yearly floods, which left fertile soil along its banks. The Aswan High Dam, completed in 1970, now controls the flooding."
+   ]
+  },
+  {
+   "topic": "Alps",
+   "alt": [
+    "The Alps",
+    "Alpine"
+   ],
+   "category": "Geography",
+   "text": [
+    "The Alps are the highest and most extensive mountain range entirely in Europe, arcing through France, Switzerland, Italy, Austria, and neighboring countries. Mont Blanc is the highest peak.",
+    "The range formed as the African and European plates pushed together. The Alps are a center for skiing and mountaineering, and their glaciers feed rivers such as the Rhine and Rhône."
+   ]
+  },
+  {
+   "topic": "Hollywood",
+   "alt": [],
+   "category": "Places",
+   "text": [
+    "Hollywood is a district of Los Angeles, California, that became the center of the American film industry in the early 1900s. Its sunny weather and varied scenery attracted filmmakers.",
+    "A large sign spelling out its name stands on the hills above the district. The Walk of Fame along Hollywood Boulevard honors actors, musicians, and other entertainers with stars set in the sidewalk."
+   ]
+  },
+  {
+   "topic": "Broadway",
+   "alt": [
+    "Broadway theatre"
+   ],
+   "category": "Arts",
+   "text": [
+    "Broadway refers to the large professional theaters in the Theater District of Manhattan in New York City, near Times Square. The name comes from the avenue that runs through it.",
+    "Broadway is famous for musicals such as The Phantom of the Opera, Hamilton, and The Lion King. The top awards for its shows and performers are the Tony Awards."
+   ]
+  },
+  {
+   "topic": "Opera",
+   "alt": [],
+   "category": "Music",
+   "text": [
+    "Opera is a dramatic art form in which a story is told through singing accompanied by an orchestra. It began in Italy around 1600.",
+    "Composers such as Mozart, Verdi, Wagner, and Puccini wrote some of the most famous operas, including The Magic Flute and La Bohème. Solo songs in an opera are called arias."
+   ]
+  },
+  {
+   "topic": "Guitar",
+   "alt": [
+    "Guitars"
+   ],
+   "category": "Music",
+   "text": [
+    "The guitar is a stringed instrument usually played by plucking or strumming six strings. Its strings are pressed against metal frets on the neck to change the pitch.",
+    "The classical guitar developed in Spain. The electric guitar, which uses pickups and an amplifier, became the defining sound of rock music in the 1950s and 1960s."
+   ]
+  },
+  {
+   "topic": "Orchestra",
+   "alt": [
+    "Symphony orchestra",
+    "Orchestras"
+   ],
+   "category": "Music",
+   "text": [
+    "An orchestra is a large group of musicians playing instruments together, usually led by a conductor. A symphony orchestra is divided into strings, woodwinds, brass, and percussion.",
+    "Violins make up the largest section of most orchestras. Before a concert the players tune to a note played by the oboe."
+   ]
+  },
+  {
+   "topic": "Hamlet",
+   "alt": [],
+   "category": "Literature",
+   "text": [
+    "Hamlet is a tragedy by William Shakespeare, written around 1600. Its hero is a prince of Denmark who seeks revenge after the ghost of his father reveals that he was murdered.",
+    "The play's soliloquy beginning with the words to be, or not to be is one of the most quoted passages in English. Hamlet is Shakespeare's longest play."
+   ]
+  },
+  {
+   "topic": "Pride and Prejudice",
+   "alt": [],
+   "category": "Literature",
+   "text": [
+    "Pride and Prejudice is a novel by the English author Jane Austen, published in 1813. It follows Elizabeth Bennet, one of five sisters, as she deals with manners, marriage, and money.",
+    "Elizabeth's sharp wit and her changing feelings toward the proud Mr. Darcy drive the story. Its opening line about a single man in possession of a good fortune is among the most famous in fiction."
+   ]
+  },
+  {
+   "topic": "Don Quixote",
+   "alt": [
+    "Don Quijote"
+   ],
+   "category": "Literature",
+   "text": [
+    "Don Quixote is a Spanish novel by Miguel de Cervantes, published in two parts in 1605 and 1615. It is often called the first modern novel.",
+    "Its hero, an aging gentleman, reads so many tales of chivalry that he sets out as a knight-errant with his squire, Sancho Panza. In a famous scene, he charges at windmills he believes are giants."
+   ]
+  },
+  {
+   "topic": "Volleyball",
+   "alt": [],
+   "category": "Sports",
+   "text": [
+    "Volleyball is a team sport in which two teams of six players use their hands to hit a ball over a high net. A team may touch the ball up to three times before sending it back.",
+    "William G. Morgan invented volleyball in 1895 in Holyoke, Massachusetts, as a gentler alternative to basketball. Beach volleyball, played in pairs on sand, joined the Olympics in 1996."
+   ]
+  },
+  {
+   "topic": "Tennis",
+   "alt": [
+    "Lawn tennis"
+   ],
+   "category": "Sports",
+   "text": [
+    "Tennis is a racket sport played by two players or two pairs, who hit a ball over a net across a rectangular court. Points are scored as 15, 30, 40, and game.",
+    "The four most important tournaments are the Australian Open, the French Open, Wimbledon, and the U.S. Open. Wimbledon, played on grass in London, is the oldest tennis tournament in the world."
+   ]
+  },
+  {
+   "topic": "Golf",
+   "alt": [],
+   "category": "Sports",
+   "text": [
+    "Golf is a sport in which players use clubs to hit a small ball into a series of holes on a course in as few strokes as possible. A standard round has eighteen holes.",
+    "The modern game developed in Scotland in the 1400s, and St Andrews is known as its home. A score of one under par on a hole is a birdie, and two under is an eagle."
+   ]
+  },
+  {
+   "topic": "Marathon",
+   "alt": [
+    "Marathons"
+   ],
+   "category": "Sports",
+   "text": [
+    "A marathon is a long-distance running race of 42.195 kilometers. It is named after a legend about a Greek messenger who ran from the battlefield of Marathon to Athens to announce a victory.",
+    "The marathon was part of the first modern Olympic Games in 1896. Big city races in Boston, London, and New York draw tens of thousands of runners every year."
+   ]
+  },
+  {
+   "topic": "Pasta",
+   "alt": [],
+   "category": "Food",
+   "text": [
+    "Pasta is a staple of Italian cooking made from durum wheat dough, often mixed with water or eggs. It is shaped into hundreds of forms, from long spaghetti to tube-shaped penne.",
+    "Pasta can be cooked fresh or dried and is usually served with a sauce. Cooking it al dente, meaning to the tooth, leaves it slightly firm when bitten."
+   ]
+  },
+  {
+   "topic": "Bread",
+   "alt": [],
+   "category": "Food",
+   "text": [
+    "Bread is a staple food made from flour and water, usually baked. It is one of the oldest prepared foods, eaten for thousands of years.",
+    "Most loaves rise because yeast ferments sugars in the dough and gives off carbon dioxide. Sourdough uses wild yeast and bacteria, while flatbreads such as pita and tortillas may use little or no leavening."
+   ]
+  },
+  {
+   "topic": "Cheese",
+   "alt": [],
+   "category": "Food",
+   "text": [
+    "Cheese is a food made by curdling milk, usually from cows, goats, or sheep, and separating the solid curds from the liquid whey. Thousands of varieties exist around the world.",
+    "Aging gives cheese its flavor and texture, from soft brie to hard Parmesan. The holes in Swiss cheese come from gas bubbles released by bacteria."
+   ]
+  },
+  {
+   "topic": "Ice cream",
+   "alt": [
+    "Icecream",
+    "Gelato"
+   ],
+   "category": "Food",
+   "text": [
+    "Ice cream is a frozen dessert made from milk or cream, sugar, and flavorings. It is churned as it freezes so that air is mixed in and ice crystals stay small.",
+    "Vanilla and chocolate are the most popular flavors. Gelato, an Italian style of ice cream, uses more milk and less air, which makes it denser."
+   ]
+  }
+ ]
+}

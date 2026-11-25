@@ -1,0 +1,64 @@
+/* Reversi — Oh My PATTERNS! */
+:root {
+  --rvs-felt: #4f9a73; --rvs-felt-line: rgba(0, 0, 0, 0.28); --rvs-dark: #1d1d1f; --rvs-light: #fbfaf6;
+  --rvs-edge: #121212; --rvs-hint: #ffd447; --rvs-done: #2f7d32;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --rvs-felt: #2f6e4f; --rvs-felt-line: rgba(0, 0, 0, 0.4); --rvs-edge: #0b0b0b; }
+}
+:root[data-theme="dark"] { --rvs-felt: #2f6e4f; --rvs-felt-line: rgba(0, 0, 0, 0.4); --rvs-edge: #0b0b0b; }
+
+.rvs-wrap { width: min(100%, 560px); padding: 16px 16px 24px; margin: auto 0; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.rvs-levels {
+  width: 100%; display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px;
+  padding: 4px; border-radius: 10px; background: var(--bg-soft);
+}
+.rvs-level {
+  position: relative; height: 34px; border: 0; border-radius: 7px; background: none; cursor: pointer;
+  font-size: 14px; font-weight: 700; color: var(--text-muted);
+}
+.rvs-level.is-on { background: var(--surface); color: var(--text); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18); }
+.rvs-mark { position: absolute; top: 1px; right: 4px; font-size: 11px; color: var(--rvs-done); }
+
+.rvs-score { width: 100%; display: flex; justify-content: space-between; gap: 8px; }
+.rvs-side {
+  display: flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px;
+  border: 2px solid transparent; font-weight: 700;
+}
+.rvs-side.is-turn { border-color: var(--text); }
+.rvs-who { font-size: 14px; color: var(--text-muted); }
+.rvs-num { font-size: 22px; font-weight: 800; font-variant-numeric: tabular-nums; min-width: 1.4em; text-align: center; }
+.rvs-disc { width: 20px; height: 20px; border-radius: 50%; border: 1.5px solid var(--rvs-edge); }
+.rvs-disc.is-dark { background: var(--rvs-dark); }
+.rvs-disc.is-light { background: var(--rvs-light); }
+
+.rvs-grid {
+  display: grid; grid-template-columns: repeat(8, minmax(0, 1fr));
+  width: min(100%, calc(100dvh - 260px), 520px); min-width: 280px;
+  background: var(--rvs-felt); border: 3px solid var(--rvs-edge); border-radius: 10px; overflow: hidden;
+  user-select: none; -webkit-user-select: none;
+}
+.rvs-cell {
+  position: relative; aspect-ratio: 1; padding: 0; margin: 0; border: 0; border-radius: 0; background: none; cursor: pointer;
+  box-shadow: inset -1px -1px 0 var(--rvs-felt-line); display: flex; align-items: center; justify-content: center;
+}
+.rvs-piece { width: 78%; height: 78%; border-radius: 50%; transition: background 0.25s; }
+.rvs-cell.is-dark .rvs-piece { background: var(--rvs-dark); box-shadow: 0 2px 0 rgba(0, 0, 0, 0.35); }
+.rvs-cell.is-light .rvs-piece { background: var(--rvs-light); box-shadow: 0 2px 0 rgba(0, 0, 0, 0.35); }
+.rvs-cell.is-move .rvs-piece { width: 22%; height: 22%; background: rgba(0, 0, 0, 0.28); }
+.rvs-cell.is-last::after { content: ""; position: absolute; width: 12%; height: 12%; border-radius: 50%; background: #e0464a; }
+.rvs-cell.is-hint { box-shadow: inset 0 0 0 3px var(--rvs-hint); }
+.rvs-cell.is-flip .rvs-piece { animation: rvs-flip 0.35s ease; }
+@keyframes rvs-flip { 0% { transform: scaleX(1); } 50% { transform: scaleX(0.1); } 100% { transform: scaleX(1); } }
+.rvs-grid.is-over { border-color: var(--rvs-done); }
+.rvs-grid.is-over .rvs-cell { cursor: default; }
+
+.rvs-controls { display: flex; gap: 8px; min-height: 0; }
+.rvs-tip { margin: 0; font-size: 15px; color: var(--text-muted); text-align: center; min-height: 1.4em; }
+.rvs-summary { font-weight: 700; }
+
+.rvs-help ul { padding-left: 20px; margin: 8px 0; }
+.rvs-help li { margin: 4px 0; }
+.rvs-ex { display: grid; grid-template-columns: repeat(8, 28px); background: var(--rvs-felt); border: 2px solid var(--rvs-edge); border-radius: 6px; width: max-content; margin: 6px 0; overflow: hidden; }
+.rvs-ex .rvs-cell { cursor: default; }
+@media (prefers-reduced-motion: reduce) { .rvs-cell.is-flip .rvs-piece { animation: none; } }

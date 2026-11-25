@@ -1,0 +1,3717 @@
+[
+ {
+  "clue": "In the kitchen",
+  "spangram": "COOKINGTOOLS",
+  "words": [
+   "WHISK",
+   "LADLE",
+   "SPATULA",
+   "GRATER",
+   "TONGS",
+   "PEELER",
+   "SIEVE",
+   "SKILLET",
+   "MIXER",
+   "BLENDER",
+   "KETTLE",
+   "STRAINER",
+   "MASHER",
+   "COLANDER"
+  ]
+ },
+ {
+  "clue": "Feathered friends",
+  "spangram": "BIRDWATCHING",
+  "words": [
+   "ROBIN",
+   "SPARROW",
+   "EAGLE",
+   "FALCON",
+   "PIGEON",
+   "PARROT",
+   "FINCH",
+   "HERON",
+   "PELICAN",
+   "TOUCAN",
+   "OSPREY",
+   "MAGPIE",
+   "WARBLER",
+   "CARDINAL"
+  ]
+ },
+ {
+  "clue": "Ring ring",
+  "spangram": "TELEPHONES",
+  "words": [
+   "MOBILE",
+   "CELLULAR",
+   "ROTARY",
+   "LANDLINE",
+   "CORDLESS",
+   "SMART",
+   "PAYPHONE",
+   "FLIP",
+   "DIAL",
+   "RINGER",
+   "HANDSET",
+   "RECEIVER"
+  ]
+ },
+ {
+  "clue": "Under the sea",
+  "spangram": "MARINELIFE",
+  "words": [
+   "SHARK",
+   "WHALE",
+   "DOLPHIN",
+   "OCTOPUS",
+   "SQUID",
+   "CORAL",
+   "STARFISH",
+   "SEAHORSE",
+   "JELLYFISH",
+   "LOBSTER",
+   "CRAB",
+   "OYSTER",
+   "URCHIN",
+   "TURTLE"
+  ]
+ },
+ {
+  "clue": "Fruit salad",
+  "spangram": "FRUITBOWL",
+  "words": [
+   "APPLE",
+   "BANANA",
+   "CHERRY",
+   "GRAPE",
+   "MANGO",
+   "PEACH",
+   "PEAR",
+   "PLUM",
+   "KIWI",
+   "LEMON",
+   "MELON",
+   "ORANGE",
+   "PAPAYA",
+   "APRICOT"
+  ]
+ },
+ {
+  "clue": "Going places",
+  "spangram": "TRANSPORT",
+  "words": [
+   "TRAIN",
+   "PLANE",
+   "SUBWAY",
+   "TRAM",
+   "FERRY",
+   "BICYCLE",
+   "SCOOTER",
+   "TAXI",
+   "TRUCK",
+   "YACHT",
+   "CANOE",
+   "WAGON"
+  ]
+ },
+ {
+  "clue": "Hit the court",
+  "spangram": "BASKETBALL",
+  "words": [
+   "DUNK",
+   "HOOP",
+   "REBOUND",
+   "DRIBBLE",
+   "LAYUP",
+   "ASSIST",
+   "CENTER",
+   "GUARD",
+   "FORWARD",
+   "BLOCK",
+   "STEAL",
+   "TRAVEL",
+   "JUMPER",
+   "FOUL"
+  ]
+ },
+ {
+  "clue": "Space odyssey",
+  "spangram": "SOLARSYSTEM",
+  "words": [
+   "MERCURY",
+   "VENUS",
+   "EARTH",
+   "MARS",
+   "JUPITER",
+   "SATURN",
+   "URANUS",
+   "NEPTUNE",
+   "PLUTO",
+   "COMET",
+   "ASTEROID",
+   "MOON"
+  ]
+ },
+ {
+  "clue": "Rainbow connection",
+  "spangram": "COLORWHEEL",
+  "words": [
+   "CRIMSON",
+   "SCARLET",
+   "ORANGE",
+   "YELLOW",
+   "GREEN",
+   "BLUE",
+   "INDIGO",
+   "VIOLET",
+   "PURPLE",
+   "MAGENTA",
+   "TEAL",
+   "MAROON",
+   "AMBER"
+  ]
+ },
+ {
+  "clue": "Sound of music",
+  "spangram": "INSTRUMENTS",
+  "words": [
+   "PIANO",
+   "GUITAR",
+   "VIOLIN",
+   "CELLO",
+   "FLUTE",
+   "TRUMPET",
+   "DRUMS",
+   "HARP",
+   "OBOE",
+   "CLARINET",
+   "TUBA",
+   "BANJO",
+   "SAXOPHONE",
+   "UKULELE"
+  ]
+ },
+ {
+  "clue": "Wild things",
+  "spangram": "SAFARIBEASTS",
+  "words": [
+   "LION",
+   "TIGER",
+   "ZEBRA",
+   "GIRAFFE",
+   "HIPPO",
+   "RHINO",
+   "CHEETAH",
+   "LEOPARD",
+   "HYENA",
+   "GAZELLE",
+   "BUFFALO",
+   "ELEPHANT",
+   "WARTHOG"
+  ]
+ },
+ {
+  "clue": "Bean there",
+  "spangram": "COFFEESHOP",
+  "words": [
+   "LATTE",
+   "MOCHA",
+   "ESPRESSO",
+   "BARISTA",
+   "MUFFIN",
+   "SCONE",
+   "AMERICANO",
+   "MACCHIATO",
+   "CREAMER",
+   "GRINDER",
+   "CORTADO",
+   "DECAF",
+   "ROAST",
+   "BEANS"
+  ]
+ },
+ {
+  "clue": "Drawing board",
+  "spangram": "ARTSUPPLIES",
+  "words": [
+   "PENCIL",
+   "CRAYON",
+   "MARKER",
+   "CHARCOAL",
+   "PASTEL",
+   "EASEL",
+   "CANVAS",
+   "BRUSH",
+   "PALETTE",
+   "ERASER",
+   "CHALK",
+   "GOUACHE",
+   "STENCIL",
+   "SPONGE"
+  ]
+ },
+ {
+  "clue": "Weather report",
+  "spangram": "FORECAST",
+  "words": [
+   "RAIN",
+   "SNOW",
+   "SLEET",
+   "HAIL",
+   "THUNDER",
+   "DRIZZLE",
+   "WIND",
+   "SUNNY",
+   "CLOUDY",
+   "STORM",
+   "BREEZE",
+   "HUMID",
+   "FROST"
+  ]
+ },
+ {
+  "clue": "Green thumb",
+  "spangram": "GARDENING",
+  "words": [
+   "SHOVEL",
+   "RAKE",
+   "TROWEL",
+   "SEEDS",
+   "COMPOST",
+   "MULCH",
+   "WEEDS",
+   "SPROUT",
+   "BULB",
+   "HOSE",
+   "PRUNING",
+   "SOIL",
+   "FERTILIZE"
+  ]
+ },
+ {
+  "clue": "Get in shape",
+  "spangram": "WORKOUT",
+  "words": [
+   "SQUAT",
+   "LUNGE",
+   "PUSHUP",
+   "PLANK",
+   "BURPEE",
+   "CRUNCH",
+   "SITUP",
+   "DEADLIFT",
+   "PULLUP",
+   "STRETCH",
+   "JOGGING",
+   "ROWING",
+   "CARDIO"
+  ]
+ },
+ {
+  "clue": "Breakfast club",
+  "spangram": "MORNINGMEAL",
+  "words": [
+   "PANCAKE",
+   "WAFFLE",
+   "BACON",
+   "EGGS",
+   "TOAST",
+   "CEREAL",
+   "OATMEAL",
+   "BAGEL",
+   "MUFFIN",
+   "YOGURT",
+   "SAUSAGE",
+   "OMELET",
+   "GRANOLA",
+   "CREPE"
+  ]
+ },
+ {
+  "clue": "Chess club",
+  "spangram": "BOARDGAME",
+  "words": [
+   "KING",
+   "QUEEN",
+   "BISHOP",
+   "KNIGHT",
+   "ROOK",
+   "PAWN",
+   "CHECK",
+   "MATE",
+   "CASTLE",
+   "GAMBIT",
+   "OPENING",
+   "ENDGAME",
+   "STALEMATE"
+  ]
+ },
+ {
+  "clue": "Dog park",
+  "spangram": "CANINES",
+  "words": [
+   "POODLE",
+   "BEAGLE",
+   "BOXER",
+   "COLLIE",
+   "TERRIER",
+   "BULLDOG",
+   "DALMATIAN",
+   "HUSKY",
+   "CORGI",
+   "SPANIEL",
+   "RETRIEVER",
+   "CHIHUAHUA"
+  ]
+ },
+ {
+  "clue": "Purr-fect",
+  "spangram": "CATBREEDS",
+  "words": [
+   "SIAMESE",
+   "PERSIAN",
+   "BENGAL",
+   "SPHYNX",
+   "MAINECOON",
+   "RAGDOLL",
+   "BURMESE",
+   "MANX",
+   "TABBY",
+   "BOMBAY",
+   "HIMALAYAN",
+   "BIRMAN",
+   "SIBERIAN",
+   "SAVANNAH"
+  ]
+ },
+ {
+  "clue": "Body of work",
+  "spangram": "ANATOMY",
+  "words": [
+   "HEART",
+   "LUNGS",
+   "LIVER",
+   "KIDNEY",
+   "BRAIN",
+   "STOMACH",
+   "SPLEEN",
+   "SKULL",
+   "SPINE",
+   "PELVIS",
+   "TENDON",
+   "MUSCLE",
+   "NERVE",
+   "ARTERY"
+  ]
+ },
+ {
+  "clue": "Top of the class",
+  "spangram": "SCHOOLSUPPLY",
+  "words": [
+   "BINDER",
+   "FOLDER",
+   "STAPLER",
+   "RULER",
+   "PENCIL",
+   "NOTEBOOK",
+   "BACKPACK",
+   "ERASER",
+   "CRAYON",
+   "SCISSORS",
+   "GLUE",
+   "HIGHLIGHT"
+  ]
+ },
+ {
+  "clue": "Shell game",
+  "spangram": "SEASHELLS",
+  "words": [
+   "CONCH",
+   "CLAM",
+   "MUSSEL",
+   "OYSTER",
+   "SCALLOP",
+   "COWRIE",
+   "WHELK",
+   "NAUTILUS",
+   "ABALONE",
+   "COCKLE",
+   "LIMPET",
+   "TRITON",
+   "AUGER",
+   "SNAIL"
+  ]
+ },
+ {
+  "clue": "Flower shop",
+  "spangram": "BOUQUETS",
+  "words": [
+   "ROSE",
+   "TULIP",
+   "DAISY",
+   "LILY",
+   "ORCHID",
+   "IRIS",
+   "PEONY",
+   "POPPY",
+   "VIOLET",
+   "DAHLIA",
+   "ASTER",
+   "LILAC",
+   "MARIGOLD",
+   "CARNATION"
+  ]
+ },
+ {
+  "clue": "Money talks",
+  "spangram": "CURRENCY",
+  "words": [
+   "DOLLAR",
+   "EURO",
+   "POUND",
+   "PESO",
+   "RUPEE",
+   "FRANC",
+   "RAND",
+   "KRONA",
+   "DINAR",
+   "SHEKEL",
+   "RUBLE",
+   "BAHT"
+  ]
+ },
+ {
+  "clue": "Let's dance",
+  "spangram": "DANCESTEPS",
+  "words": [
+   "TANGO",
+   "WALTZ",
+   "SALSA",
+   "RUMBA",
+   "FOXTROT",
+   "SAMBA",
+   "BALLET",
+   "POLKA",
+   "DISCO",
+   "SWING",
+   "CHACHA",
+   "BALLROOM",
+   "HIPHOP"
+  ]
+ },
+ {
+  "clue": "Tree house",
+  "spangram": "FORESTTREES",
+  "words": [
+   "MAPLE",
+   "BIRCH",
+   "CEDAR",
+   "PINE",
+   "SPRUCE",
+   "WILLOW",
+   "ASPEN",
+   "HICKORY",
+   "SEQUOIA",
+   "REDWOOD",
+   "CYPRESS",
+   "POPLAR",
+   "BEECH"
+  ]
+ },
+ {
+  "clue": "Pizza night",
+  "spangram": "TOPPINGS",
+  "words": [
+   "PEPPERONI",
+   "SAUSAGE",
+   "OLIVES",
+   "ONION",
+   "MUSHROOM",
+   "PEPPERS",
+   "BASIL",
+   "CHEESE",
+   "ANCHOVY",
+   "PINEAPPLE",
+   "SPINACH",
+   "BACON",
+   "GARLIC"
+  ]
+ },
+ {
+  "clue": "Cheese board",
+  "spangram": "DAIRYCASE",
+  "words": [
+   "CHEDDAR",
+   "BRIE",
+   "GOUDA",
+   "FETA",
+   "SWISS",
+   "GRUYERE",
+   "CAMEMBERT",
+   "RICOTTA",
+   "PARMESAN",
+   "HAVARTI",
+   "COLBY",
+   "EDAM",
+   "ASIAGO",
+   "STILTON"
+  ]
+ },
+ {
+  "clue": "Sweet tooth",
+  "spangram": "CANDYSTORE",
+  "words": [
+   "LOLLIPOP",
+   "GUMMY",
+   "TOFFEE",
+   "FUDGE",
+   "TAFFY",
+   "LICORICE",
+   "CARAMEL",
+   "GUMDROP",
+   "JELLYBEAN",
+   "MINTS",
+   "TRUFFLE",
+   "BRITTLE",
+   "NOUGAT"
+  ]
+ },
+ {
+  "clue": "Bake sale",
+  "spangram": "DESSERTS",
+  "words": [
+   "COOKIE",
+   "BROWNIE",
+   "CUPCAKE",
+   "TART",
+   "ECLAIR",
+   "MUFFIN",
+   "DONUT",
+   "STRUDEL",
+   "SCONE",
+   "PUDDING",
+   "MOUSSE",
+   "COBBLER"
+  ]
+ },
+ {
+  "clue": "On the farm",
+  "spangram": "BARNYARD",
+  "words": [
+   "HORSE",
+   "GOAT",
+   "SHEEP",
+   "CHICKEN",
+   "ROOSTER",
+   "DUCK",
+   "GOOSE",
+   "TURKEY",
+   "DONKEY",
+   "LLAMA",
+   "PONY",
+   "TRACTOR"
+  ]
+ },
+ {
+  "clue": "Camp out",
+  "spangram": "CAMPINGGEAR",
+  "words": [
+   "TENT",
+   "LANTERN",
+   "COMPASS",
+   "SLEEPING",
+   "STOVE",
+   "COOLER",
+   "HAMMOCK",
+   "MATCHES",
+   "BACKPACK",
+   "CANTEEN",
+   "TARP",
+   "TORCH",
+   "KINDLING",
+   "FIREWOOD",
+   "ROPE"
+  ]
+ },
+ {
+  "clue": "Beach day",
+  "spangram": "SEASIDE",
+  "words": [
+   "SAND",
+   "WAVES",
+   "TOWEL",
+   "SUNSCREEN",
+   "UMBRELLA",
+   "BUCKET",
+   "SHOVEL",
+   "SHELLS",
+   "SURF",
+   "KITE",
+   "COOLER",
+   "TIDE",
+   "PIER"
+  ]
+ },
+ {
+  "clue": "Play ball",
+  "spangram": "BASEBALL",
+  "words": [
+   "PITCHER",
+   "CATCHER",
+   "BATTER",
+   "INNING",
+   "STRIKE",
+   "HOMERUN",
+   "BUNT",
+   "DUGOUT",
+   "BULLPEN",
+   "SHORTSTOP",
+   "OUTFIELD",
+   "MOUND",
+   "GLOVE"
+  ]
+ },
+ {
+  "clue": "Goal!",
+  "spangram": "SOCCERMATCH",
+  "words": [
+   "KICK",
+   "HEADER",
+   "STRIKER",
+   "KEEPER",
+   "DEFENDER",
+   "PENALTY",
+   "CORNER",
+   "OFFSIDE",
+   "PITCH",
+   "TACKLE",
+   "MIDFIELD",
+   "REFEREE",
+   "VOLLEY"
+  ]
+ },
+ {
+  "clue": "Ice ice baby",
+  "spangram": "WINTERSPORTS",
+  "words": [
+   "SKIING",
+   "SKATING",
+   "HOCKEY",
+   "CURLING",
+   "SLEDDING",
+   "BOBSLED",
+   "LUGE",
+   "BIATHLON",
+   "SNOWBOARD",
+   "SKELETON",
+   "SLALOM",
+   "MOGULS",
+   "SNOWSHOE"
+  ]
+ },
+ {
+  "clue": "Rock on",
+  "spangram": "GEMSTONES",
+  "words": [
+   "DIAMOND",
+   "RUBY",
+   "EMERALD",
+   "SAPPHIRE",
+   "OPAL",
+   "TOPAZ",
+   "AMETHYST",
+   "GARNET",
+   "PEARL",
+   "JADE",
+   "ONYX",
+   "QUARTZ",
+   "TURQUOISE",
+   "AGATE"
+  ]
+ },
+ {
+  "clue": "Table manners",
+  "spangram": "ELEMENTS",
+  "words": [
+   "OXYGEN",
+   "CARBON",
+   "HYDROGEN",
+   "HELIUM",
+   "NEON",
+   "IRON",
+   "COPPER",
+   "SILVER",
+   "GOLD",
+   "SODIUM",
+   "CALCIUM",
+   "ZINC",
+   "NITROGEN",
+   "SULFUR"
+  ]
+ },
+ {
+  "clue": "Carry on",
+  "spangram": "LUGGAGE",
+  "words": [
+   "SUITCASE",
+   "DUFFEL",
+   "BACKPACK",
+   "TOTE",
+   "BRIEFCASE",
+   "TRUNK",
+   "HANDBAG",
+   "POUCH",
+   "CLUTCH",
+   "WALLET",
+   "BAGGAGE",
+   "PURSE",
+   "SATCHEL"
+  ]
+ },
+ {
+  "clue": "Shoe store",
+  "spangram": "FOOTWEAR",
+  "words": [
+   "SNEAKER",
+   "BOOT",
+   "SANDAL",
+   "LOAFER",
+   "SLIPPER",
+   "HEEL",
+   "PUMP",
+   "CLOG",
+   "MOCCASIN",
+   "OXFORD",
+   "FLATS",
+   "WEDGE",
+   "STILETTO"
+  ]
+ },
+ {
+  "clue": "Closet space",
+  "spangram": "WARDROBE",
+  "words": [
+   "SHIRT",
+   "JACKET",
+   "SWEATER",
+   "BLOUSE",
+   "SKIRT",
+   "DRESS",
+   "JEANS",
+   "SHORTS",
+   "VEST",
+   "COAT",
+   "HOODIE",
+   "TROUSERS",
+   "SCARF",
+   "CARDIGAN"
+  ]
+ },
+ {
+  "clue": "Hats off",
+  "spangram": "HEADWEAR",
+  "words": [
+   "BERET",
+   "FEDORA",
+   "BEANIE",
+   "BONNET",
+   "TURBAN",
+   "SOMBRERO",
+   "BOWLER",
+   "TOPHAT",
+   "HELMET",
+   "VISOR",
+   "STETSON",
+   "CROWN",
+   "TIARA",
+   "BANDANA"
+  ]
+ },
+ {
+  "clue": "Keep it clean",
+  "spangram": "HOUSECHORES",
+  "words": [
+   "DUSTING",
+   "SWEEPING",
+   "MOPPING",
+   "LAUNDRY",
+   "DISHES",
+   "VACUUM",
+   "IRONING",
+   "SCRUB",
+   "POLISH",
+   "TIDYING",
+   "FOLDING",
+   "WIPING"
+  ]
+ },
+ {
+  "clue": "Toolbox",
+  "spangram": "HARDWARE",
+  "words": [
+   "HAMMER",
+   "WRENCH",
+   "PLIERS",
+   "DRILL",
+   "CHISEL",
+   "LEVEL",
+   "CLAMP",
+   "MALLET",
+   "SANDER",
+   "RATCHET",
+   "TAPE",
+   "NAILS"
+  ]
+ },
+ {
+  "clue": "Spice rack",
+  "spangram": "SEASONINGS",
+  "words": [
+   "PEPPER",
+   "CUMIN",
+   "PAPRIKA",
+   "OREGANO",
+   "THYME",
+   "BASIL",
+   "GINGER",
+   "NUTMEG",
+   "CLOVES",
+   "CINNAMON",
+   "TURMERIC",
+   "SAFFRON",
+   "ROSEMARY",
+   "PARSLEY",
+   "SAGE"
+  ]
+ },
+ {
+  "clue": "Veggie patch",
+  "spangram": "VEGETABLES",
+  "words": [
+   "CARROT",
+   "POTATO",
+   "CELERY",
+   "ONION",
+   "SPINACH",
+   "LETTUCE",
+   "BROCCOLI",
+   "CABBAGE",
+   "RADISH",
+   "TURNIP",
+   "PEAS",
+   "SQUASH",
+   "KALE",
+   "BEET",
+   "LEEK"
+  ]
+ },
+ {
+  "clue": "Go nuts",
+  "spangram": "SNACKMIX",
+  "words": [
+   "ALMOND",
+   "CASHEW",
+   "PEANUT",
+   "WALNUT",
+   "PECAN",
+   "PISTACHIO",
+   "HAZELNUT",
+   "PRETZEL",
+   "RAISIN",
+   "CHEERIOS",
+   "POPCORN",
+   "CRACKER"
+  ]
+ },
+ {
+  "clue": "Pasta la vista",
+  "spangram": "ITALIANFOOD",
+  "words": [
+   "SPAGHETTI",
+   "PENNE",
+   "LASAGNA",
+   "RAVIOLI",
+   "FUSILLI",
+   "RIGATONI",
+   "LINGUINE",
+   "ORZO",
+   "GNOCCHI",
+   "RISOTTO",
+   "PESTO",
+   "FARFALLE"
+  ]
+ },
+ {
+  "clue": "Sushi bar",
+  "spangram": "JAPANESEFOOD",
+  "words": [
+   "SASHIMI",
+   "WASABI",
+   "GINGER",
+   "TEMPURA",
+   "RAMEN",
+   "MISO",
+   "EDAMAME",
+   "UDON",
+   "TERIYAKI",
+   "SOBA",
+   "NORI",
+   "TOFU",
+   "MOCHI"
+  ]
+ },
+ {
+  "clue": "Taco Tuesday",
+  "spangram": "MEXICANFOOD",
+  "words": [
+   "BURRITO",
+   "NACHOS",
+   "SALSA",
+   "FAJITA",
+   "TAMALE",
+   "CHURRO",
+   "ENCHILADA",
+   "GUACAMOLE",
+   "TORTILLA",
+   "CHIPOTLE",
+   "CARNITAS",
+   "TACO",
+   "MOLE",
+   "FLAN"
+  ]
+ },
+ {
+  "clue": "Bread basket",
+  "spangram": "BAKERYITEMS",
+  "words": [
+   "BAGUETTE",
+   "BRIOCHE",
+   "CROISSANT",
+   "PRETZEL",
+   "CIABATTA",
+   "FOCACCIA",
+   "SOURDOUGH",
+   "ROLL",
+   "BAGEL",
+   "BISCUIT",
+   "PITA",
+   "NAAN",
+   "CHALLAH"
+  ]
+ },
+ {
+  "clue": "Down the hatch",
+  "spangram": "BEVERAGES",
+  "words": [
+   "JUICE",
+   "SODA",
+   "LEMONADE",
+   "COCOA",
+   "MILKSHAKE",
+   "SMOOTHIE",
+   "CIDER",
+   "WATER",
+   "PUNCH",
+   "COFFEE",
+   "SELTZER",
+   "TONIC",
+   "ICEDTEA"
+  ]
+ },
+ {
+  "clue": "Sandwich shop",
+  "spangram": "DELICOUNTER",
+  "words": [
+   "SALAMI",
+   "BOLOGNA",
+   "PASTRAMI",
+   "TURKEY",
+   "ROASTBEEF",
+   "PROVOLONE",
+   "MUSTARD",
+   "PICKLE",
+   "LETTUCE",
+   "TOMATO",
+   "HOAGIE",
+   "CHEESE",
+   "BREAD"
+  ]
+ },
+ {
+  "clue": "In a jam",
+  "spangram": "CONDIMENTS",
+  "words": [
+   "KETCHUP",
+   "MUSTARD",
+   "RELISH",
+   "MAYO",
+   "SALSA",
+   "HONEY",
+   "JELLY",
+   "SYRUP",
+   "HOTSAUCE",
+   "AIOLI",
+   "CHUTNEY",
+   "PESTO",
+   "HUMMUS",
+   "VINEGAR"
+  ]
+ },
+ {
+  "clue": "Creepy crawlies",
+  "spangram": "INSECTS",
+  "words": [
+   "BEETLE",
+   "CRICKET",
+   "MOTH",
+   "BUTTERFLY",
+   "WASP",
+   "HORNET",
+   "LADYBUG",
+   "MANTIS",
+   "TERMITE",
+   "FIREFLY",
+   "GNAT",
+   "FLEA",
+   "LOCUST"
+  ]
+ },
+ {
+  "clue": "Scales and tails",
+  "spangram": "REPTILES",
+  "words": [
+   "LIZARD",
+   "GECKO",
+   "IGUANA",
+   "PYTHON",
+   "COBRA",
+   "VIPER",
+   "TURTLE",
+   "TORTOISE",
+   "ALLIGATOR",
+   "CROCODILE",
+   "CHAMELEON",
+   "SKINK"
+  ]
+ },
+ {
+  "clue": "Down under",
+  "spangram": "AUSTRALIA",
+  "words": [
+   "KANGAROO",
+   "KOALA",
+   "WOMBAT",
+   "DINGO",
+   "PLATYPUS",
+   "WALLABY",
+   "OUTBACK",
+   "SYDNEY",
+   "BOOMERANG",
+   "CANBERRA",
+   "PERTH",
+   "CROC",
+   "ULURU",
+   "MELBOURNE"
+  ]
+ },
+ {
+  "clue": "Big apple",
+  "spangram": "NEWYORKCITY",
+  "words": [
+   "BROOKLYN",
+   "QUEENS",
+   "BRONX",
+   "HARLEM",
+   "BROADWAY",
+   "MANHATTAN",
+   "SUBWAY",
+   "TAXI",
+   "SOHO",
+   "CHELSEA",
+   "LIBERTY",
+   "YANKEES",
+   "BAGELS"
+  ]
+ },
+ {
+  "clue": "Globe trotting",
+  "spangram": "WORLDMAP",
+  "words": [
+   "AFRICA",
+   "ASIA",
+   "EUROPE",
+   "OCEANIA",
+   "ARCTIC",
+   "PACIFIC",
+   "ATLANTIC",
+   "INDIAN",
+   "AMERICAS",
+   "EQUATOR",
+   "TROPICS",
+   "MERIDIAN",
+   "LATITUDE",
+   "LONGITUDE"
+  ]
+ },
+ {
+  "clue": "Capital idea",
+  "spangram": "WORLDCITIES",
+  "words": [
+   "PARIS",
+   "LONDON",
+   "TOKYO",
+   "ROME",
+   "BERLIN",
+   "MADRID",
+   "CAIRO",
+   "DUBLIN",
+   "OSLO",
+   "LIMA",
+   "SEOUL",
+   "VIENNA",
+   "ATHENS",
+   "NAIROBI"
+  ]
+ },
+ {
+  "clue": "Coast to coast",
+  "spangram": "FIFTYSTATES",
+  "words": [
+   "TEXAS",
+   "OHIO",
+   "MAINE",
+   "IOWA",
+   "UTAH",
+   "IDAHO",
+   "NEVADA",
+   "OREGON",
+   "ALASKA",
+   "HAWAII",
+   "GEORGIA",
+   "FLORIDA",
+   "VERMONT",
+   "MONTANA"
+  ]
+ },
+ {
+  "clue": "Nature walk",
+  "spangram": "LANDSCAPE",
+  "words": [
+   "MOUNTAIN",
+   "VALLEY",
+   "CANYON",
+   "RIVER",
+   "LAKE",
+   "MEADOW",
+   "FOREST",
+   "DESERT",
+   "TUNDRA",
+   "GLACIER",
+   "PLATEAU",
+   "CLIFF",
+   "MESA",
+   "DELTA"
+  ]
+ },
+ {
+  "clue": "Hold the phone",
+  "spangram": "PHONEAPPS",
+  "words": [
+   "CAMERA",
+   "CALENDAR",
+   "CLOCK",
+   "MAPS",
+   "WEATHER",
+   "MUSIC",
+   "NOTES",
+   "PHOTOS",
+   "MESSAGES",
+   "CONTACTS",
+   "SETTINGS",
+   "WALLET"
+  ]
+ },
+ {
+  "clue": "Computer lab",
+  "spangram": "TECHNOLOGY",
+  "words": [
+   "KEYBOARD",
+   "MOUSE",
+   "MONITOR",
+   "LAPTOP",
+   "PRINTER",
+   "ROUTER",
+   "SERVER",
+   "MODEM",
+   "SPEAKER",
+   "WEBCAM",
+   "TABLET",
+   "SCANNER",
+   "CHARGER"
+  ]
+ },
+ {
+  "clue": "Command line",
+  "spangram": "KEYBOARDKEYS",
+  "words": [
+   "ENTER",
+   "SHIFT",
+   "ESCAPE",
+   "DELETE",
+   "SPACE",
+   "CONTROL",
+   "OPTION",
+   "RETURN",
+   "BACKSPACE",
+   "HOME",
+   "INSERT",
+   "FUNCTION"
+  ]
+ },
+ {
+  "clue": "Card sharks",
+  "spangram": "CARDGAMES",
+  "words": [
+   "POKER",
+   "BRIDGE",
+   "RUMMY",
+   "HEARTS",
+   "SPADES",
+   "CANASTA",
+   "EUCHRE",
+   "BACCARAT",
+   "SOLITAIRE",
+   "CRIBBAGE",
+   "PINOCHLE",
+   "BLACKJACK"
+  ]
+ },
+ {
+  "clue": "Deck the halls",
+  "spangram": "CHRISTMAS",
+  "words": [
+   "WREATH",
+   "STOCKING",
+   "TINSEL",
+   "ORNAMENT",
+   "REINDEER",
+   "SLEIGH",
+   "CANDYCANE",
+   "MISTLETOE",
+   "HOLLY",
+   "ELVES",
+   "CAROL",
+   "GARLAND",
+   "SANTA"
+  ]
+ },
+ {
+  "clue": "Trick or treat",
+  "spangram": "HALLOWEEN",
+  "words": [
+   "GHOST",
+   "WITCH",
+   "ZOMBIE",
+   "VAMPIRE",
+   "MUMMY",
+   "GOBLIN",
+   "PUMPKIN",
+   "COSTUME",
+   "CANDY",
+   "SKELETON",
+   "BROOM",
+   "CAULDRON",
+   "SPIDER"
+  ]
+ },
+ {
+  "clue": "Be mine",
+  "spangram": "VALENTINES",
+  "words": [
+   "ROSES",
+   "CHOCOLATE",
+   "CUPID",
+   "HEARTS",
+   "CARDS",
+   "ROMANCE",
+   "KISSES",
+   "ARROW",
+   "LOVE",
+   "CANDY",
+   "FLOWERS",
+   "DATE"
+  ]
+ },
+ {
+  "clue": "Spring has sprung",
+  "spangram": "EASTERTIME",
+  "words": [
+   "BUNNY",
+   "EGGS",
+   "BASKET",
+   "CHICK",
+   "LILY",
+   "JELLYBEAN",
+   "PASTEL",
+   "BONNET",
+   "TULIPS",
+   "LAMB",
+   "HUNT",
+   "CHOCOLATE",
+   "PARADE"
+  ]
+ },
+ {
+  "clue": "Happy birthday",
+  "spangram": "PARTYTIME",
+  "words": [
+   "CAKE",
+   "CANDLES",
+   "BALLOONS",
+   "PRESENTS",
+   "CONFETTI",
+   "STREAMERS",
+   "PINATA",
+   "GAMES",
+   "FAVORS",
+   "GIFTS",
+   "CARDS",
+   "SPRINKLES",
+   "BANNER"
+  ]
+ },
+ {
+  "clue": "Wedding bells",
+  "spangram": "MATRIMONY",
+  "words": [
+   "BRIDE",
+   "GROOM",
+   "VEIL",
+   "RING",
+   "TUXEDO",
+   "BOUQUET",
+   "TOAST",
+   "VOWS",
+   "ALTAR",
+   "CAKE",
+   "USHER",
+   "GARTER",
+   "HONEYMOON",
+   "RECEPTION"
+  ]
+ },
+ {
+  "clue": "In the stars",
+  "spangram": "ZODIACSIGNS",
+  "words": [
+   "ARIES",
+   "TAURUS",
+   "GEMINI",
+   "CANCER",
+   "VIRGO",
+   "LIBRA",
+   "SCORPIO",
+   "CAPRICORN",
+   "AQUARIUS",
+   "PISCES",
+   "HOROSCOPE",
+   "ASTROLOGY"
+  ]
+ },
+ {
+  "clue": "Mark your calendar",
+  "spangram": "CALENDAR",
+  "words": [
+   "JANUARY",
+   "FEBRUARY",
+   "MARCH",
+   "APRIL",
+   "JUNE",
+   "JULY",
+   "AUGUST",
+   "OCTOBER",
+   "NOVEMBER",
+   "DECEMBER",
+   "SEPTEMBER",
+   "MONDAY",
+   "FRIDAY",
+   "SUNDAY",
+   "WEEKEND"
+  ]
+ },
+ {
+  "clue": "Big top",
+  "spangram": "CIRCUSACTS",
+  "words": [
+   "CLOWN",
+   "JUGGLER",
+   "ACROBAT",
+   "TRAPEZE",
+   "TIGHTROPE",
+   "LION",
+   "TAMER",
+   "UNICYCLE",
+   "STILTS",
+   "MAGICIAN",
+   "ELEPHANT",
+   "FIREEATER"
+  ]
+ },
+ {
+  "clue": "Under construction",
+  "spangram": "BUILDINGSITE",
+  "words": [
+   "CRANE",
+   "BULLDOZER",
+   "CEMENT",
+   "BRICK",
+   "LUMBER",
+   "HARDHAT",
+   "SCAFFOLD",
+   "GIRDER",
+   "FORKLIFT",
+   "EXCAVATOR",
+   "DRYWALL",
+   "BLUEPRINT"
+  ]
+ },
+ {
+  "clue": "Fire it up",
+  "spangram": "GRILLINGOUT",
+  "words": [
+   "BURGER",
+   "HOTDOG",
+   "STEAK",
+   "SKEWER",
+   "CHARCOAL",
+   "PROPANE",
+   "SPATULA",
+   "TONGS",
+   "KEBAB",
+   "BRISKET",
+   "SMOKER",
+   "APRON",
+   "BRATWURST"
+  ]
+ },
+ {
+  "clue": "Knight time",
+  "spangram": "MEDIEVAL",
+  "words": [
+   "CASTLE",
+   "DRAGON",
+   "SWORD",
+   "ARMOR",
+   "SHIELD",
+   "JOUST",
+   "LANCE",
+   "MOAT",
+   "KNIGHT",
+   "SQUIRE",
+   "JESTER",
+   "FORTRESS",
+   "TOWER",
+   "PEASANT"
+  ]
+ },
+ {
+  "clue": "Ahoy matey",
+  "spangram": "PIRATESHIP",
+  "words": [
+   "PARROT",
+   "TREASURE",
+   "PLANK",
+   "CANNON",
+   "ANCHOR",
+   "CAPTAIN",
+   "PLUNDER",
+   "CUTLASS",
+   "EYEPATCH",
+   "GALLEON",
+   "COMPASS",
+   "CHEST"
+  ]
+ },
+ {
+  "clue": "Once upon a time",
+  "spangram": "FAIRYTALES",
+  "words": [
+   "RAPUNZEL",
+   "PRINCESS",
+   "DRAGON",
+   "WITCH",
+   "GIANT",
+   "CASTLE",
+   "TROLL",
+   "GOBLIN",
+   "MERMAID",
+   "GENIE",
+   "WIZARD",
+   "SLIPPER",
+   "BEANSTALK",
+   "PRINCE",
+   "KINGDOM"
+  ]
+ },
+ {
+  "clue": "Hocus pocus",
+  "spangram": "MAGICTRICKS",
+  "words": [
+   "WAND",
+   "RABBIT",
+   "CARDS",
+   "COINS",
+   "ILLUSION",
+   "CAPE",
+   "LEVITATE",
+   "VANISH",
+   "ASSISTANT",
+   "SLEIGHT",
+   "DOVES",
+   "SCARF",
+   "TRAPDOOR"
+  ]
+ },
+ {
+  "clue": "Little monsters",
+  "spangram": "MYTHICAL",
+  "words": [
+   "DRAGON",
+   "UNICORN",
+   "PHOENIX",
+   "GRIFFIN",
+   "CENTAUR",
+   "MERMAID",
+   "CYCLOPS",
+   "MINOTAUR",
+   "PEGASUS",
+   "HYDRA",
+   "SPHINX",
+   "KRAKEN",
+   "YETI",
+   "GOLEM"
+  ]
+ },
+ {
+  "clue": "Mount Olympus",
+  "spangram": "GREEKGODS",
+  "words": [
+   "ZEUS",
+   "HERA",
+   "ATHENA",
+   "APOLLO",
+   "ARTEMIS",
+   "ARES",
+   "HERMES",
+   "POSEIDON",
+   "HADES",
+   "DEMETER",
+   "DIONYSUS",
+   "APHRODITE"
+  ]
+ },
+ {
+  "clue": "Lights, camera",
+  "spangram": "FILMMAKING",
+  "words": [
+   "DIRECTOR",
+   "ACTOR",
+   "SCRIPT",
+   "CAMERA",
+   "SCENE",
+   "EDITOR",
+   "PRODUCER",
+   "STUNT",
+   "SEQUEL",
+   "TRAILER",
+   "PREMIERE",
+   "CASTING",
+   "BLOOPER"
+  ]
+ },
+ {
+  "clue": "Theater kids",
+  "spangram": "BROADWAYSHOW",
+  "words": [
+   "ACTOR",
+   "STAGE",
+   "CURTAIN",
+   "SCRIPT",
+   "USHER",
+   "AUDITION",
+   "ENCORE",
+   "MUSICAL",
+   "REHEARSAL",
+   "PLAYBILL",
+   "BALCONY",
+   "ORCHESTRA"
+  ]
+ },
+ {
+  "clue": "Book club",
+  "spangram": "LIBRARY",
+  "words": [
+   "NOVEL",
+   "AUTHOR",
+   "CHAPTER",
+   "SHELF",
+   "BOOKMARK",
+   "FICTION",
+   "POETRY",
+   "MYSTERY",
+   "BIOGRAPHY",
+   "LIBRARIAN",
+   "ATLAS",
+   "JOURNAL",
+   "PAPERBACK"
+  ]
+ },
+ {
+  "clue": "Write on",
+  "spangram": "PUNCTUATION",
+  "words": [
+   "COMMA",
+   "PERIOD",
+   "COLON",
+   "HYPHEN",
+   "DASH",
+   "QUOTES",
+   "ELLIPSIS",
+   "BRACKETS",
+   "SLASH",
+   "ASTERISK",
+   "BRACE",
+   "TILDE",
+   "SEMICOLON"
+  ]
+ },
+ {
+  "clue": "Diagram this",
+  "spangram": "GRAMMARTERMS",
+  "words": [
+   "NOUN",
+   "VERB",
+   "ADJECTIVE",
+   "ADVERB",
+   "PRONOUN",
+   "ARTICLE",
+   "CLAUSE",
+   "SUBJECT",
+   "OBJECT",
+   "PHRASE",
+   "TENSE",
+   "PLURAL"
+  ]
+ },
+ {
+  "clue": "Number crunching",
+  "spangram": "MATHEMATICS",
+  "words": [
+   "ALGEBRA",
+   "GEOMETRY",
+   "CALCULUS",
+   "FRACTION",
+   "DECIMAL",
+   "EQUATION",
+   "INTEGER",
+   "DIVISION",
+   "ANGLE",
+   "MATRIX",
+   "VECTOR",
+   "THEOREM"
+  ]
+ },
+ {
+  "clue": "Shape up",
+  "spangram": "GEOMETRY",
+  "words": [
+   "CIRCLE",
+   "SQUARE",
+   "TRIANGLE",
+   "OVAL",
+   "RHOMBUS",
+   "HEXAGON",
+   "OCTAGON",
+   "PENTAGON",
+   "CUBE",
+   "SPHERE",
+   "CONE",
+   "PYRAMID",
+   "PRISM",
+   "CYLINDER"
+  ]
+ },
+ {
+  "clue": "Time keeper",
+  "spangram": "CLOCKWORK",
+  "words": [
+   "SECOND",
+   "MINUTE",
+   "HOUR",
+   "DIAL",
+   "HANDS",
+   "PENDULUM",
+   "ALARM",
+   "CHIME",
+   "CUCKOO",
+   "GEARS",
+   "SPRING",
+   "WATCH",
+   "TIMER"
+  ]
+ },
+ {
+  "clue": "Tool time",
+  "spangram": "WOODSHOP",
+  "words": [
+   "LATHE",
+   "SANDPAPER",
+   "VISE",
+   "CHISEL",
+   "PLANE",
+   "ROUTER",
+   "JIGSAW",
+   "HAMMER",
+   "MALLET",
+   "LUMBER",
+   "PLYWOOD",
+   "SAWDUST",
+   "CLAMP"
+  ]
+ },
+ {
+  "clue": "Doctor's orders",
+  "spangram": "HOSPITAL",
+  "words": [
+   "NURSE",
+   "SURGEON",
+   "PATIENT",
+   "XRAY",
+   "BANDAGE",
+   "SCALPEL",
+   "GURNEY",
+   "CLINIC",
+   "PHARMACY",
+   "SYRINGE",
+   "WARD",
+   "CHART"
+  ]
+ },
+ {
+  "clue": "Lab coat",
+  "spangram": "SCIENCELAB",
+  "words": [
+   "BEAKER",
+   "FLASK",
+   "BURNER",
+   "PIPETTE",
+   "GOGGLES",
+   "TESTTUBE",
+   "FUNNEL",
+   "SCALE",
+   "SLIDE",
+   "PETRIDISH",
+   "TONGS",
+   "BALANCE",
+   "DROPPER",
+   "CLAMP"
+  ]
+ },
+ {
+  "clue": "Detective work",
+  "spangram": "MYSTERIES",
+  "words": [
+   "CLUE",
+   "SUSPECT",
+   "ALIBI",
+   "MOTIVE",
+   "WITNESS",
+   "SLEUTH",
+   "CULPRIT",
+   "EVIDENCE",
+   "HUNCH",
+   "DETECTIVE",
+   "RIDDLE",
+   "MAGNIFIER",
+   "SUSPENSE",
+   "ROBBERY"
+  ]
+ },
+ {
+  "clue": "Hit the road",
+  "spangram": "ROADTRIPS",
+  "words": [
+   "SNACKS",
+   "PLAYLIST",
+   "MOTEL",
+   "HIGHWAY",
+   "DETOUR",
+   "STATION",
+   "CAMPER",
+   "COOLER",
+   "BILLBOARD",
+   "MILEAGE",
+   "TOLLBOOTH",
+   "SOUVENIR",
+   "ATLAS"
+  ]
+ },
+ {
+  "clue": "Up, up, and away",
+  "spangram": "AVIATION",
+  "words": [
+   "PILOT",
+   "RUNWAY",
+   "COCKPIT",
+   "HANGAR",
+   "PROPELLER",
+   "WING",
+   "RUDDER",
+   "TAKEOFF",
+   "LANDING",
+   "TURBINE",
+   "GLIDER",
+   "AIRPORT"
+  ]
+ },
+ {
+  "clue": "All aboard",
+  "spangram": "RAILROAD",
+  "words": [
+   "TRAIN",
+   "CABOOSE",
+   "ENGINE",
+   "TRACK",
+   "STATION",
+   "CONDUCTOR",
+   "TICKET",
+   "PLATFORM",
+   "BOXCAR",
+   "WHISTLE",
+   "TUNNEL",
+   "SIGNAL",
+   "DEPOT"
+  ]
+ },
+ {
+  "clue": "Anchors aweigh",
+  "spangram": "SAILBOATS",
+  "words": [
+   "MAST",
+   "RUDDER",
+   "HULL",
+   "KEEL",
+   "DECK",
+   "STERN",
+   "PORT",
+   "ANCHOR",
+   "CABIN",
+   "GALLEY",
+   "HELM",
+   "BUOY"
+  ]
+ },
+ {
+  "clue": "Blast off",
+  "spangram": "ASTRONAUTS",
+  "words": [
+   "ROCKET",
+   "ORBIT",
+   "LAUNCH",
+   "CAPSULE",
+   "SHUTTLE",
+   "GRAVITY",
+   "HELMET",
+   "LANDER",
+   "COSMOS",
+   "SATELLITE",
+   "MISSION",
+   "STATION"
+  ]
+ },
+ {
+  "clue": "Starry night",
+  "spangram": "STARPATTERN",
+  "words": [
+   "ORION",
+   "LYRA",
+   "PEGASUS",
+   "ANDROMEDA",
+   "DRACO",
+   "PHOENIX",
+   "CYGNUS",
+   "AQUILA",
+   "HERCULES",
+   "PERSEUS",
+   "CENTAURUS",
+   "GEMINI",
+   "SCORPIUS",
+   "BIGDIPPER"
+  ]
+ },
+ {
+  "clue": "Rock and roll",
+  "spangram": "GEOLOGY",
+  "words": [
+   "GRANITE",
+   "MARBLE",
+   "BASALT",
+   "SLATE",
+   "QUARTZ",
+   "SHALE",
+   "LIMESTONE",
+   "PUMICE",
+   "OBSIDIAN",
+   "FOSSIL",
+   "MAGMA",
+   "CRYSTAL",
+   "GNEISS"
+  ]
+ },
+ {
+  "clue": "Tiny homes",
+  "spangram": "DWELLINGS",
+  "words": [
+   "CABIN",
+   "COTTAGE",
+   "MANSION",
+   "IGLOO",
+   "CASTLE",
+   "CONDO",
+   "BUNGALOW",
+   "TEPEE",
+   "CHALET",
+   "VILLA",
+   "PALACE",
+   "DUPLEX",
+   "LOFT"
+  ]
+ },
+ {
+  "clue": "Room service",
+  "spangram": "HOTELSTAY",
+  "words": [
+   "LOBBY",
+   "SUITE",
+   "BELLHOP",
+   "CONCIERGE",
+   "KEYCARD",
+   "MINIBAR",
+   "POOL",
+   "ELEVATOR",
+   "LUGGAGE",
+   "PILLOW",
+   "CHECKOUT",
+   "VALET"
+  ]
+ },
+ {
+  "clue": "House tour",
+  "spangram": "ROOMSOFHOME",
+  "words": [
+   "KITCHEN",
+   "BEDROOM",
+   "BATHROOM",
+   "ATTIC",
+   "BASEMENT",
+   "GARAGE",
+   "PANTRY",
+   "FOYER",
+   "STUDY",
+   "LAUNDRY",
+   "CLOSET",
+   "HALLWAY",
+   "PORCH"
+  ]
+ },
+ {
+  "clue": "Furniture store",
+  "spangram": "FURNISHINGS",
+  "words": [
+   "SOFA",
+   "COUCH",
+   "TABLE",
+   "CHAIR",
+   "DRESSER",
+   "BOOKCASE",
+   "OTTOMAN",
+   "RECLINER",
+   "STOOL",
+   "BENCH",
+   "DESK",
+   "CABINET",
+   "HUTCH",
+   "ARMCHAIR"
+  ]
+ },
+ {
+  "clue": "Sleep tight",
+  "spangram": "BEDTIME",
+  "words": [
+   "PILLOW",
+   "BLANKET",
+   "PAJAMAS",
+   "LULLABY",
+   "TEDDY",
+   "DREAMS",
+   "SNORE",
+   "SLIPPERS",
+   "QUILT",
+   "YAWN",
+   "SHEETS",
+   "STORY"
+  ]
+ },
+ {
+  "clue": "Bath time",
+  "spangram": "BATHROOM",
+  "words": [
+   "TOWEL",
+   "SOAP",
+   "SHAMPOO",
+   "LOOFAH",
+   "BUBBLES",
+   "FAUCET",
+   "MIRROR",
+   "SPONGE",
+   "BATHMAT",
+   "SHOWER",
+   "TOILET",
+   "BATHROBE",
+   "RAZOR",
+   "COMB"
+  ]
+ },
+ {
+  "clue": "Make-up artist",
+  "spangram": "COSMETICS",
+  "words": [
+   "LIPSTICK",
+   "MASCARA",
+   "BLUSH",
+   "EYELINER",
+   "POWDER",
+   "CONCEALER",
+   "BRONZER",
+   "PRIMER",
+   "GLOSS",
+   "ROUGE",
+   "SHADOW",
+   "CONTOUR",
+   "TONER"
+  ]
+ },
+ {
+  "clue": "Jewelry box",
+  "spangram": "ACCESSORIES",
+  "words": [
+   "NECKLACE",
+   "BRACELET",
+   "EARRING",
+   "RING",
+   "BROOCH",
+   "PENDANT",
+   "ANKLET",
+   "LOCKET",
+   "CHARM",
+   "TIARA",
+   "CUFFLINK",
+   "WATCH",
+   "CHOKER"
+  ]
+ },
+ {
+  "clue": "Sewing circle",
+  "spangram": "NEEDLEWORK",
+  "words": [
+   "THREAD",
+   "THIMBLE",
+   "BOBBIN",
+   "BUTTON",
+   "ZIPPER",
+   "FABRIC",
+   "PATTERN",
+   "HEMLINE",
+   "STITCH",
+   "SPOOL",
+   "QUILT",
+   "SCISSORS",
+   "SEAM",
+   "PATCH"
+  ]
+ },
+ {
+  "clue": "Knit together",
+  "spangram": "KNITTING",
+  "words": [
+   "YARN",
+   "WOOL",
+   "PURL",
+   "CABLE",
+   "SCARF",
+   "MITTENS",
+   "SWEATER",
+   "BEANIE",
+   "STITCH",
+   "SKEIN",
+   "LOOM",
+   "CROCHET",
+   "AFGHAN"
+  ]
+ },
+ {
+  "clue": "Post office",
+  "spangram": "MAILROOM",
+  "words": [
+   "LETTER",
+   "STAMP",
+   "PARCEL",
+   "ENVELOPE",
+   "POSTCARD",
+   "MAILBOX",
+   "ZIPCODE",
+   "COURIER",
+   "PACKAGE",
+   "ADDRESS",
+   "POSTAGE",
+   "DELIVERY"
+  ]
+ },
+ {
+  "clue": "Hard at work",
+  "spangram": "OFFICEJOBS",
+  "words": [
+   "MANAGER",
+   "CLERK",
+   "ANALYST",
+   "INTERN",
+   "SECRETARY",
+   "DIRECTOR",
+   "ADVISOR",
+   "AUDITOR",
+   "BANKER",
+   "RECRUITER",
+   "CASHIER",
+   "TYPIST",
+   "PLANNER"
+  ]
+ },
+ {
+  "clue": "Uniform look",
+  "spangram": "OCCUPATIONS",
+  "words": [
+   "NURSE",
+   "CHEF",
+   "PILOT",
+   "FARMER",
+   "TEACHER",
+   "DENTIST",
+   "PLUMBER",
+   "LAWYER",
+   "BAKER",
+   "BARBER",
+   "JUDGE",
+   "SAILOR",
+   "TAILOR",
+   "GROCER"
+  ]
+ },
+ {
+  "clue": "First responders",
+  "spangram": "EMERGENCY",
+  "words": [
+   "PARAMEDIC",
+   "SIREN",
+   "AMBULANCE",
+   "RESCUE",
+   "HYDRANT",
+   "LADDER",
+   "POLICE",
+   "DISPATCH",
+   "HOSE",
+   "ALARM",
+   "HELMET",
+   "SHERIFF",
+   "MEDIC",
+   "PATROL"
+  ]
+ },
+ {
+  "clue": "Legal eagle",
+  "spangram": "COURTROOM",
+  "words": [
+   "JUDGE",
+   "JURY",
+   "LAWYER",
+   "WITNESS",
+   "VERDICT",
+   "GAVEL",
+   "BAILIFF",
+   "DOCKET",
+   "APPEAL",
+   "TRIAL",
+   "OBJECTION",
+   "TESTIMONY",
+   "SENTENCE"
+  ]
+ },
+ {
+  "clue": "On the ballot",
+  "spangram": "ELECTIONS",
+  "words": [
+   "VOTER",
+   "BALLOT",
+   "CANDIDATE",
+   "DEBATE",
+   "CAMPAIGN",
+   "SLOGAN",
+   "POLL",
+   "PRIMARY",
+   "DELEGATE",
+   "MAJORITY",
+   "RECOUNT",
+   "TURNOUT"
+  ]
+ },
+ {
+  "clue": "Royal family",
+  "spangram": "MONARCHY",
+  "words": [
+   "KING",
+   "QUEEN",
+   "PRINCE",
+   "PRINCESS",
+   "DUKE",
+   "DUCHESS",
+   "EARL",
+   "BARON",
+   "THRONE",
+   "CROWN",
+   "SCEPTER",
+   "PALACE"
+  ]
+ },
+ {
+  "clue": "Office supplies",
+  "spangram": "DESKTOPITEMS",
+  "words": [
+   "STAPLER",
+   "PAPERCLIP",
+   "TAPE",
+   "SCISSORS",
+   "PENCIL",
+   "SHARPENER",
+   "CALENDAR",
+   "FOLDER",
+   "ENVELOPE",
+   "MARKER",
+   "NOTEPAD",
+   "ERASER",
+   "BINDER"
+  ]
+ },
+ {
+  "clue": "Eye spy",
+  "spangram": "OPTICAL",
+  "words": [
+   "GLASSES",
+   "LENS",
+   "CONTACTS",
+   "MONOCLE",
+   "TELESCOPE",
+   "MAGNIFIER",
+   "PRISM",
+   "MIRROR",
+   "CAMERA",
+   "GOGGLES",
+   "PERISCOPE",
+   "EYEGLASS"
+  ]
+ },
+ {
+  "clue": "Feeling blue",
+  "spangram": "EMOTIONS",
+  "words": [
+   "HAPPY",
+   "ANGRY",
+   "JOYFUL",
+   "NERVOUS",
+   "EXCITED",
+   "CALM",
+   "PROUD",
+   "JEALOUS",
+   "LONELY",
+   "GRATEFUL",
+   "SCARED",
+   "CONTENT",
+   "BORED"
+  ]
+ },
+ {
+  "clue": "What's cooking",
+  "spangram": "KITCHENVERBS",
+  "words": [
+   "BAKE",
+   "BOIL",
+   "ROAST",
+   "GRILL",
+   "SAUTE",
+   "STEAM",
+   "BROIL",
+   "SIMMER",
+   "POACH",
+   "BRAISE",
+   "TOAST",
+   "STIRFRY",
+   "BLANCH"
+  ]
+ },
+ {
+  "clue": "Sharp dressed",
+  "spangram": "MENSWEAR",
+  "words": [
+   "TUXEDO",
+   "BLAZER",
+   "NECKTIE",
+   "BOWTIE",
+   "CUFFLINKS",
+   "WAISTCOAT",
+   "TROUSERS",
+   "OXFORDS",
+   "FEDORA",
+   "POCKET",
+   "LAPEL",
+   "LOAFERS",
+   "VEST",
+   "COLLAR"
+  ]
+ },
+ {
+  "clue": "Little ones",
+  "spangram": "BABYANIMALS",
+  "words": [
+   "PUPPY",
+   "KITTEN",
+   "CALF",
+   "FOAL",
+   "LAMB",
+   "CHICK",
+   "DUCKLING",
+   "PIGLET",
+   "FAWN",
+   "JOEY",
+   "TADPOLE",
+   "GOSLING"
+  ]
+ },
+ {
+  "clue": "Herd mentality",
+  "spangram": "ANIMALGROUPS",
+  "words": [
+   "FLOCK",
+   "HERD",
+   "PACK",
+   "SCHOOL",
+   "PRIDE",
+   "SWARM",
+   "COLONY",
+   "GAGGLE",
+   "LITTER",
+   "BROOD",
+   "TROOP",
+   "COVEY",
+   "MURDER"
+  ]
+ },
+ {
+  "clue": "Night owls",
+  "spangram": "NOCTURNAL",
+  "words": [
+   "RACCOON",
+   "MOTH",
+   "FIREFLY",
+   "HEDGEHOG",
+   "OPOSSUM",
+   "BADGER",
+   "COYOTE",
+   "SKUNK",
+   "LEMUR",
+   "ARMADILLO",
+   "OWLS",
+   "BATS",
+   "FOXES"
+  ]
+ },
+ {
+  "clue": "Swamp things",
+  "spangram": "WETLANDS",
+  "words": [
+   "MARSH",
+   "BAYOU",
+   "HERON",
+   "FROG",
+   "CATTAIL",
+   "ALLIGATOR",
+   "MOSQUITO",
+   "CYPRESS",
+   "LILYPAD",
+   "EGRET",
+   "TOAD",
+   "REEDS",
+   "BULLFROG",
+   "MUSKRAT"
+  ]
+ },
+ {
+  "clue": "Desert island",
+  "spangram": "TROPICAL",
+  "words": [
+   "PALM",
+   "COCONUT",
+   "LAGOON",
+   "REEF",
+   "PARROT",
+   "HAMMOCK",
+   "MANGO",
+   "PAPAYA",
+   "SAND",
+   "VOLCANO",
+   "ISLAND",
+   "HIBISCUS",
+   "PINEAPPLE"
+  ]
+ },
+ {
+  "clue": "Arctic circle",
+  "spangram": "POLARREGION",
+  "words": [
+   "ICEBERG",
+   "GLACIER",
+   "PENGUIN",
+   "WALRUS",
+   "SEAL",
+   "IGLOO",
+   "TUNDRA",
+   "BLIZZARD",
+   "NARWHAL",
+   "CARIBOU",
+   "FROST",
+   "AURORA",
+   "SNOWY"
+  ]
+ },
+ {
+  "clue": "Bird of prey",
+  "spangram": "RAPTORS",
+  "words": [
+   "EAGLE",
+   "HAWK",
+   "FALCON",
+   "OSPREY",
+   "KESTREL",
+   "CONDOR",
+   "VULTURE",
+   "HARRIER",
+   "KITE",
+   "BUZZARD",
+   "MERLIN",
+   "GOSHAWK"
+  ]
+ },
+ {
+  "clue": "Gone fishing",
+  "spangram": "ANGLERS",
+  "words": [
+   "REEL",
+   "BAIT",
+   "LURE",
+   "HOOK",
+   "TACKLE",
+   "BOBBER",
+   "SINKER",
+   "WORMS",
+   "TROUT",
+   "BASS",
+   "CATFISH",
+   "SALMON",
+   "WADERS"
+  ]
+ },
+ {
+  "clue": "On the green",
+  "spangram": "GOLFCOURSE",
+  "words": [
+   "BIRDIE",
+   "EAGLE",
+   "BOGEY",
+   "PUTTER",
+   "DRIVER",
+   "IRON",
+   "WEDGE",
+   "CADDIE",
+   "FAIRWAY",
+   "BUNKER",
+   "HOLE",
+   "CLUB",
+   "DIVOT"
+  ]
+ },
+ {
+  "clue": "Love all",
+  "spangram": "TENNISMATCH",
+  "words": [
+   "SERVE",
+   "VOLLEY",
+   "RACKET",
+   "LOVE",
+   "DEUCE",
+   "BASELINE",
+   "SMASH",
+   "FOREHAND",
+   "BACKHAND",
+   "RALLY",
+   "TIEBREAK",
+   "ADVANTAGE",
+   "UMPIRE",
+   "COURT"
+  ]
+ },
+ {
+  "clue": "Touchdown",
+  "spangram": "FOOTBALLGAME",
+  "words": [
+   "HUDDLE",
+   "TACKLE",
+   "FUMBLE",
+   "PUNT",
+   "KICKOFF",
+   "SAFETY",
+   "ENDZONE",
+   "BLITZ",
+   "SNAP",
+   "LINEMAN",
+   "HELMET",
+   "FIELDGOAL"
+  ]
+ },
+ {
+  "clue": "Pool party",
+  "spangram": "SWIMMING",
+  "words": [
+   "FREESTYLE",
+   "BUTTERFLY",
+   "DIVE",
+   "GOGGLES",
+   "LANE",
+   "LIFEGUARD",
+   "FLIPPER",
+   "SNORKEL",
+   "FLOAT",
+   "SPLASH",
+   "WETSUIT",
+   "KICKBOARD",
+   "POOL"
+  ]
+ },
+ {
+  "clue": "On your mark",
+  "spangram": "TRACKMEET",
+  "words": [
+   "SPRINT",
+   "RELAY",
+   "HURDLES",
+   "BATON",
+   "JAVELIN",
+   "DISCUS",
+   "SHOTPUT",
+   "MARATHON",
+   "STARTER",
+   "FINISH",
+   "LONGJUMP",
+   "POLE",
+   "VAULT"
+  ]
+ },
+ {
+  "clue": "Ring the bell",
+  "spangram": "BOXINGMATCH",
+  "words": [
+   "HOOK",
+   "UPPERCUT",
+   "KNOCKOUT",
+   "ROUND",
+   "GLOVES",
+   "CORNER",
+   "REFEREE",
+   "BELL",
+   "CANVAS",
+   "ROPES",
+   "BOUT",
+   "CHAMPION"
+  ]
+ },
+ {
+  "clue": "Pedal power",
+  "spangram": "CYCLING",
+  "words": [
+   "BIKE",
+   "HELMET",
+   "PEDAL",
+   "CHAIN",
+   "SPOKES",
+   "GEARS",
+   "SADDLE",
+   "HANDLEBAR",
+   "TANDEM",
+   "KICKSTAND",
+   "PELOTON",
+   "SPRINT",
+   "TIRES"
+  ]
+ },
+ {
+  "clue": "Deep breath",
+  "spangram": "YOGAPOSES",
+  "words": [
+   "COBRA",
+   "TREE",
+   "LOTUS",
+   "WARRIOR",
+   "BRIDGE",
+   "CHILD",
+   "CAMEL",
+   "PIGEON",
+   "PLANK",
+   "CROW",
+   "EAGLE",
+   "MOUNTAIN",
+   "TRIANGLE"
+  ]
+ },
+ {
+  "clue": "Martial arts",
+  "spangram": "DOJOTRAINING",
+  "words": [
+   "KARATE",
+   "JUDO",
+   "KUNGFU",
+   "TAEKWONDO",
+   "SENSEI",
+   "BELT",
+   "KATA",
+   "SPAR",
+   "KICK",
+   "PUNCH",
+   "AIKIDO",
+   "NINJA"
+  ]
+ },
+ {
+  "clue": "Board games",
+  "spangram": "FAMILYNIGHT",
+  "words": [
+   "MONOPOLY",
+   "SCRABBLE",
+   "CLUE",
+   "CHECKERS",
+   "CHESS",
+   "RISK",
+   "SORRY",
+   "YAHTZEE",
+   "BINGO",
+   "TRIVIA",
+   "DOMINOES",
+   "MANCALA",
+   "CHARADES"
+  ]
+ },
+ {
+  "clue": "Toy chest",
+  "spangram": "PLAYTHINGS",
+  "words": [
+   "DOLL",
+   "YOYO",
+   "KITE",
+   "BLOCKS",
+   "PUZZLE",
+   "TEDDY",
+   "MARBLES",
+   "ROBOT",
+   "TRAIN",
+   "JACKS",
+   "SLINKY",
+   "RATTLE",
+   "FRISBEE",
+   "PUPPET"
+  ]
+ },
+ {
+  "clue": "At the playground",
+  "spangram": "RECESSTIME",
+  "words": [
+   "SLIDE",
+   "SWING",
+   "SANDBOX",
+   "SEESAW",
+   "HOPSCOTCH",
+   "KICKBALL",
+   "JUMPROPE",
+   "CLIMBER",
+   "JUNGLEGYM",
+   "DODGEBALL",
+   "MARBLES",
+   "CHALK"
+  ]
+ },
+ {
+  "clue": "Arcade",
+  "spangram": "VIDEOGAMES",
+  "words": [
+   "JOYSTICK",
+   "CONSOLE",
+   "LEVEL",
+   "PLAYER",
+   "PIXEL",
+   "BOSS",
+   "QUEST",
+   "HIGHSCORE",
+   "AVATAR",
+   "POWERUP",
+   "RESPAWN",
+   "GAMEPAD",
+   "CHEATCODE"
+  ]
+ },
+ {
+  "clue": "Theme park",
+  "spangram": "AMUSEMENT",
+  "words": [
+   "COASTER",
+   "CAROUSEL",
+   "TEACUPS",
+   "FUNHOUSE",
+   "ARCADE",
+   "COTTON",
+   "CANDY",
+   "GAMES",
+   "TICKETS",
+   "FLUME",
+   "MIDWAY",
+   "POPCORN"
+  ]
+ },
+ {
+  "clue": "County fair",
+  "spangram": "FAIRGROUNDS",
+  "words": [
+   "RIBBON",
+   "PIGLET",
+   "CORNDOG",
+   "TRACTOR",
+   "CAROUSEL",
+   "PUMPKIN",
+   "QUILT",
+   "RODEO",
+   "HAYRIDE",
+   "PETTING",
+   "JUDGE",
+   "LIVESTOCK",
+   "POPCORN"
+  ]
+ },
+ {
+  "clue": "Yee-haw",
+  "spangram": "WILDWEST",
+  "words": [
+   "COWBOY",
+   "SHERIFF",
+   "SALOON",
+   "RODEO",
+   "LASSO",
+   "CACTUS",
+   "BANDIT",
+   "HORSESHOE",
+   "SADDLE",
+   "OUTLAW",
+   "SPURS",
+   "RANCH",
+   "CANYON"
+  ]
+ },
+ {
+  "clue": "Dinosaur dig",
+  "spangram": "PREHISTORIC",
+  "words": [
+   "TREX",
+   "RAPTOR",
+   "FOSSIL",
+   "MAMMOTH",
+   "AMBER",
+   "BONES",
+   "CAVEMAN",
+   "METEOR",
+   "JURASSIC",
+   "DINOSAUR",
+   "TARPIT",
+   "CAVE",
+   "SPEAR",
+   "ICEAGE"
+  ]
+ },
+ {
+  "clue": "Ancient Egypt",
+  "spangram": "PHARAOHS",
+  "words": [
+   "PYRAMID",
+   "SPHINX",
+   "MUMMY",
+   "TOMB",
+   "NILE",
+   "SCARAB",
+   "PAPYRUS",
+   "CLEOPATRA",
+   "CAIRO",
+   "OBELISK",
+   "CAMEL",
+   "OASIS",
+   "DESERT"
+  ]
+ },
+ {
+  "clue": "Robots rule",
+  "spangram": "SCIFIMOVIES",
+  "words": [
+   "ALIEN",
+   "ROBOT",
+   "LASER",
+   "STARSHIP",
+   "CYBORG",
+   "ANDROID",
+   "GALAXY",
+   "PLANET",
+   "WARP",
+   "CLONE",
+   "MUTANT",
+   "PORTAL"
+  ]
+ },
+ {
+  "clue": "Superheroes",
+  "spangram": "COMICBOOKS",
+  "words": [
+   "CAPE",
+   "MASK",
+   "HERO",
+   "VILLAIN",
+   "SIDEKICK",
+   "LAIR",
+   "GADGET",
+   "POWERS",
+   "SECRET",
+   "IDENTITY",
+   "RESCUE",
+   "COSTUME",
+   "NEMESIS"
+  ]
+ },
+ {
+  "clue": "Ghost stories",
+  "spangram": "SPOOKYTALES",
+  "words": [
+   "HAUNTED",
+   "PHANTOM",
+   "SPIRIT",
+   "CURSE",
+   "ATTIC",
+   "CRYPT",
+   "GRAVEYARD",
+   "SHADOW",
+   "SCREAM",
+   "CANDLE",
+   "MOONLIGHT",
+   "GHOUL",
+   "WEREWOLF"
+  ]
+ },
+ {
+  "clue": "Make some noise",
+  "spangram": "SOUNDEFFECTS",
+  "words": [
+   "BANG",
+   "BOOM",
+   "CRASH",
+   "SPLASH",
+   "BUZZ",
+   "HISS",
+   "WHOOSH",
+   "CLANG",
+   "THUD",
+   "SIZZLE",
+   "RUMBLE",
+   "SQUEAK",
+   "CRUNCH"
+  ]
+ },
+ {
+  "clue": "Animal sounds",
+  "spangram": "BARNCHORUS",
+  "words": [
+   "OINK",
+   "NEIGH",
+   "QUACK",
+   "CLUCK",
+   "HOOT",
+   "BARK",
+   "MEOW",
+   "HOWL",
+   "ROAR",
+   "CHIRP",
+   "TWEET",
+   "GROWL",
+   "BLEAT",
+   "GOBBLE"
+  ]
+ },
+ {
+  "clue": "Jazz hands",
+  "spangram": "MUSICGENRES",
+  "words": [
+   "JAZZ",
+   "BLUES",
+   "ROCK",
+   "PUNK",
+   "FUNK",
+   "DISCO",
+   "REGGAE",
+   "COUNTRY",
+   "OPERA",
+   "SOUL",
+   "GOSPEL",
+   "TECHNO",
+   "HIPHOP",
+   "FOLK",
+   "METAL"
+  ]
+ },
+ {
+  "clue": "Choir practice",
+  "spangram": "SINGERS",
+  "words": [
+   "SOPRANO",
+   "ALTO",
+   "TENOR",
+   "BARITONE",
+   "BASS",
+   "MEZZO",
+   "CHORUS",
+   "SOLOIST",
+   "DUET",
+   "TRIO",
+   "QUARTET",
+   "CANTOR",
+   "CROONER"
+  ]
+ },
+ {
+  "clue": "Band camp",
+  "spangram": "MARCHINGBAND",
+  "words": [
+   "DRUM",
+   "CYMBAL",
+   "BUGLE",
+   "TROMBONE",
+   "TUBA",
+   "PICCOLO",
+   "BATON",
+   "MAJORETTE",
+   "UNIFORM",
+   "PARADE",
+   "FLAG",
+   "SNARE",
+   "PLUME"
+  ]
+ },
+ {
+  "clue": "Picture perfect",
+  "spangram": "PHOTOGRAPHY",
+  "words": [
+   "CAMERA",
+   "LENS",
+   "SHUTTER",
+   "FLASH",
+   "TRIPOD",
+   "FOCUS",
+   "ZOOM",
+   "APERTURE",
+   "PORTRAIT",
+   "SELFIE",
+   "SNAPSHOT",
+   "FILTER",
+   "EXPOSURE"
+  ]
+ },
+ {
+  "clue": "Museum visit",
+  "spangram": "ARTGALLERY",
+  "words": [
+   "PAINTING",
+   "SCULPTURE",
+   "PORTRAIT",
+   "MURAL",
+   "FRESCO",
+   "EXHIBIT",
+   "CURATOR",
+   "STATUE",
+   "MOSAIC",
+   "CANVAS",
+   "EASEL",
+   "SKETCH",
+   "ARTIST"
+  ]
+ },
+ {
+  "clue": "Poetry corner",
+  "spangram": "POEMTYPES",
+  "words": [
+   "HAIKU",
+   "SONNET",
+   "LIMERICK",
+   "ELEGY",
+   "BALLAD",
+   "EPIC",
+   "VERSE",
+   "STANZA",
+   "RHYME",
+   "MEADOW",
+   "COUPLET",
+   "FREEVERSE"
+  ]
+ },
+ {
+  "clue": "Word nerd",
+  "spangram": "DICTIONARY",
+  "words": [
+   "SYLLABLE",
+   "ENTRY",
+   "SYNONYM",
+   "ANTONYM",
+   "SPELLING",
+   "ACCENT",
+   "GLOSSARY",
+   "THESAURUS",
+   "IDIOM",
+   "DEFINE",
+   "WORDS",
+   "LEXICON",
+   "ETYMOLOGY",
+   "PRONOUNCE"
+  ]
+ },
+ {
+  "clue": "Ocean blue",
+  "spangram": "SEAWATER",
+  "words": [
+   "WAVE",
+   "TIDE",
+   "CURRENT",
+   "REEF",
+   "CORAL",
+   "SALT",
+   "FOAM",
+   "SURF",
+   "ABYSS",
+   "TRENCH",
+   "LAGOON",
+   "GULF",
+   "SHOAL"
+  ]
+ },
+ {
+  "clue": "Rain forest",
+  "spangram": "JUNGLELIFE",
+  "words": [
+   "JAGUAR",
+   "TOUCAN",
+   "SLOTH",
+   "PARROT",
+   "MONKEY",
+   "GORILLA",
+   "PYTHON",
+   "PIRANHA",
+   "TAPIR",
+   "ANACONDA",
+   "ORCHID",
+   "VINE",
+   "CANOPY"
+  ]
+ },
+ {
+  "clue": "Mountain high",
+  "spangram": "ALPINEPEAKS",
+  "words": [
+   "SUMMIT",
+   "RIDGE",
+   "SLOPE",
+   "AVALANCHE",
+   "GLACIER",
+   "CREVASSE",
+   "SHERPA",
+   "CLIMBER",
+   "CABLE",
+   "SKIER",
+   "CHALET",
+   "YODEL"
+  ]
+ },
+ {
+  "clue": "Volcanoes",
+  "spangram": "ERUPTIONS",
+  "words": [
+   "LAVA",
+   "MAGMA",
+   "CRATER",
+   "PLUME",
+   "VENT",
+   "GEYSER",
+   "MOLTEN",
+   "SMOKE",
+   "CINDER",
+   "PUMICE",
+   "TREMOR",
+   "CALDERA"
+  ]
+ },
+ {
+  "clue": "Wild weather",
+  "spangram": "STORMCHASER",
+  "words": [
+   "TORNADO",
+   "HURRICANE",
+   "CYCLONE",
+   "TYPHOON",
+   "MONSOON",
+   "BLIZZARD",
+   "TWISTER",
+   "LIGHTNING",
+   "THUNDER",
+   "SQUALL",
+   "GALE",
+   "FUNNEL"
+  ]
+ },
+ {
+  "clue": "Seasons change",
+  "spangram": "AUTUMNLEAVES",
+  "words": [
+   "ACORN",
+   "PUMPKIN",
+   "HARVEST",
+   "SCARECROW",
+   "CIDER",
+   "HAYRIDE",
+   "SWEATER",
+   "MAPLE",
+   "RAKE",
+   "SQUASH",
+   "APPLES",
+   "CORNSTALK",
+   "BONFIRE"
+  ]
+ },
+ {
+  "clue": "Summer fun",
+  "spangram": "VACATION",
+  "words": [
+   "BEACH",
+   "POOL",
+   "CAMP",
+   "PICNIC",
+   "SUNBURN",
+   "POPSICLE",
+   "FIREWORKS",
+   "HAMMOCK",
+   "LEMONADE",
+   "SANDALS",
+   "SURFING",
+   "ROADTRIP"
+  ]
+ },
+ {
+  "clue": "Snow day",
+  "spangram": "WINTERTIME",
+  "words": [
+   "SNOWMAN",
+   "SLED",
+   "MITTENS",
+   "SCARF",
+   "ICICLE",
+   "SNOWBALL",
+   "BLIZZARD",
+   "SKATES",
+   "COCOA",
+   "IGLOO",
+   "FROST",
+   "PARKA",
+   "FLURRY"
+  ]
+ },
+ {
+  "clue": "Dairy queen",
+  "spangram": "MILKPRODUCTS",
+  "words": [
+   "BUTTER",
+   "CHEESE",
+   "YOGURT",
+   "CREAM",
+   "KEFIR",
+   "CUSTARD",
+   "GELATO",
+   "MILKSHAKE",
+   "ICECREAM",
+   "GHEE",
+   "WHEY",
+   "CURDS"
+  ]
+ },
+ {
+  "clue": "Jam session",
+  "spangram": "PRESERVES",
+  "words": [
+   "APRICOT",
+   "PEACH",
+   "PLUM",
+   "GRAPE",
+   "CHERRY",
+   "RASPBERRY",
+   "BLUEBERRY",
+   "QUINCE",
+   "ORANGE",
+   "MARMALADE",
+   "PECTIN",
+   "JELLY",
+   "JARS",
+   "SUGAR",
+   "LEMON"
+  ]
+ },
+ {
+  "clue": "Citrus grove",
+  "spangram": "CITRUSFRUIT",
+  "words": [
+   "LEMON",
+   "LIME",
+   "ORANGE",
+   "TANGERINE",
+   "KUMQUAT",
+   "POMELO",
+   "YUZU",
+   "MANDARIN",
+   "CITRON",
+   "SATSUMA",
+   "TANGELO",
+   "BERGAMOT",
+   "ZEST"
+  ]
+ },
+ {
+  "clue": "Soup's on",
+  "spangram": "SOUPKITCHEN",
+  "words": [
+   "CHOWDER",
+   "BISQUE",
+   "GUMBO",
+   "BROTH",
+   "STEW",
+   "CHILI",
+   "GAZPACHO",
+   "NOODLE",
+   "LENTIL",
+   "BORSCHT",
+   "RAMEN",
+   "STOCK",
+   "BOUILLON",
+   "CONSOMME"
+  ]
+ },
+ {
+  "clue": "Salad days",
+  "spangram": "SALADBAR",
+  "words": [
+   "LETTUCE",
+   "CROUTONS",
+   "DRESSING",
+   "CUCUMBER",
+   "TOMATO",
+   "CARROTS",
+   "SPINACH",
+   "ARUGULA",
+   "RADISH",
+   "OLIVES",
+   "CHICKPEAS",
+   "FETA",
+   "KALE"
+  ]
+ },
+ {
+  "clue": "Morning brew",
+  "spangram": "TEATIME",
+  "words": [
+   "EARLGREY",
+   "CHAMOMILE",
+   "GREEN",
+   "OOLONG",
+   "JASMINE",
+   "MATCHA",
+   "CHAI",
+   "KETTLE",
+   "TEAPOT",
+   "SAUCER",
+   "STEEP",
+   "HONEY",
+   "LEMON"
+  ]
+ },
+ {
+  "clue": "Ice cream social",
+  "spangram": "SUNDAEBAR",
+  "words": [
+   "VANILLA",
+   "CHOCOLATE",
+   "SPRINKLES",
+   "FUDGE",
+   "CHERRY",
+   "WAFFLE",
+   "CONE",
+   "SCOOP",
+   "NUTS",
+   "SYRUP",
+   "BANANA",
+   "WHIPPED",
+   "CARAMEL"
+  ]
+ },
+ {
+  "clue": "Grains of truth",
+  "spangram": "CEREALGRAIN",
+  "words": [
+   "WHEAT",
+   "BARLEY",
+   "OATS",
+   "RICE",
+   "CORN",
+   "MILLET",
+   "QUINOA",
+   "SORGHUM",
+   "SPELT",
+   "BUCKWHEAT",
+   "BRAN",
+   "FLAX"
+  ]
+ },
+ {
+  "clue": "Under the hood",
+  "spangram": "CARPARTS",
+  "words": [
+   "ENGINE",
+   "BUMPER",
+   "MUFFLER",
+   "BRAKES",
+   "CLUTCH",
+   "PISTON",
+   "RADIATOR",
+   "AXLE",
+   "BATTERY",
+   "FENDER",
+   "TRUNK",
+   "HOOD",
+   "SPARKPLUG",
+   "WHEEL"
+  ]
+ },
+ {
+  "clue": "Traffic jam",
+  "spangram": "ROADSIGNS",
+  "words": [
+   "STOP",
+   "YIELD",
+   "MERGE",
+   "DETOUR",
+   "SPEED",
+   "LIMIT",
+   "EXIT",
+   "ONEWAY",
+   "CROSSWALK",
+   "SCHOOL",
+   "CURVE",
+   "DEER",
+   "TOLL",
+   "FREEWAY"
+  ]
+ },
+ {
+  "clue": "Shopping spree",
+  "spangram": "DEPARTMENT",
+  "words": [
+   "CHECKOUT",
+   "CASHIER",
+   "RECEIPT",
+   "COUPON",
+   "SALE",
+   "AISLE",
+   "CART",
+   "BARGAIN",
+   "REFUND",
+   "FITTING",
+   "HANGER",
+   "DISPLAY",
+   "MANNEQUIN"
+  ]
+ },
+ {
+  "clue": "Supermarket",
+  "spangram": "GROCERIES",
+  "words": [
+   "PRODUCE",
+   "DAIRY",
+   "BAKERY",
+   "FREEZER",
+   "DELI",
+   "CEREAL",
+   "MEAT",
+   "SNACKS",
+   "SPICES",
+   "CANNED",
+   "BREAD",
+   "EGGS",
+   "FLOUR",
+   "SUGAR"
+  ]
+ },
+ {
+  "clue": "Garden party",
+  "spangram": "FLOWERBEDS",
+  "words": [
+   "DAISY",
+   "TULIP",
+   "PANSY",
+   "PETUNIA",
+   "ZINNIA",
+   "DAFFODIL",
+   "GERANIUM",
+   "BEGONIA",
+   "FOXGLOVE",
+   "HYACINTH",
+   "CROCUS",
+   "LUPINE",
+   "PEONY"
+  ]
+ },
+ {
+  "clue": "Night sky",
+  "spangram": "ASTRONOMY",
+  "words": [
+   "STAR",
+   "PLANET",
+   "COMET",
+   "METEOR",
+   "GALAXY",
+   "NEBULA",
+   "ECLIPSE",
+   "CRATER",
+   "QUASAR",
+   "PULSAR",
+   "TELESCOPE",
+   "ORBIT",
+   "COSMOS"
+  ]
+ },
+ {
+  "clue": "Weights and measures",
+  "spangram": "MEASUREMENT",
+  "words": [
+   "INCH",
+   "FOOT",
+   "YARD",
+   "MILE",
+   "METER",
+   "LITER",
+   "GALLON",
+   "QUART",
+   "PINT",
+   "OUNCE",
+   "POUND",
+   "GRAM",
+   "ACRE"
+  ]
+ },
+ {
+  "clue": "Sweet dreams",
+  "spangram": "NAPTIME",
+  "words": [
+   "DOZE",
+   "SNOOZE",
+   "SIESTA",
+   "SLUMBER",
+   "REST",
+   "CATNAP",
+   "DROWSY",
+   "YAWN",
+   "PILLOW",
+   "SNORE",
+   "DREAM",
+   "BLANKET"
+  ]
+ },
+ {
+  "clue": "Hair salon",
+  "spangram": "HAIRSTYLES",
+  "words": [
+   "BRAID",
+   "PONYTAIL",
+   "MOHAWK",
+   "CORNROWS",
+   "PIGTAILS",
+   "BANGS",
+   "MULLET",
+   "PERM",
+   "CREWCUT",
+   "LAYERS",
+   "UPDO",
+   "BUZZCUT"
+  ]
+ },
+ {
+  "clue": "Pet shop",
+  "spangram": "HOUSEPETS",
+  "words": [
+   "HAMSTER",
+   "GERBIL",
+   "GOLDFISH",
+   "PARAKEET",
+   "RABBIT",
+   "GUINEAPIG",
+   "FERRET",
+   "TURTLE",
+   "KITTEN",
+   "PUPPY",
+   "CANARY",
+   "LIZARD",
+   "MOUSE"
+  ]
+ },
+ {
+  "clue": "Horse sense",
+  "spangram": "EQUESTRIAN",
+  "words": [
+   "SADDLE",
+   "BRIDLE",
+   "STIRRUP",
+   "REINS",
+   "GALLOP",
+   "TROT",
+   "CANTER",
+   "STABLE",
+   "PONY",
+   "MARE",
+   "STALLION",
+   "FOAL",
+   "JOCKEY",
+   "HOOVES"
+  ]
+ },
+ {
+  "clue": "Bee happy",
+  "spangram": "BEEKEEPING",
+  "words": [
+   "HIVE",
+   "HONEY",
+   "QUEEN",
+   "DRONE",
+   "WORKER",
+   "POLLEN",
+   "NECTAR",
+   "COMB",
+   "SWARM",
+   "STINGER",
+   "APIARY",
+   "BUZZ",
+   "VEIL"
+  ]
+ },
+ {
+  "clue": "Totally tubular",
+  "spangram": "SLANGTERMS",
+  "words": [
+   "AWESOME",
+   "COOL",
+   "EPIC",
+   "DOPE",
+   "NEAT",
+   "GROOVY",
+   "STELLAR",
+   "SWEET",
+   "WICKED",
+   "BOMB",
+   "FRESH",
+   "GNARLY",
+   "BODACIOUS"
+  ]
+ },
+ {
+  "clue": "Feeling hot",
+  "spangram": "SPICYFOODS",
+  "words": [
+   "JALAPENO",
+   "HABANERO",
+   "CAYENNE",
+   "SRIRACHA",
+   "CHIPOTLE",
+   "WASABI",
+   "CURRY",
+   "SALSA",
+   "SERRANO",
+   "TABASCO",
+   "GINGER",
+   "PEPPER",
+   "PAPRIKA",
+   "HOTWINGS"
+  ]
+ },
+ {
+  "clue": "Pet peeves",
+  "spangram": "ANNOYANCES",
+  "words": [
+   "TRAFFIC",
+   "SPAM",
+   "HICCUPS",
+   "DELAYS",
+   "STATIC",
+   "LITTER",
+   "NOISE",
+   "SNORING",
+   "DRIPPING",
+   "GLARE",
+   "POTHOLES",
+   "ROBOCALLS"
+  ]
+ },
+ {
+  "clue": "Celebrations",
+  "spangram": "FESTIVALS",
+  "words": [
+   "PARADE",
+   "FIREWORKS",
+   "CARNIVAL",
+   "GALA",
+   "FIESTA",
+   "JUBILEE",
+   "PICNIC",
+   "CONCERT",
+   "BANQUET",
+   "FEAST",
+   "REUNION",
+   "BONFIRE"
+  ]
+ }
+]

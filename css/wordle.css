@@ -1,0 +1,213 @@
+/* Wordle — NYT-faithful board, tiles and keyboard. */
+
+.wd-game {
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  max-width: var(--content-max);
+  display: flex;
+  flex-direction: column;
+}
+
+.wd-board-wrap {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.wd-board {
+  --tile: 62px;
+  --rows: 6;
+  --cols: 5;
+  display: grid;
+  grid-template-rows: repeat(var(--rows), var(--tile));
+  gap: 5px;
+  padding: 10px;
+  box-sizing: content-box;
+}
+.wd-row {
+  display: grid;
+  grid-template-columns: repeat(var(--cols, 5), var(--tile));
+  gap: 5px;
+}
+.wd-row[data-animation="shake"] { animation: wdShake 600ms; }
+
+.wd-tile {
+  width: var(--tile);
+  height: var(--tile);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(var(--tile) * 0.52);
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  vertical-align: middle;
+  user-select: none;
+  border: 2px solid var(--tile-border);
+  color: var(--text);
+  background: transparent;
+}
+.wd-tile[data-state="tbd"] { border-color: var(--tile-border-filled); }
+.wd-tile[data-state="correct"],
+.wd-tile[data-state="present"],
+.wd-tile[data-state="absent"] { border: 0; color: #fff; }
+.wd-tile[data-state="correct"] { background: var(--color-correct); }
+.wd-tile[data-state="present"] { background: var(--color-present); }
+.wd-tile[data-state="absent"] { background: var(--color-absent); }
+
+.wd-tile[data-animation="pop"] { animation: wdPop 100ms; }
+.wd-tile[data-animation="flip-in"] { animation: wdFlipIn 250ms ease-in forwards; }
+.wd-tile[data-animation="flip-out"] { animation: wdFlipOut 250ms ease-in; }
+.wd-tile[data-animation="bounce"] { animation: wdBounce 1000ms; }
+
+@keyframes wdPop {
+  from { transform: scale(0.8); opacity: 0; }
+  40% { transform: scale(1.1); opacity: 1; }
+}
+@keyframes wdFlipIn { from { transform: rotateX(0); } to { transform: rotateX(-90deg); } }
+@keyframes wdFlipOut { from { transform: rotateX(-90deg); } to { transform: rotateX(0); } }
+@keyframes wdShake {
+  10%, 90% { transform: translateX(-1px); }
+  20%, 80% { transform: translateX(2px); }
+  30%, 50%, 70% { transform: translateX(-4px); }
+  40%, 60% { transform: translateX(4px); }
+}
+@keyframes wdBounce {
+  0%, 20% { transform: translateY(0); }
+  40% { transform: translateY(-30px); }
+  50% { transform: translateY(5px); }
+  60% { transform: translateY(-15px); }
+  80% { transform: translateY(2px); }
+  100% { transform: translateY(0); }
+}
+
+/* ---------------------------------------------------------------- mode switch */
+.wd-modes {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px 12px 2px;
+  box-sizing: border-box;
+}
+.wd-mode-switch {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: min(280px, 100%);
+  padding: 3px;
+  border-radius: 999px;
+  background: var(--bg-soft);
+}
+.wd-mode-switch button {
+  height: 32px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.wd-mode-switch button[aria-selected="true"] {
+  background: var(--text);
+  color: var(--bg);
+}
+.wd-mode-switch button:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+}
+.wd-mode-switch button:disabled { cursor: default; }
+.wd-mode-note {
+  margin: 4px 0 0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+}
+
+/* Splash sits on the light game color in both themes. */
+.splash .wd-modes { padding: 0 0 16px; }
+.splash .wd-mode-switch { background: rgba(18, 18, 18, 0.1); }
+.splash .wd-mode-switch button { color: #121212; }
+.splash .wd-mode-switch button[aria-selected="true"] { background: #121212; color: #fff; }
+.splash .wd-mode-note { color: rgba(18, 18, 18, 0.72); }
+
+/* ---------------------------------------------------------------- keyboard */
+.wd-keyboard {
+  --key-h: clamp(40px, calc((100dvh - var(--header-h)) * 0.085), 58px);
+  flex: 0 0 auto;
+  padding: 0 8px calc(8px + env(safe-area-inset-bottom));
+  user-select: none;
+}
+.wd-kb-row {
+  display: flex;
+  width: 100%;
+  margin: 0 auto 8px;
+  touch-action: manipulation;
+}
+.wd-kb-row:last-child { margin-bottom: 0; }
+.wd-key {
+  flex: 1 1 0;
+  min-width: 0;
+  height: var(--key-h);
+  margin: 0 6px 0 0;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: var(--key-bg);
+  color: var(--key-text);
+  font-family: inherit;
+  font-size: 1.25em;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+  transition: background-color 0.1s;
+}
+.wd-key:last-of-type { margin-right: 0; }
+.wd-key.wide { flex: 1.5 1 0; font-size: 12px; }
+.wd-key svg { width: 24px; height: 24px; fill: currentColor; }
+.wd-key:active { filter: brightness(0.9); }
+.wd-key[data-state="correct"],
+.wd-key[data-state="present"],
+.wd-key[data-state="absent"] { color: #fff; }
+.wd-key[data-state="correct"] { background: var(--color-correct); }
+.wd-key[data-state="present"] { background: var(--color-present); }
+.wd-key[data-state="absent"] { background: var(--color-absent); }
+.wd-spacer { flex: 0.5 1 0; }
+
+@media (max-width: 360px) {
+  .wd-key { margin-right: 4px; font-size: 1.05em; }
+  .wd-key.wide { font-size: 10px; }
+  .wd-kb-row { margin-bottom: 6px; }
+}
+
+/* ---------------------------------------------------------------- help */
+.wd-help .wd-example-row { display: flex; gap: 4px; margin: 8px 0 4px; }
+.wd-tile.small { --tile: 32px; font-size: 20px; }
+.wd-help-foot { border-top: 1px solid var(--border); padding-top: 12px; margin-top: 16px; font-size: 14px !important; }
+
+/* Hint strip: answer letters revealed by the 💡 button. */
+.wd-hints {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px 0 0;
+}
+.wd-hints-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-right: 6px;
+}

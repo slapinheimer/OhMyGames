@@ -1,0 +1,119 @@
+/* Cross Sums — Oh My NUMBERS! A raised, beveled board: clue tiles split on the diagonal with a
+   light ridge, light from the top left. A clue half turns green when its run is right, red when wrong. */
+:root {
+  --ks-board: #9aa5ae; --ks-tile: #d5dce2; --ks-tile-lo: #c3ccd3; --ks-hi: rgba(255, 255, 255, 0.85); --ks-lo: rgba(40, 52, 62, 0.28);
+  --ks-num: #46505a; --ks-cell: #ffffff; --ks-cell-lo: #eef1f4; --ks-cell-edge: #bfc8cf;
+  --ks-val: #1a5fad; --ks-run: #e4eef8; --ks-sel: #c4dcf3; --ks-bad: #d63b2f; --ks-ok: #4fae35; --ks-hint: #2f7d46; --ks-key: #e8eef4; --ks-done: #2f7d32;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ks-board: #1a1b1d; --ks-tile: #3b3e42; --ks-tile-lo: #303337; --ks-hi: rgba(255, 255, 255, 0.16); --ks-lo: rgba(0, 0, 0, 0.5);
+    --ks-num: #c9ced3; --ks-cell: #55585c; --ks-cell-lo: #4a4d51; --ks-cell-edge: #2a2c2f;
+    --ks-val: #a9d3ff; --ks-run: #4b5560; --ks-sel: #2f5f8f; --ks-bad: #ff7b70; --ks-ok: #4b9a35; --ks-hint: #9fdc9f; --ks-key: #2a2f36;
+  }
+}
+:root[data-theme="dark"] {
+  --ks-board: #1a1b1d; --ks-tile: #3b3e42; --ks-tile-lo: #303337; --ks-hi: rgba(255, 255, 255, 0.16); --ks-lo: rgba(0, 0, 0, 0.5);
+  --ks-num: #c9ced3; --ks-cell: #55585c; --ks-cell-lo: #4a4d51; --ks-cell-edge: #2a2c2f;
+  --ks-val: #a9d3ff; --ks-run: #4b5560; --ks-sel: #2f5f8f; --ks-bad: #ff7b70; --ks-ok: #4b9a35; --ks-hint: #9fdc9f; --ks-key: #2a2f36;
+}
+
+.ks-wrap { width: min(100%, 560px); padding: 12px 16px 24px; margin: auto 0; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.ks-top { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.ks-picker {
+  display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; flex: 1; max-width: 340px;
+  padding: 4px; border-radius: 10px; background: var(--bg-soft);
+}
+.ks-pick {
+  position: relative; height: 34px; border: 0; border-radius: 7px; background: none; cursor: pointer;
+  font-size: 14px; font-weight: 700; color: var(--text-muted);
+}
+.ks-pick.is-on { background: var(--surface); color: var(--text); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18); }
+.ks-mark { position: absolute; top: 1px; right: 4px; font-size: 11px; color: var(--ks-done); }
+.ks-clock, .ks-size { font-size: 18px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.ks-size { color: var(--text-muted); font-size: 15px; }
+
+.ks-grid {
+  display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+  width: min(100%, calc((100dvh - 380px) * var(--cols) / var(--rows)), 520px); min-width: 200px;
+  gap: 2px; padding: 2px; background: var(--ks-board); border-radius: 6px; container-type: inline-size;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.22), 0 1px 0 rgba(0, 0, 0, 0.3);
+  user-select: none; -webkit-user-select: none;
+}
+.ks-block, .ks-cell { aspect-ratio: 1; position: relative; border-radius: 2px; }
+/* Every dark square is a raised tile: bright top-left edge, shaded bottom-right edge. */
+.ks-block {
+  background: linear-gradient(135deg, var(--ks-tile), var(--ks-tile-lo));
+  box-shadow: inset 2px 2px 0 var(--ks-hi), inset -2px -2px 0 var(--ks-lo);
+}
+/* Clue tiles fold on the diagonal: the down half (bottom left) sits in shade, the across half
+   (top right) in light, with a bright ridge between them. */
+.ks-block.is-clue {
+  --dn: var(--ks-tile-lo); --ac: var(--ks-tile);
+  background: linear-gradient(to top right, var(--dn) calc(50% - 1.5px), var(--ks-lo) calc(50% - 1.5px), var(--ks-lo) calc(50% - 0.5px),
+    var(--ks-hi) calc(50% - 0.5px), var(--ks-hi) calc(50% + 1px), var(--ac) calc(50% + 1px));
+}
+.ks-block.dn-ok { --dn: var(--ks-ok); }
+.ks-block.dn-bad { --dn: var(--ks-bad); }
+.ks-block.ac-ok { --ac: var(--ks-ok); }
+.ks-block.ac-bad { --ac: var(--ks-bad); }
+.ks-block.dn-ok .ks-down, .ks-block.dn-bad .ks-down, .ks-block.ac-ok .ks-across, .ks-block.ac-bad .ks-across { color: #fff; }
+.ks-across, .ks-down {
+  position: absolute; color: var(--ks-num); font: 800 calc(30cqi / var(--cols)) var(--font-sans); line-height: 1;
+  font-variant-numeric: tabular-nums; text-shadow: 0 1px 0 var(--ks-hi);
+}
+.ks-across { top: 12%; right: 11%; }
+.ks-down { bottom: 12%; left: 11%; }
+/* Entry squares are raised white keys that press in when selected. */
+.ks-cell {
+  display: flex; align-items: center; justify-content: center; padding: 0; margin: 0; border: 0;
+  background: linear-gradient(160deg, var(--ks-cell), var(--ks-cell-lo)); color: var(--ks-val); cursor: pointer;
+  box-shadow: inset -2px -2px 0 var(--ks-cell-edge), inset 2px 2px 0 var(--ks-hi);
+  transition: background 0.12s, box-shadow 0.12s;
+}
+.ks-val { font: 700 calc(52cqi / var(--cols)) var(--font-sans); line-height: 1; text-shadow: 0 1px 0 var(--ks-hi); }
+.ks-notes {
+  position: absolute; inset: 8%; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr);
+  font: 600 calc(17cqi / var(--cols)) var(--font-sans); color: var(--text-muted); line-height: 1;
+}
+.ks-notes span { display: flex; align-items: center; justify-content: center; }
+.ks-cell.is-run { background: linear-gradient(160deg, var(--ks-run), var(--ks-cell-lo)); }
+.ks-cell.is-sel {
+  background: var(--ks-sel);
+  box-shadow: inset 2px 2px 3px var(--ks-lo), inset -1px -1px 0 var(--ks-hi);
+}
+.ks-cell.is-bad { color: var(--ks-bad); box-shadow: inset 0 0 0 2px var(--ks-bad); }
+.ks-cell.is-hint { color: var(--ks-hint); }
+.ks-cell.is-flash { animation: ks-flash 0.8s ease-out; }
+@keyframes ks-flash { 0%, 40% { background: #ffe08a; } }
+.ks-cell:disabled { cursor: default; }
+.ks-grid.is-solved { background: var(--ks-done); }
+
+.ks-combos { width: 100%; font-size: 14px; display: flex; flex-direction: column; gap: 2px; min-height: 2.8em; }
+.ks-combo-row { display: flex; gap: 10px; align-items: baseline; }
+.ks-combo-head { flex: none; min-width: 7.5em; font-weight: 700; color: var(--text-muted); }
+.ks-combo-sets { font-variant-numeric: tabular-nums; letter-spacing: 0.04em; overflow-wrap: anywhere; }
+
+.ks-pad { width: 100%; display: grid; grid-template-columns: repeat(11, minmax(0, 1fr)); gap: 4px; }
+.ks-key {
+  height: 44px; border: 0; border-radius: 6px; background: linear-gradient(var(--ks-cell), var(--ks-key)); color: var(--text); cursor: pointer;
+  font-size: 20px; font-weight: 700; padding: 0;
+  box-shadow: inset 0 1px 0 var(--ks-hi), 0 2px 0 var(--ks-cell-edge), 0 3px 4px rgba(0, 0, 0, 0.12);
+}
+.ks-key:active:not(:disabled) { transform: translateY(2px); box-shadow: inset 0 1px 2px var(--ks-lo); }
+.ks-key.ks-tool { font-size: 12px; }
+.ks-key.is-on { background: var(--ks-val); color: var(--ks-cell); }
+.ks-key:disabled { opacity: 0.5; cursor: default; }
+@media (max-width: 480px) {
+  .ks-pad { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .ks-key.ks-tool { grid-column: span 1; }
+}
+
+.ks-controls { display: flex; gap: 8px; }
+.ks-tip { margin: 0; font-size: 15px; color: var(--text-muted); text-align: center; min-height: 1.4em; }
+.ks-actions { display: flex; justify-content: center; margin-top: 12px; }
+
+.ks-help ul { padding-left: 20px; margin: 8px 0; }
+.ks-help li { margin: 4px 0; }
+.ks-ex { width: 150px; min-width: 0; margin: 8px 0; }
+.ks-ex .ks-cell { cursor: default; }

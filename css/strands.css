@@ -1,0 +1,284 @@
+/* Strands — Oh My WORDS! */
+:root {
+  --st-theme: #aedfee;
+  --st-span: #f8cd05;
+  --st-on-color: #121212;
+  --st-select: #dbd8c5;
+  --st-select-text: #121212;
+  --st-meter: #dbd8c5;
+  --st-card-border: #121212;
+  --st-hint-ring: #121212;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --st-select: #5a594e; --st-select-text: #f8f8f8; --st-meter: #5a594e;
+    --st-card-border: #565758; --st-hint-ring: #f8f8f8;
+  }
+}
+:root[data-theme="dark"] {
+  --st-select: #5a594e; --st-select-text: #f8f8f8; --st-meter: #5a594e;
+  --st-card-border: #565758; --st-hint-ring: #f8f8f8;
+}
+
+/* ------------------------------------------------------------------ layout (phone first) */
+.strands {
+  width: 100%;
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 10px 16px 14px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto auto auto minmax(0, 1fr) auto;
+  grid-template-areas: "card" "progress" "word" "board" "actions";
+  justify-items: center;
+  gap: 8px;
+  flex: 1 1 auto;
+  min-height: 400px;
+}
+.st-panel, .st-play { display: contents; }
+.st-card { grid-area: card; }
+.st-progress { grid-area: progress; }
+.st-word { grid-area: word; }
+.st-boardwrap { grid-area: board; }
+.st-actions { grid-area: actions; }
+
+/* The board fits both the width and the remaining height (size container). */
+.st-boardwrap {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  container-type: size;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.st-board {
+  --board-w: min(100cqw, 75cqh, 420px);
+  width: var(--board-w);
+  aspect-ratio: 6 / 8;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  cursor: pointer;
+}
+.st-board.st-done { cursor: default; }
+@media (max-height: 640px) and (max-width: 759px) {
+  .strands { gap: 5px; padding-top: 6px; }
+  .st-card-head { font-size: 10px; padding: 3px 8px; }
+  .st-card-body { padding: 4px 10px 6px; }
+  .st-clue { font-size: 16px; }
+  .st-progress { font-size: 14px; }
+  .st-word { min-height: 28px !important; font-size: 20px !important; }
+  .st-hint { height: 38px !important; }
+}
+
+/* ------------------------------------------------------------------ theme card */
+.st-card {
+  width: 100%;
+  border: 1px solid var(--st-card-border);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background: var(--bg);
+}
+.st-card-head {
+  background: var(--st-theme);
+  color: var(--st-on-color);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 5px 8px;
+}
+.st-card-body { padding: 8px 12px 10px; }
+.st-clue {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.st-progress {
+  margin: 2px 0 0;
+  font-size: 15px;
+  text-align: center;
+}
+.st-progress b { font-weight: 800; }
+
+/* ------------------------------------------------------------------ word being built */
+.st-word {
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+}
+.st-word.st-flash { animation: stFade 1.3s ease forwards; }
+.st-word.st-theme, .st-word.st-span {
+  color: var(--st-on-color);
+  padding: 0 14px;
+  border-radius: 999px;
+}
+.st-word.st-theme { background: var(--st-theme); }
+.st-word.st-span { background: var(--st-span); }
+.st-word.st-ok { color: var(--text); }
+.st-word.st-bad { color: var(--text-muted); animation: stShake 0.3s ease, stFade 1.3s ease forwards; }
+@keyframes stFade { 0%, 70% { opacity: 1; } 100% { opacity: 0; } }
+@keyframes stShake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+/* ------------------------------------------------------------------ board cells */
+.st-lines {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: visible;
+}
+.st-lines polyline {
+  fill: none;
+  stroke-width: 0.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.st-lines .ln-found { stroke: var(--st-theme); }
+.st-lines .ln-span { stroke: var(--st-span); }
+.st-lines .ln-sel { stroke: var(--st-select); }
+.st-lines .ln-hint { stroke: var(--st-hint-ring); stroke-width: 0.05; stroke-dasharray: 0.12 0.1; opacity: 0.7; }
+
+.st-cell {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.st-letter {
+  width: 76%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-size: calc(var(--board-w) * 0.072);
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--text);
+  transition: background-color 0.12s, color 0.12s;
+  border: 2px solid transparent;
+}
+.st-cell.st-sel .st-letter { background: var(--st-select); color: var(--st-select-text); }
+.st-cell.st-found .st-letter { background: var(--st-theme); color: var(--st-on-color); }
+.st-cell.st-span .st-letter { background: var(--st-span); color: var(--st-on-color); }
+.st-cell.st-hinted .st-letter { border: 2px dashed var(--st-hint-ring); background: var(--bg); }
+.st-cell.st-hint-first .st-letter { border-style: solid; border-width: 3px; }
+.st-cell.st-pop { animation: stPop 0.35s ease both; }
+@keyframes stPop {
+  0% { transform: scale(1); }
+  45% { transform: scale(1.18); }
+  100% { transform: scale(1); }
+}
+
+/* ------------------------------------------------------------------ hint / results */
+.st-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  margin-top: 4px;
+}
+.st-hint {
+  --fill: 0%;
+  position: relative;
+  height: 44px;
+  min-width: 140px;
+  padding: 0 28px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  color: var(--text-muted);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  background: linear-gradient(to right, var(--st-meter) var(--fill), var(--bg) var(--fill));
+  transition: background 0.3s, color 0.2s, border-color 0.2s;
+}
+.st-hint span { position: relative; }
+.st-hint.st-ready {
+  color: var(--text);
+  border-color: var(--text);
+  background: var(--bg);
+  box-shadow: inset 0 0 0 1px var(--text);
+}
+.st-hint.st-earned { animation: stPop 0.5s ease; }
+.st-hint[hidden], .st-results[hidden] { display: none; }
+
+/* ------------------------------------------------------------------ desktop: panel left of board */
+@media (min-width: 760px) {
+  .strands {
+    max-width: 900px;
+    grid-template-columns: 280px auto;
+    grid-template-areas: "panel play";
+    justify-content: center;
+    align-items: start;
+    grid-template-rows: auto;
+    column-gap: 56px;
+    padding-top: 28px;
+    flex: 0 0 auto;
+    min-height: 0;
+  }
+  .st-panel {
+    grid-area: panel;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding-top: 48px;
+  }
+  .st-play {
+    grid-area: play;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .st-card-head { font-size: 14px; padding: 8px; }
+  .st-card-body { padding: 22px 16px 26px; }
+  .st-clue { font-size: 24px; }
+  .st-progress { font-size: 17px; }
+  .st-boardwrap { container-type: normal; height: auto; }
+  .st-board {
+    --board-w: min(420px, max(270px, calc((100dvh - var(--header-h) - 120px) * 0.75)));
+  }
+  .st-word { min-height: 44px; font-size: 28px; }
+}
+
+/* ------------------------------------------------------------------ help / stats extras */
+.st-chip {
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 999px;
+  color: var(--st-on-color);
+  font-weight: 700;
+}
+.st-chip-theme { background: var(--st-theme); }
+.st-chip-span { background: var(--st-span); }
+.st-share-preview { text-align: center; margin: 4px 0 16px; }
+.st-share-clue { font-weight: 700; font-size: 16px; }
+.st-share-grid { font-size: 26px; line-height: 1.25; margin: 8px 0; font-family: inherit; }
+.st-share-note { color: var(--text-muted); font-size: 14px !important; margin: 0; }
+.st-error { padding: 32px 16px; text-align: center; }

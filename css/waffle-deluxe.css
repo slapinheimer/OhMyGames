@@ -1,0 +1,7 @@
+/* Deluxe Waffle — 40 tiles on a 7×7 plate. Colors and motion come from waffle.css. */
+
+.wf-game.is-deluxe .wf-hud { width: min(100%, 560px); }
+.wf-game.is-deluxe .wf-grid {
+  grid-template-columns: repeat(7, var(--tile, 40px));
+  grid-template-rows: repeat(7, var(--tile, 40px));
+}

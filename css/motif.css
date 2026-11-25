@@ -1,0 +1,43 @@
+/* Motif — Oh My PATTERNS! */
+:root { --mf-base: #fbf8f0; --mf-edge: #d9d2c3; --mf-sel: #121212; --mf-hint: #f2b705; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --mf-base: #3a3a3c; --mf-edge: #55555a; --mf-sel: #f8f8f8; }
+}
+:root[data-theme="dark"] { --mf-base: #3a3a3c; --mf-edge: #55555a; --mf-sel: #f8f8f8; }
+
+.mf-wrap { width: min(100%, 520px); padding: 12px 16px 24px; margin: auto 0; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.mf-stats { display: flex; justify-content: center; gap: clamp(16px, 6vw, 36px); }
+.mf-stat { display: flex; flex-direction: column; align-items: center; min-width: 64px; }
+.mf-num { font-size: 26px; font-weight: 800; line-height: 1.1; font-variant-numeric: tabular-nums; transition: color 0.15s; }
+.mf-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
+.mf-stat.is-hot .mf-num { color: #8e44ad; }
+
+/* Width fits both the screen and the height left under the header and stats (6 rows of 5). */
+.mf-board {
+  display: grid; grid-template-columns: repeat(var(--cols, 5), minmax(0, 1fr)); gap: clamp(4px, 1.6vw, 9px);
+  width: min(100%, calc((100dvh - 250px) * 5 / 6), 470px); min-width: 280px;
+}
+.mf-tile {
+  aspect-ratio: 1; padding: 0; border: 2px solid var(--mf-edge); border-radius: 14%; background: var(--mf-base);
+  cursor: pointer; position: relative; transition: transform 0.12s, border-color 0.12s, opacity 0.25s;
+}
+.mf-tile svg { display: block; width: 100%; height: 100%; }
+.mf-tile.is-sel { border-color: var(--mf-sel); box-shadow: 0 0 0 2px var(--mf-sel); transform: translateY(-3px) scale(1.04); z-index: 1; }
+.mf-tile.is-gone { opacity: 0; pointer-events: none; }
+.mf-tile.is-hint { animation: mf-hint 1.2s ease-in-out 3; border-color: var(--mf-hint); }
+.mf-tile.is-pop { animation: mf-pop 0.3s ease-out; }
+.mf-tile.is-miss { animation: mf-shake 0.35s ease-in-out; }
+.mf-tile:disabled { cursor: default; }
+.mf-board.is-done .mf-tile { opacity: 0; }
+@keyframes mf-hint { 50% { box-shadow: 0 0 0 4px var(--mf-hint); } }
+@keyframes mf-pop { 40% { transform: scale(0.9); } }
+@keyframes mf-shake { 25% { transform: translateX(-4px); } 75% { transform: translateX(4px); } }
+@media (prefers-reduced-motion: reduce) { .mf-tile, .mf-tile.is-pop, .mf-tile.is-miss { animation: none; transition: none; } }
+
+.mf-tip { margin: 0; font-size: 15px; color: var(--text-muted); text-align: center; min-height: 1.4em; }
+
+.mf-help ul { padding-left: 20px; margin: 8px 0; }
+.mf-help li { margin: 4px 0; }
+.mf-ex-row { display: flex; align-items: center; gap: 6px; margin: 8px 0; font-weight: 700; font-size: 18px; }
+.mf-ex { width: 54px; flex: none; cursor: default; }
+.mf-defs { position: absolute; width: 0; height: 0; overflow: hidden; }

@@ -1,0 +1,68 @@
+/* Tally — Oh My NUMBERS! */
+:root {
+  --ty-cell: #fbfdf8; --ty-cell-text: #121212; --ty-edge: #cdd8c4;
+  --ty-x: #b8b8b8; --ty-strike: #c0392b; --ty-keep: #2f7d32;
+  --ty-goal: #e6eedf; --ty-met: #2f7d32; --ty-hint: #f2b705;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --ty-cell: #2c2c2e; --ty-cell-text: #f8f8f8; --ty-edge: #48514a; --ty-x: #6b6b6b; --ty-strike: #ff6b5b; --ty-keep: #7bd389; --ty-goal: #33402f; --ty-met: #3f9b46; }
+}
+:root[data-theme="dark"] { --ty-cell: #2c2c2e; --ty-cell-text: #f8f8f8; --ty-edge: #48514a; --ty-x: #6b6b6b; --ty-strike: #ff6b5b; --ty-keep: #7bd389; --ty-goal: #33402f; --ty-met: #3f9b46; }
+
+.ty-wrap { width: min(100%, 560px); padding: 16px 16px 24px; margin: auto 0; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.ty-top { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.ty-sizes {
+  display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; flex: 1; max-width: 340px;
+  padding: 4px; border-radius: 10px; background: var(--bg-soft);
+}
+.ty-size {
+  position: relative; height: 34px; border: 0; border-radius: 7px; background: none; cursor: pointer;
+  font-size: 15px; font-weight: 700; color: var(--text-muted); font-variant-numeric: tabular-nums;
+}
+.ty-size.is-on { background: var(--surface); color: var(--text); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18); }
+.ty-size-mark { position: absolute; top: 1px; right: 4px; font-size: 11px; color: var(--ty-keep); }
+.ty-clock { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+.ty-grid {
+  display: grid; gap: clamp(3px, calc(1.4vw * 6 / var(--n, 6)), 8px);
+  width: min(100%, calc(100dvh - 290px), 520px); min-width: 280px;
+  container-type: inline-size;
+}
+.ty-cell {
+  aspect-ratio: 1; display: flex; align-items: center; justify-content: center; position: relative;
+  border: 2px solid var(--ty-edge); border-radius: clamp(4px, calc(14cqi / var(--n)), 10px); background: var(--ty-cell); color: var(--ty-cell-text);
+  font: 800 clamp(12px, calc(60cqi / (var(--n) + 1)), 34px) var(--font-sans); font-variant-numeric: tabular-nums;
+  cursor: pointer; padding: 0; transition: background 0.12s, color 0.12s;
+}
+.ty-cell.is-x { color: var(--ty-x); background: var(--bg-soft); }
+.ty-cell.is-x::after {
+  content: ""; position: absolute; left: 18%; right: 18%; top: 50%; height: clamp(2px, calc(5cqi / var(--n)), 3px); border-radius: 2px;
+  background: var(--ty-strike); transform: rotate(-38deg);
+}
+.ty-cell.is-o { border-color: var(--ty-keep); box-shadow: inset 0 0 0 2px var(--ty-keep); }
+.ty-cell.is-hint { border-style: dashed; }
+.ty-cell.is-flash { animation: ty-flash 0.8s ease-out; }
+@keyframes ty-flash { 0%, 40% { background: var(--ty-hint); } }
+.ty-cell:disabled { cursor: default; }
+.ty-grid.is-solved .ty-cell.is-o { background: color-mix(in srgb, var(--ty-keep) 18%, var(--ty-cell)); }
+
+.ty-target {
+  aspect-ratio: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  border-radius: 50%; background: var(--ty-goal); color: var(--text); margin: 8%;
+  font-variant-numeric: tabular-nums; transition: background 0.15s, color 0.15s;
+}
+.ty-goal { font-weight: 800; font-size: clamp(10px, calc(46cqi / (var(--n) + 1)), 26px); line-height: 1; }
+.ty-now { font-size: clamp(10px, calc(22cqi / (var(--n) + 1)), 13px); font-weight: 600; color: var(--text-muted); }
+.ty-now:empty { display: none; }
+.ty-target.is-met { background: var(--ty-met); color: #fff; }
+.ty-target.is-met .ty-now { color: rgba(255, 255, 255, 0.8); }
+
+.ty-controls { display: flex; gap: 8px; }
+.ty-tip { margin: 0; font-size: 15px; color: var(--text-muted); text-align: center; min-height: 1.4em; }
+.ty-actions { display: flex; justify-content: center; margin-top: 12px; }
+
+.ty-help ul { padding-left: 20px; margin: 8px 0; }
+.ty-help li { margin: 4px 0; }
+.ty-ex { width: 200px; min-width: 0; margin: 8px 0; }
+.ty-ex .ty-cell { cursor: default; font-size: 18px; border-radius: 6px; }
+.ty-ex .ty-goal { font-size: 15px; }

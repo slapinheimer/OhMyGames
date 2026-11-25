@@ -1,0 +1,290 @@
+[
+  {
+    "letters": "AELNRST",
+    "levels": [
+      {"clue": "Study a short story", "phrase": "LEARN A TALE", "prefill": [2, 6]},
+      {"clue": "A delayed lease", "phrase": "A LATE RENTAL", "prefill": [3, 7]},
+      {"clue": "Borrow the final lamp", "phrase": "RENT A LAST LANTERN", "prefill": [4, 9, 14]}
+    ]
+  },
+  {
+    "letters": "AEGINRT",
+    "levels": [
+      {"clue": "A huge striped cat", "phrase": "A GIANT TIGER", "prefill": [3, 8]},
+      {"clue": "A tool made of stone", "phrase": "GRANITE GRATER", "prefill": [2, 9]},
+      {"clue": "Chewing rock", "phrase": "EATING GRANITE", "prefill": [1, 8]}
+    ]
+  },
+  {
+    "letters": "AHLNORT",
+    "levels": [
+      {"clue": "A high brass instrument", "phrase": "A TALL HORN", "prefill": [3, 7]},
+      {"clue": "The northern corridor", "phrase": "A NORTH HALL", "prefill": [3, 8]},
+      {"clue": "A monster's instrument", "phrase": "A TROLL HORN", "prefill": [3, 8]}
+    ]
+  },
+  {
+    "letters": "ADELOSW",
+    "levels": [
+      {"clue": "Guide a sluggish swimmer", "phrase": "LEAD A SLOW SEAL", "prefill": [2, 8]},
+      {"clue": "A leisurely aged drink", "phrase": "SLOW OLD ALE", "prefill": [2, 6]},
+      {"clue": "Pack a dawdling beverage", "phrase": "SADDLE A SLOW ALE", "prefill": [2, 9, 13]}
+    ]
+  },
+  {
+    "letters": "CEINORT",
+    "levels": [
+      {"clue": "Read the announcement", "phrase": "RECITE NOTICE", "prefill": [2, 8]},
+      {"clue": "A posting at the junction", "phrase": "CORNER NOTICE", "prefill": [2, 8]},
+      {"clue": "An online announcement", "phrase": "INTERNET NOTICE", "prefill": [3, 10]}
+    ]
+  },
+  {
+    "letters": "AEILNST",
+    "levels": [
+      {"clue": "Shiny animal ends", "phrase": "SATIN TAILS", "prefill": [2, 7]},
+      {"clue": "The opening numbers", "phrase": "INITIAL STATS", "prefill": [3, 9]},
+      {"clue": "A quiet ending", "phrase": "A SILENT LAST", "prefill": [2, 8]}
+    ]
+  },
+  {
+    "letters": "ABELRST",
+    "levels": [
+      {"clue": "Fire a wooden cask", "phrase": "BLAST A BARREL", "prefill": [2, 8]},
+      {"clue": "A delayed explosive", "phrase": "A LATE BLASTER", "prefill": [3, 9]},
+      {"clue": "Explosive furniture", "phrase": "BLASTER TABLES", "prefill": [3, 9]}
+    ]
+  },
+  {
+    "letters": "ADEINRT",
+    "levels": [
+      {"clue": "An old locomotive", "phrase": "A DATED TRAIN", "prefill": [3, 8]},
+      {"clue": "Keep a pipe", "phrase": "RETAIN A DRAIN", "prefill": [2, 8]},
+      {"clue": "A pastry with the moisture gone", "phrase": "A DRAINED TART", "prefill": [3, 9]}
+    ]
+  },
+  {
+    "letters": "AEGILNS",
+    "levels": [
+      {"clue": "A street of windows", "phrase": "A GLASS LANE", "prefill": [3, 8]},
+      {"clue": "One transaction", "phrase": "A SINGLE SALE", "prefill": [3, 9]},
+      {"clue": "Closing a party", "phrase": "SEALING A GALA", "prefill": [2, 9]}
+    ]
+  },
+  {
+    "letters": "CEIKLST",
+    "levels": [
+      {"clue": "Soft chuckles", "phrase": "SILK TICKLES", "prefill": [2, 7]},
+      {"clue": "Fabric admissions", "phrase": "TICKET SILKS", "prefill": [2, 8]},
+      {"clue": "Amuse some twigs", "phrase": "TICKLE STICKS", "prefill": [2, 8]}
+    ]
+  },
+  {
+    "letters": "AEMORST",
+    "levels": [
+      {"clue": "A hot tiled chamber", "phrase": "A STEAM ROOM", "prefill": [3, 8]},
+      {"clue": "Conquer a book", "phrase": "MASTER A TOME", "prefill": [2, 8]},
+      {"clue": "A gentle tempest", "phrase": "A TAME STORM", "prefill": [3, 8]}
+    ]
+  },
+  {
+    "letters": "ADILNST",
+    "levels": [
+      {"clue": "A seaside position", "phrase": "A TIDAL STAND", "prefill": [3, 8]},
+      {"clue": "A far-off country", "phrase": "A DISTANT LAND", "prefill": [3, 9]},
+      {"clue": "Remain on the ground", "phrase": "STAND IN A LAND", "prefill": [2, 9]}
+    ]
+  },
+  {
+    "letters": "BDEORST",
+    "levels": [
+      {"clue": "Top entrances", "phrase": "BEST DOORS", "prefill": [2, 6]},
+      {"clue": "A frontier nap", "phrase": "BORDER REST", "prefill": [2, 8]},
+      {"clue": "Beds put back together", "phrase": "RESTORED BEDS", "prefill": [3, 9]}
+    ]
+  },
+  {
+    "letters": "ACGINOT",
+    "levels": [
+      {"clue": "An enormous jacket", "phrase": "A GIANT COAT", "prefill": [3, 8]},
+      {"clue": "A method for a farm animal", "phrase": "A GOAT TACTIC", "prefill": [3, 9]},
+      {"clue": "Painting a feline", "phrase": "COATING A CAT", "prefill": [2, 9]}
+    ]
+  },
+  {
+    "letters": "AEHILST",
+    "levels": [
+      {"clue": "Old ice", "phrase": "A STALE HAIL", "prefill": [3, 8]},
+      {"clue": "Ice at the end", "phrase": "HAIL THE LAST", "prefill": [2, 8]},
+      {"clue": "Secret ice", "phrase": "STEALTH HAIL", "prefill": [3, 8]}
+    ]
+  },
+  {
+    "letters": "AEIMNST",
+    "levels": [
+      {"clue": "A nasty short shift", "phrase": "A MEAN STINT", "prefill": [3, 8]},
+      {"clue": "A fresh vapor", "phrase": "A MINT STEAM", "prefill": [3, 8]},
+      {"clue": "Cook inside a can", "phrase": "STEAM IN A TIN", "prefill": [2, 9]}
+    ]
+  },
+  {
+    "letters": "ADELNOR",
+    "levels": [
+      {"clue": "A solo bargain", "phrase": "A LONER DEAL", "prefill": [3, 8]},
+      {"clue": "A later bargain", "phrase": "AN OLDER DEAL", "prefill": [4, 9]},
+      {"clue": "A later country", "phrase": "AN OLDER LAND", "prefill": [4, 9]}
+    ]
+  },
+  {
+    "letters": "ACEPRST",
+    "levels": [
+      {"clue": "An extra rug", "phrase": "SPARE CARPET", "prefill": [2, 7]},
+      {"clue": "A glue floor covering", "phrase": "A PASTE CARPET", "prefill": [3, 9]},
+      {"clue": "Follow rugs", "phrase": "TRACE CARPETS", "prefill": [2, 8]}
+    ]
+  },
+  {
+    "letters": "AEGINOS",
+    "levels": [
+      {"clue": "A bird's placard", "phrase": "A GOOSE SIGN", "prefill": [3, 8]},
+      {"clue": "Label a bird", "phrase": "SIGN A GOOSE", "prefill": [2, 7]},
+      {"clue": "A bird in fuel", "phrase": "GOOSE IN GAS", "prefill": [2, 8]}
+    ]
+  },
+  {
+    "letters": "AHINOST",
+    "levels": [
+      {"clue": "A slim crowd", "phrase": "A THIN HOST", "prefill": [3, 7]},
+      {"clue": "A slim browned slice", "phrase": "A THIN TOAST", "prefill": [3, 8]},
+      {"clue": "Serve a slim grain", "phrase": "HOST A THIN OAT", "prefill": [2, 8]}
+    ]
+  },
+  {
+    "letters": "BELORST",
+    "levels": [
+      {"clue": "A shellfish nap", "phrase": "LOBSTER REST", "prefill": [2, 8]},
+      {"clue": "The top shellfish", "phrase": "BEST LOBSTER", "prefill": [2, 7]},
+      {"clue": "Shellfish garments", "phrase": "LOBSTER ROBES", "prefill": [3, 9]}
+    ]
+  },
+  {
+    "letters": "ACDENST",
+    "levels": [
+      {"clue": "A fragrant appointment", "phrase": "A SCENTED DATE", "prefill": [3, 9]},
+      {"clue": "Move with a smell", "phrase": "DANCE A SCENT", "prefill": [2, 8]},
+      {"clue": "A fragrant troupe", "phrase": "A SCENTED CAST", "prefill": [3, 9]}
+    ]
+  },
+  {
+    "letters": "AEILMNS",
+    "levels": [
+      {"clue": "A pit bargain", "phrase": "A MINE SALE", "prefill": [3, 7]},
+      {"clue": "A slender pit", "phrase": "A SLIM MINE", "prefill": [3, 7]},
+      {"clue": "A little row", "phrase": "A SMALL LINE", "prefill": [3, 8]}
+    ]
+  },
+  {
+    "letters": "AFORSTU",
+    "levels": [
+      {"clue": "A gentle defeat", "phrase": "A SOFT ROUT", "prefill": [3, 7]},
+      {"clue": "A quick trip", "phrase": "A FAST TOUR", "prefill": [3, 7]},
+      {"clue": "A four-point celebrity", "phrase": "A FOUR STAR", "prefill": [3, 7]}
+    ]
+  },
+  {
+    "letters": "CEHORST",
+    "levels": [
+      {"clue": "A brief peak", "phrase": "SHORT CREST", "prefill": [3, 8]},
+      {"clue": "A selected getaway", "phrase": "CHOSE RESORT", "prefill": [2, 8]},
+      {"clue": "A mount's emblem", "phrase": "THE HORSE CREST", "prefill": [2, 9]}
+    ]
+  },
+  {
+    "letters": "ADGINRS",
+    "levels": [
+      {"clue": "Haul a placard", "phrase": "DRAG A SIGN", "prefill": [2, 7]},
+      {"clue": "A large placard", "phrase": "A GRAND SIGN", "prefill": [3, 8]},
+      {"clue": "Label something large", "phrase": "SIGN A GRAND", "prefill": [2, 8]}
+    ]
+  },
+  {
+    "letters": "AEKLNST",
+    "levels": [
+      {"clue": "A secret story", "phrase": "A SNEAK TALE", "prefill": [3, 8]},
+      {"clue": "A delayed dinner", "phrase": "A LATE STEAK", "prefill": [3, 8]},
+      {"clue": "Beef on the street", "phrase": "STEAK AT LANE", "prefill": [2, 8]}
+    ]
+  },
+  {
+    "letters": "BIMORST",
+    "levels": [
+      {"clue": "The top bone", "phrase": "MOST RIB", "prefill": [2, 5]},
+      {"clue": "A tempest's edge", "phrase": "STORM BRIM", "prefill": [2, 7]},
+      {"clue": "Weather a bone", "phrase": "STORM RIB", "prefill": [2, 6]}
+    ]
+  },
+  {
+    "letters": "CEFILOR",
+    "levels": [
+      {"clue": "A flame's shade", "phrase": "FIRE COLOR", "prefill": [2, 7]},
+      {"clue": "Tint a folder", "phrase": "COLOR FILE", "prefill": [2, 7]},
+      {"clue": "Compel a spiral", "phrase": "FORCE COIL", "prefill": [2, 7]}
+    ]
+  },
+  {
+    "letters": "ADEGNRT",
+    "levels": [
+      {"clue": "An approved scrap", "phrase": "A GRANTED RAG", "prefill": [3, 9]},
+      {"clue": "A large swap", "phrase": "A GRAND TRADE", "prefill": [3, 8]},
+      {"clue": "Swap something large", "phrase": "TRADE A GRAND", "prefill": [2, 8]}
+    ]
+  },
+  {
+    "letters": "AEHPRST",
+    "levels": [
+      {"clue": "A keen glue", "phrase": "A SHARP PASTE", "prefill": [3, 8]},
+      {"clue": "A keen organ", "phrase": "A SHARP HEART", "prefill": [3, 8]},
+      {"clue": "Organs separated", "phrase": "HEARTS APART", "prefill": [2, 8]}
+    ]
+  },
+  {
+    "letters": "CILNOST",
+    "levels": [
+      {"clue": "A missing foal", "phrase": "LOST COLT", "prefill": [2, 6]},
+      {"clue": "A missing symbol", "phrase": "LOST ICON", "prefill": [2, 6]},
+      {"clue": "Horses in a parcel", "phrase": "COLTS IN LOT", "prefill": [2, 8]}
+    ]
+  },
+  {
+    "letters": "AEMNRST",
+    "levels": [
+      {"clue": "A clever lease", "phrase": "A SMART RENT", "prefill": [3, 8]},
+      {"clue": "An expert lease", "phrase": "A MASTER RENT", "prefill": [3, 9]},
+      {"clue": "A clever rear", "phrase": "A SMART STERN", "prefill": [3, 8]}
+    ]
+  },
+  {
+    "letters": "DEGINOR",
+    "levels": [
+      {"clue": "Supper, then leave", "phrase": "DINNER GO", "prefill": [2, 6]},
+      {"clue": "A mill's poem", "phrase": "GRINDER ODE", "prefill": [3, 8]},
+      {"clue": "Proceed in sequence", "phrase": "GO IN ORDER", "prefill": [4, 7]}
+    ]
+  },
+  {
+    "letters": "ABELMNT",
+    "levels": [
+      {"clue": "Complain about a wager", "phrase": "LAMENT A BET", "prefill": [2, 8]},
+      {"clue": "A strap's complaint", "phrase": "A BELT LAMENT", "prefill": [3, 8]},
+      {"clue": "A furniture complaint", "phrase": "A TABLE LAMENT", "prefill": [3, 9]}
+    ]
+  },
+  {
+    "letters": "ACHINST",
+    "levels": [
+      {"clue": "A slim set of links", "phrase": "A THIN CHAIN", "prefill": [3, 8]},
+      {"clue": "A linked mark", "phrase": "A CHAIN STAIN", "prefill": [3, 8]},
+      {"clue": "Link a holy person", "phrase": "CHAIN A SAINT", "prefill": [2, 8]}
+    ]
+  }
+]

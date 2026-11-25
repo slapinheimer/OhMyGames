@@ -1,0 +1,151 @@
+/* Quordle — four boards, one keyboard. Tiles and keys reuse Wordle's. */
+@import url("wordle.css");
+
+.qd-game {
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.qd-status {
+  flex: 0 0 auto;
+  margin: 6px 0 0;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.qd-boards {
+  --tile: 28px;
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, auto); /* columns hug the boards so the pair centers together */
+  grid-template-rows: auto auto;
+  gap: 8px;
+  padding: 8px;
+  overflow: auto;
+  align-content: center;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: start;
+}
+.qd-board {
+  min-width: 0;
+  width: calc(var(--tile) * 5 + 3px * 4 + 12px); /* 5 tiles + gaps + padding: solved boards keep their size */
+  background: var(--bg-soft);
+  border-radius: 8px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.qd-grid {
+  display: grid;
+  grid-template-rows: repeat(9, var(--tile));
+  gap: 3px;
+}
+.qd-grid .wd-row { gap: 3px; }
+.qd-grid .wd-tile { border-width: 2px; font-size: calc(var(--tile) * 0.58); }
+.qd-board.is-solved .qd-grid { display: none; }
+
+.qd-banner {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 2px;
+}
+.qd-board.is-solved .qd-banner { display: flex; }
+.qd-banner .label {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-correct);
+}
+.qd-answer {
+  display: none;
+  margin-top: 4px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.qd-board.is-missed .qd-answer { display: block; }
+
+.qd-game .wd-keyboard {
+  width: 100%;
+  max-width: 500px;
+  --key-h: clamp(36px, 6.5dvh, 52px);
+}
+
+/* Four-way key: quarters follow the boards (TL TR / BL BR). */
+.qd-key { position: relative; }
+.qd-quads {
+  position: absolute;
+  inset: 2px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px;
+  border-radius: 3px;
+  overflow: hidden;
+  pointer-events: none;
+}
+.qd-quads i { display: block; background: transparent; font-style: normal; }
+.qd-quads i[data-state="correct"] { background: var(--color-correct); }
+.qd-quads i[data-state="present"] { background: var(--color-present); }
+.qd-quads i[data-state="absent"] { background: var(--color-absent); }
+.qd-banner .wd-row { gap: 3px; }
+.qd-letter {
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 0 2px var(--bg), 0 0 3px var(--bg);
+  background: color-mix(in srgb, var(--key-bg) 84%, transparent);
+  border-radius: 3px;
+  padding: 0 2px;
+  line-height: 1.15;
+}
+.qd-key[data-state="absent"] .qd-quads { visibility: hidden; }
+.qd-key[data-state="absent"] .qd-letter { background: transparent; color: #fff; }
+
+.qd-again { display: flex; justify-content: center; margin: 8px 0 4px; }
+.qd-share {
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.35;
+  margin: 4px 0 8px;
+  letter-spacing: 0.02em;
+}
+
+/* Hint letters: a mini row per board, laid out 2×2 like the boards. */
+.qd-hints {
+  flex: 0 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 3px 16px;
+  margin-top: 4px;
+}
+.qd-hint-row { display: flex; gap: 2px; }
+.qd-hint-tile {
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid var(--tile-border);
+  color: var(--text);
+}
+.qd-hint-tile[data-state="correct"] { background: var(--color-correct); border-color: var(--color-correct); color: #fff; }
+.qd-share-hints { margin: 4px 0 0; text-align: center; font-size: 13px; color: var(--text-muted); }

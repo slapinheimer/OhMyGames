@@ -1,0 +1,56 @@
+/* Glow — Oh My PATTERNS! */
+:root { --gl-off: #2b2f3a; --gl-off-edge: #3d4352; --gl-on: #ffd84d; --gl-on-edge: #e0a100; --gl-glow: rgba(255, 210, 60, 0.55); --gl-hint: #4fc3f7; --gl-done: #2f7d32; }
+
+.gl-wrap { width: min(100%, 520px); padding: 16px 16px 24px; margin: auto 0; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.gl-sizes {
+  display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; width: min(100%, 360px);
+  padding: 4px; border-radius: 10px; background: var(--bg-soft);
+}
+.gl-size, .gl-level {
+  position: relative; height: 34px; border: 0; border-radius: 7px; background: none; cursor: pointer;
+  font-size: 15px; font-weight: 700; color: var(--text-muted); font-variant-numeric: tabular-nums;
+}
+.gl-size.is-on, .gl-level.is-on { background: var(--surface); color: var(--text); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18); }
+.gl-size-mark { position: absolute; top: 1px; right: 4px; font-size: 11px; color: var(--gl-done); }
+.gl-stats { display: flex; justify-content: center; gap: clamp(16px, 6vw, 36px); }
+.gl-stat { display: flex; flex-direction: column; align-items: center; min-width: 60px; }
+.gl-num { font-size: 26px; font-weight: 800; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.gl-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
+.gl-stat.is-over .gl-num { color: #c0392b; }
+
+.gl-grid {
+  display: grid; grid-template-columns: repeat(var(--n, 5), minmax(0, 1fr)); gap: clamp(5px, 1.6vw, 10px);
+  width: min(100%, calc(100dvh - 300px), 460px); min-width: 280px; padding: clamp(8px, 2.4vw, 14px);
+  background: #1b1e26; border-radius: 16px;
+}
+.gl-cell {
+  aspect-ratio: 1; padding: 0; border: 2px solid var(--gl-off-edge); border-radius: 22%; background: var(--gl-off);
+  cursor: pointer; transition: background 0.18s, box-shadow 0.18s, border-color 0.18s;
+}
+.gl-cell.is-on {
+  background: radial-gradient(circle at 50% 40%, #fff6c8, var(--gl-on) 60%); border-color: var(--gl-on-edge);
+  box-shadow: 0 0 14px var(--gl-glow);
+}
+@media (hover: hover) { .gl-cell.is-reach { border-color: #9aa3b8; } .gl-cell.is-on.is-reach { border-color: #fff; } }
+.gl-cell.is-hint { outline: 3px dashed var(--gl-hint); outline-offset: 2px; }
+.gl-cell.is-flip { animation: gl-flip 0.22s ease-out; }
+@keyframes gl-flip { 50% { transform: scale(0.9); } }
+@media (prefers-reduced-motion: reduce) { .gl-cell, .gl-cell.is-flip { animation: none; transition: none; } }
+.gl-cell:disabled { cursor: default; }
+.gl-grid.is-solved { box-shadow: 0 0 0 3px var(--gl-done); }
+
+.gl-controls { display: flex; gap: 8px; }
+.gl-tip { margin: 0; font-size: 15px; color: var(--text-muted); text-align: center; min-height: 1.4em; }
+
+.gl-help ul { padding-left: 20px; margin: 8px 0; }
+.gl-help li { margin: 4px 0; }
+.gl-ex-row { display: flex; align-items: center; gap: 10px; margin: 8px 0; font-weight: 700; font-size: 20px; }
+.gl-ex { width: 110px; min-width: 0; padding: 6px; gap: 4px; }
+.gl-ex .gl-cell { cursor: default; }
+.gl-level { font-size: 14px; }
+/* Three-color levels: amber (1) and red (2). The red light carries a dark ring so it reads without color. */
+.gl-grid[data-colors="3"] .gl-cell.is-on { background: radial-gradient(circle at 50% 40%, #fff3c4, #ffc94d 60%); }
+.gl-cell.is-hot {
+  background: radial-gradient(circle at 50% 40%, #ffd0c4, #ff5a3c 62%); border-color: #c2321b;
+  box-shadow: 0 0 14px rgba(255, 90, 60, 0.55), inset 0 0 0 5px rgba(0, 0, 0, 0.28);
+}

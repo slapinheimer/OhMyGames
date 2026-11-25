@@ -1,0 +1,211 @@
+/* Sudoku — Oh My NUMBERS! */
+
+:root {
+  --sd-line: #121212;
+  --sd-thin: #c5c8cc;
+  --sd-cell: #ffffff;
+  --sd-given: #121212;
+  --sd-user: #1a5fad;
+  --sd-hint: #2f7d46;
+  --sd-error: #c4342d;
+  --sd-peer: #e7eef5;
+  --sd-same: #d3e4f6;
+  --sd-selected: #b9d4f2;
+  --sd-key: #e8eef4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --sd-line: #f2f2f2;
+    --sd-thin: #3a3a3c;
+    --sd-cell: #121213;
+    --sd-given: #f8f8f8;
+    --sd-user: #8ec5ff;
+    --sd-hint: #8fce8f;
+    --sd-error: #ff8a80;
+    --sd-peer: #1c2228;
+    --sd-same: #1a3d66;
+    --sd-selected: #1d4e89;
+    --sd-key: #2a2f36;
+  }
+}
+:root[data-theme="dark"] {
+  --sd-line: #f2f2f2;
+  --sd-thin: #3a3a3c;
+  --sd-cell: #121213;
+  --sd-given: #f8f8f8;
+  --sd-user: #8ec5ff;
+  --sd-hint: #8fce8f;
+  --sd-error: #ff8a80;
+  --sd-peer: #1c2228;
+  --sd-same: #1a3d66;
+  --sd-selected: #1d4e89;
+  --sd-key: #2a2f36;
+}
+:root[data-contrast="high"] {
+  --sd-error: #f5793a;
+  --sd-same: #85c0f9;
+  --sd-selected: #ffd24a;
+}
+:root[data-contrast="high"] .sd-cell.is-error { box-shadow: inset 0 0 0 2px #f5793a; }
+
+.sd-game {
+  width: min(100%, calc(100dvh - 200px), 560px);
+  max-width: 100%;
+  padding: 8px 12px 16px;
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+  min-height: 0;
+}
+
+.sd-hud {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  min-height: 28px;
+}
+.sd-level { font-weight: 700; }
+.sd-time {
+  font-size: 22px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+.sd-miss {
+  justify-self: end;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-muted);
+}
+.sd-miss.is-hot { color: var(--sd-error); }
+
+/* The frame is a true square. The board fills it, so every cell matches. */
+.sd-frame {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+.sd-frame::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.sd-board {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+  grid-template-rows: repeat(9, minmax(0, 1fr));
+  gap: 1px;
+  border: 2px solid var(--sd-line);
+  background-color: var(--sd-thin);
+  border-radius: 2px;
+  box-sizing: border-box;
+  container-type: size;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.sd-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: var(--sd-cell);
+  color: var(--sd-user);
+  font: inherit;
+  font-weight: 700;
+  font-size: clamp(12px, 4.2vw, 26px);
+  font-size: calc(100cqh / 18);
+  line-height: 1;
+  cursor: pointer;
+  transition: none;
+}
+/* Heavier lines around each 3×3 box, drawn over the cells so the squares stay equal. */
+.sd-cell:nth-child(3n):not(:nth-child(9n)) { box-shadow: inset -2px 0 0 var(--sd-line); }
+.sd-cell:nth-child(n + 19):nth-child(-n + 27),
+.sd-cell:nth-child(n + 46):nth-child(-n + 54) { box-shadow: inset 0 -2px 0 var(--sd-line); }
+.sd-cell:nth-child(3n):nth-child(21),
+.sd-cell:nth-child(3n):nth-child(24),
+.sd-cell:nth-child(3n):nth-child(48),
+.sd-cell:nth-child(3n):nth-child(51) { box-shadow: inset -2px -2px 0 var(--sd-line); }
+.sd-cell.is-peer { background-color: var(--sd-peer); }
+.sd-cell.is-same { background-color: var(--sd-same); }
+.sd-cell.is-selected { background-color: var(--sd-selected); }
+.sd-cell.is-given { color: var(--sd-given); font-weight: 800; }
+.sd-cell.is-hint { color: var(--sd-hint); }
+.sd-cell.is-error { color: var(--sd-error); }
+.sd-cell:focus-visible { outline: 2px solid var(--link); outline-offset: -2px; }
+
+.sd-notes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 100%;
+  height: 100%;
+}
+.sd-notes span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(6px, 1.5vw, 11px);
+  font-size: calc(100cqh / 42);
+  font-weight: 700;
+  color: var(--text-muted);
+  line-height: 1;
+}
+.sd-notes span.is-off { visibility: hidden; }
+.sd-notes span.is-hot { color: var(--sd-user); }
+
+.sd-tools { display: flex; gap: 8px; }
+.sd-tools .btn { flex: 1; min-width: 0; }
+.sd-tools .btn.on {
+  background-color: var(--sd-selected);
+  color: var(--sd-given);
+  border-color: var(--sd-selected);
+}
+
+.sd-pad {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 4px;
+}
+.sd-key {
+  height: clamp(34px, 6.2dvh, 48px);
+  border: 0;
+  border-radius: 8px;
+  background-color: var(--sd-key);
+  color: var(--sd-user);
+  font: inherit;
+  font-weight: 800;
+  font-size: clamp(16px, 4vw, 22px);
+  cursor: pointer;
+  padding: 0;
+  transition: none;
+}
+.sd-key.is-note { color: var(--text); }
+.sd-key.is-out { opacity: 0.35; }
+.sd-key:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+
+.sd-pick { display: flex; flex-direction: column; align-items: center; gap: 8px; margin-top: 4px; }
+.sd-pick-label { margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-muted); }
+.sd-pick-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; max-width: 340px; }
+.sd-levels { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.sd-levels .btn { min-width: 108px; }
+.sd-result { margin: 0 0 4px; text-align: center; font-weight: 700; }
+
+@media (max-width: 420px) {
+  .sd-game { padding: 6px 8px 12px; gap: 6px; }
+  .sd-tools .btn { padding: 0 8px; font-size: 13px; }
+}
